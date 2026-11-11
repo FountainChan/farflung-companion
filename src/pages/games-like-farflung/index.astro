@@ -1,0 +1,46 @@
+---
+/** Games like Farflung — daily geography game alternatives. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = 'Games Like Farflung · Daily Geography Game Alternatives';
+const description = 'Free daily geography games like Farflung: Worldle, Globle, Tradle, Countryle and more — what each one is, how it differs, and where to play.';
+
+const games = [
+  { name: 'Worldle', url: 'https://worldle.teuteuf.fr', what: 'Guess a country or territory from its silhouette shape; then guess neighbouring countries, capitals and currencies in bonus rounds.', differs: 'Shape-recognition instead of clue-based pinning — the map is a black outline, not an atlas.' },
+  { name: 'Globle', url: 'https://globle-game.com', what: 'Guess the mystery country of the day; every guess colors hotter or colder by distance to the answer.', differs: 'Hot/cold distance feedback rather than rarity tiers — no way to “overperform”, just converge.' },
+  { name: 'Tradle', url: 'https://oec.world/tradle', what: 'Guess a country from its top export, with trade-volume hints after each wrong guess.', differs: 'Economics-flavored clues from the Observy of Economic Complexity; one answer per day.' },
+  { name: 'Countryle', url: 'https://countryle.com', what: 'Guess the hidden country; each guess reveals hemisphere, continent, climate, population and letters in common.', differs: 'Property-comparison deduction — warm/cold clues come as attributes, not colors.' },
+  { name: 'Bandle', url: 'https://bandle.app', what: 'Guess a song from incrementally revealed instruments, by the same maker as Worldle.', differs: 'Music, not geography — included because the daily reveal structure is the same habit loop.' },
+  { name: 'City Guesser', url: 'https://virtualvacation.us', what: 'Watch a street-level video clip and guess the city; closer guesses score higher.', differs: 'Video-based, no daily lock — play a streak of rounds in one sitting.' },
+  { name: 'Earthle', url: 'https://earthle.app', what: 'A Wordle-style daily country guess with attribute feedback (continent, population, size).', differs: 'Text-tile feedback instead of a map; fastest of the bunch to play.' },
+  { name: 'GeoGrid', url: 'https://geogridgame.com', what: 'Fill a 3×3 grid where each cell is a country matching a row and a column clue.', differs: 'Crossword-style constraint solving — the closest “think in regions” exercise to Farflung prompts.' },
+];
+---
+
+<BaseLayout title={title} description={description} path="/games-like-farflung/">
+  <section class="hero">
+    <h1>Games Like Farflung</h1>
+    <p class="lede">
+      Farflung (<a href="https://farflung.game" rel="noopener noreferrer" target="_blank">farflung.game</a>) is a daily geography quiz: five prompts, pin a country, and rarer answers travel further.
+      If you like the format — or you’ve used your one expedition and want more — these free daily games scratch the same itch.
+    </p>
+  </section>
+
+  <section class="block">
+    {games.map((g) => (
+      <article class="prompt-card">
+        <div class="prompt-head">
+          <h2>{g.name}</h2>
+          <p>{g.what}</p>
+          <p class="prompt-note"><strong>How it differs from Farflung:</strong> {g.differs}</p>
+          <p><a href={g.url} rel="noopener noreferrer" target="_blank">Play {g.name} ↗</a></p>
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <section class="block">
+    <h2>Why Farflung is still different</h2>
+    <p>Every game above gives you one right answer. Farflung rewards being <em>unexpected</em>: many countries fit each prompt, and the rarest pick scores highest. That makes it the best daily geography game for actually learning the map — you leave with more than one data point a day. Start with our <a href="/how-to-play/">how-to-play guide</a> and check the <a href="/">today’s hints</a> before your next expedition.</p>
+  </section>
+</BaseLayout>

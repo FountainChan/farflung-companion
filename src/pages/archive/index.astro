@@ -1,11 +1,13 @@
 ---
-/** Archive — index of all collected expeditions. */
+/** Archive — index of all collected expeditions with one-line features. */
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { allDays } from '../../content.js';
+import { expeditionTheme } from '../../farflung.js';
 
 const days = allDays().slice().reverse();
 const title = 'Farflung Archive · Every Past Expedition';
-const description = 'Browse every collected Farflung expedition by date, with expedition numbers and answer counts for all five prompts.';
+const description = 'Browse every collected Farflung expedition by date, with expedition numbers, themes and answer counts for all five prompts.';
+const fmtDate = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' });
 ---
 
 <BaseLayout title={title} description={description} path="/archive/">
@@ -17,8 +19,8 @@ const description = 'Browse every collected Farflung expedition by date, with ex
     {days.map((day) => (
       <li>
         <a href={`/archive/${day.day}/`}>
-          <span>Expedition #{day.expedition} · {day.day}</span>
-          <span class="exp-no">{day.prompts.reduce((sum, p) => sum + p.answers.length, 0)} answers</span>
+          <span>#{day.expedition} · {fmtDate(day.day)} · {expeditionTheme(day)}</span>
+          <span class="exp-no">{day.prompts.reduce((sum, p) => sum + p.answers.length, 0)} answers · {day.prompts.reduce((s, p) => s + (p.tiers.farflung || 0), 0)} gems</span>
         </a>
       </li>
     ))}

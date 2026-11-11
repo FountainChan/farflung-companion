@@ -4,12 +4,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const title = 'How to Play Farflung · Rules & Scoring Guide';
 const description = 'How Farflung works: five prompts, pin a country, rarity tiers from Common to Farflung, the local-midnight reset, streaks and practice tips.';
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: 'How many prompts are in a Farflung expedition?', acceptedAnswer: { '@type': 'Answer', text: 'Each daily expedition has five prompts. For each prompt you pin one country on the world map, then drop the pin.' } },
+    { '@type': 'Question', name: 'When does Farflung reset?', acceptedAnswer: { '@type': 'Answer', text: 'A new expedition opens at midnight in your own local time zone. There is no single global reset hour.' } },
+    { '@type': 'Question', name: 'How does Farflung scoring work?', acceptedAnswer: { '@type': 'Answer', text: 'Every accepted answer carries a rarity tier from Common (tourist) through Uncommon, Rare and Elusive to the top tier, Farflung. Rarer answers travel further; a pin on a country that does not fit the prompt is a miss.' } },
+    { '@type': 'Question', name: 'Is there a Farflung unlimited mode?', acceptedAnswer: { '@type': 'Answer', text: 'Not yet. The developers have said an endless mode is planned, with themed packs first. Meanwhile you can replay past expeditions blind using our archive.' } },
+  ],
+};
 ---
 
 <BaseLayout title={title} description={description} path="/how-to-play/">
+  <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
   <section class="hero">
     <h1>How to Play Farflung</h1>
-    <p class="lede">Farflung is a free daily geography quiz at <a href="https://farflung.game" rel="noopener noreferrer" target="_blank">farflung.game</a>. This guide explains the rules as we understand them — the official <a href="https://farflung.game/how-to-play/" rel="noopener noreferrer" target="_blank">how-to-play page</a> is the source of truth.</p>
+    <p class="lede">Farflung — sometimes written “far flung” — is a free daily geography quiz at <a href="https://farflung.game" rel="noopener noreferrer" target="_blank">farflung.game</a>. The name plays on both the phrase (places far and flung across the map) and the game’s top rarity tier. This guide explains the rules as we understand them — the official <a href="https://farflung.game/how-to-play/" rel="noopener noreferrer" target="_blank">how-to-play page</a> is the source of truth.</p>
   </section>
 
   <section class="block">

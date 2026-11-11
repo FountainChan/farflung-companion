@@ -26,6 +26,18 @@ const NAV = [
 const { title, description, path, robots = 'index, follow' } = Astro.props;
 const SITE = 'https://farflungclues.com';
 const canonical = `${SITE}${path}`;
+
+// 全站面包屑结构化数据：按路径段推导（首页除外）。
+const segments = path.split('/').filter(Boolean);
+const crumbs = [{ name: 'Home', item: `${SITE}/` }];
+let acc = '';
+for (const seg of segments) {
+  acc += `/${seg}/`;
+  crumbs.push({ name: decodeURIComponent(seg).replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()), item: `${SITE}${acc}` });
+}
+const breadcrumbLd = crumbs.length > 1
+  ? { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, ...(c.item ? { item: c.item } : {}) })) }
+  : null;
 ---
 
 <!doctype html>
@@ -46,6 +58,7 @@ const canonical = `${SITE}${path}`;
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+    {breadcrumbLd && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} />}
     <header class="masthead" role="banner">
       <div class="shell masthead__inner">
         <a class="masthead__brand" href="/">

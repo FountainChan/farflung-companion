@@ -1,13 +1,15 @@
 ---
 /** Today — latest expedition overview: prompts, spoiler-safe hints, reveal-gated answers. */
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { latestDay, dayStats } from '../content.js';
+import { latestDay, dayStats, allDays } from '../content.js';
 import { TIER_LABELS } from '../farflung.js';
 
 const day = latestDay();
 const stats = dayStats();
-const title = `Farflung Hints & Answers Today · Expedition #${day.expedition} (${day.day})`;
+// 固定标题：不带期号/日期，避免每日重估；期号只进 H1 与描述。
+const title = 'Farflung Hints & Answers Today';
 const description = `Today's Farflung expedition (#${day.expedition}, ${day.day}): spoiler-free hints for all five prompts, plus reveal-gated answer tiers collected from the official day files.`;
+const recent = allDays().slice(-4, -1).reverse(); // 最近 3 期（不含今天）
 
 const fmt = (date) => new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', { timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
 ---
@@ -71,6 +73,21 @@ const fmt = (date) => new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', 
     </article>
   ))}
 
+  <section class="block" id="recent">
+    <h2>Recent expeditions</h2>
+    <ul class="archive-list">
+      {recent.map((d) => (
+        <li>
+          <a href={`/archive/${d.day}/`}>
+            <span>Expedition #{d.expedition} · {d.day}</span>
+            <span class="exp-no">{d.prompts.reduce((s, p) => s + p.answers.length, 0)} answers</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="notice">Older expeditions live in the <a href="/archive/">full archive</a>.</p>
+  </section>
+
   <section class="block" id="tools">
     <h2>Explore more</h2>
     <div class="card-grid">
@@ -78,6 +95,8 @@ const fmt = (date) => new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', 
       <a class="tool-card" href="/archive/" style="text-decoration:none;color:inherit"><h3>Archive</h3><p>Browse every past expedition with full tier tables.</p></a>
       <a class="tool-card" href="/farflung-unlimited/" style="text-decoration:none;color:inherit"><h3>Farflung unlimited</h3><p>There is no official endless mode yet — what to know and what to play meanwhile.</p></a>
       <a class="tool-card" href="/how-to-play/" style="text-decoration:none;color:inherit"><h3>How to play</h3><p>Rules, scoring and tips, in plain language.</p></a>
+      <a class="tool-card" href="/games-like-farflung/" style="text-decoration:none;color:inherit"><h3>Games like Farflung</h3><p>Daily geography alternatives for when today’s expedition is done.</p></a>
+      <a class="tool-card" href="/farflung-answer-key/" style="text-decoration:none;color:inherit"><h3>Answer key</h3><p>How the answer key works, plus today’s and every past expedition.</p></a>
     </div>
   </section>
 

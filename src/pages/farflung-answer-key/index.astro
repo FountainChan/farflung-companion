@@ -1,0 +1,44 @@
+---
+/** Farflung answer key — explains what the answer key is; routes to today/archive. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { latestDay, allDays } from '../../content.js';
+
+const day = latestDay();
+const title = 'Farflung Answer Key · Today’s Answers & Every Past Expedition';
+const description = `The Farflung answer key for expedition #${day.expedition} and all ${allDays().length} collected expeditions: how scoring keys work, today’s hints, and full tier tables.`;
+---
+
+<BaseLayout title={title} description={description} path="/farflung-answer-key/">
+  <section class="hero">
+    <h1>Farflung Answer Key</h1>
+    <p class="lede">
+      Farflung doesn’t have one “answer” per prompt — it has an <strong>answer key of many accepted countries</strong>, each carrying a rarity tier.
+      Today’s key is expedition <strong>#{day.expedition} ({day.day})</strong>.
+    </p>
+    <div class="badges">
+      <span class="badge">{allDays().length} expeditions collected</span>
+      <span class="badge">{allDays().reduce((s, d) => s + d.prompts.length, 0)} prompts</span>
+      <span class="badge">{allDays().reduce((s, d) => s + d.prompts.reduce((t, p) => t + p.answers.length, 0), 0).toLocaleString()} accepted answers</span>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Get today’s answer key</h2>
+    <ul>
+      <li><strong>No spoilers first:</strong> the <a href="/">today page</a> gives per-prompt hints (answer counts, initials, letter counts) — answers stay behind a click.</li>
+      <li><strong>Full key:</strong> <a href={`/archive/${day.day}/`}>expedition #{day.expedition}</a> lists every accepted country with its tier and pick share.</li>
+      <li><strong>Past keys:</strong> browse any date in the <a href="/archive/">archive</a>.</li>
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>How the key is structured</h2>
+    <p>Each of the five prompts accepts a family of countries. Every accepted answer has exactly one rarity tier — see the <a href="/tiers/">tier guide</a> for what Common through Farflung mean and how often each tier shows up across our collected expeditions. A pin on a country outside the key is a miss and gains nothing.</p>
+    <p>If you believe a country should have counted, the official in-game claim (“Should something else count?” under a card) is the way to get it added — the <a href="https://farflung.game/rulings/" rel="noopener noreferrer" target="_blank">official rulings page</a> is the source of truth, and our tables update when the official day file changes.</p>
+  </section>
+
+  <section class="block">
+    <h2>How we build the key</h2>
+    <p>Our answer keys are derived from the official day files Farflung publishes for each expedition, normalized with rarity tiers intact. Keys are added daily shortly after each expedition opens, and never earlier. Clues are generated from the key’s shape so you can play first and reveal later.</p>
+  </section>
+</BaseLayout>

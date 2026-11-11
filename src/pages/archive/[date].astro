@@ -1,7 +1,7 @@
 ---
 /** Archive day page — one expedition's full answer tables. */
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { allDays } from '../../content.js';
+import { allDays, latestDay } from '../../content.js';
 import { TIER_LABELS } from '../../farflung.js';
 
 export function getStaticPaths() {
@@ -9,14 +9,52 @@ export function getStaticPaths() {
 }
 
 const { day } = Astro.props;
-const title = `Farflung Answers · Expedition #${day.expedition} (${day.day})`;
-const description = `All five prompts with the complete answer and rarity-tier table for Farflung expedition #${day.expedition}, ${day.day}.`;
+const days = allDays();
+const idx = days.findIndex((d) => d.day === day.day);
+const prev = idx > 0 ? days[idx - 1] : null;
+const next = idx < days.length - 1 ? days[idx + 1] : null;
+const isToday = day.day === latestDay().day;
+
+// SEO 决策：当日存档页与首页内容重复，canonical 指回首页；历史日期页正常收录。
+const canonicalPath = isToday ? '/' : `/archive/${day.day}/`;
+const title = isToday
+  ? 'Farflung Hints & Answers Today'
+  : `Farflung Answers · Expedition #${day.expedition} (${day.day})`;
+const description = isToday
+  ? `Today's Farflung expedition (#${day.expedition}, ${day.day}): spoiler-free hints for all five prompts, plus reveal-gated answer tiers.`
+  : `All five prompts with the complete answer and rarity-tier table for Farflung expedition #${day.expedition}, ${day.day}.`;
+
+const published = new Date(`${day.day}T05:00:00Z`).toISOString();
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      headline: `Farflung Expedition #${day.expedition} answers & tiers (${day.day})`,
+      datePublished: published,
+      dateModified: published,
+      author: { '@type': 'Organization', name: 'Farflung Clues' },
+      mainEntityOfPage: `https://farflungclues.com${canonicalPath}`,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://farflungclues.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Archive', item: 'https://farflungclues.com/archive/' },
+        { '@type': 'ListItem', position: 3, name: `Expedition #${day.expedition}` },
+      ],
+    },
+  ],
+};
 ---
 
-<BaseLayout title={title} description={description} path={`/archive/${day.day}/`}>
+<BaseLayout title={title} description={description} path={canonicalPath}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />
+
   <section class="hero">
     <h1>Expedition #{day.expedition}</h1>
     <p class="lede">{day.day} · five prompts, fully revealed. Prefer no spoilers? Use the <a href="/hints/">hints pages</a> instead.</p>
+    {isToday && <div class="callout">This is today’s expedition — the canonical version of this page is the <a href="/">today page</a>.</div>}
   </section>
 
   {day.prompts.map((prompt, i) => (
@@ -43,6 +81,11 @@ const description = `All five prompts with the complete answer and rarity-tier t
     </article>
   ))}
 
+  <nav class="block day-nav" aria-label="Expedition navigation">
+    {prev ? <a href={`/archive/${prev.day}/`} rel="prev">← Expedition #{prev.expedition} ({prev.day})</a> : <span></span>}
+    <a href="/">Today</a>
+    {next ? <a href={`/archive/${next.day}/`} rel="next">Expedition #{next.expedition} ({next.day}) →</a> : <span></span>}
+  </nav>
   <nav class="block">
     <p><a href="/archive/">← All expeditions</a></p>
   </nav>

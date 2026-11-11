@@ -71,6 +71,19 @@ export function nextLocalMidnight(now = new Date()) {
   return next;
 }
 
+/** One-line feature for archive listings: theme derived from the first prompt's slug id. */
+export function expeditionTheme(day) {
+  const first = day.prompts?.[0];
+  if (!first) return '';
+  if (first.id) {
+    return first.id
+      .split(/[-_]+/)
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(' ');
+  }
+  return first.text.split(/\s+/).slice(0, 5).join(' ');
+}
+
 /** Group one prompt's answers by tier, keeping the official order. */
 export function groupByTier(answers) {
   const groups = {};

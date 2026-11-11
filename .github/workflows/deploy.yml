@@ -32,3 +32,5 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           WRANGLER_SEND_METRICS: 'false'
         run: npx --yes wrangler@4.160.0 pages deploy dist --project-name farflung-companion --branch main --commit-hash "$GITHUB_SHA"
+      - name: Submit fresh URLs to IndexNow
+        run: node scripts/indexnow.mjs
