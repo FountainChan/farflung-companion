@@ -1,0 +1,18 @@
+{
+  "name": "farflung-companion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1 --port 4322",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1 --port 4322",
+    "test": "node --test",
+    "fetch-days": "node scripts/fetch-days.mjs",
+    "validate-data": "node scripts/validate-data.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.7.0"
+  }
+}

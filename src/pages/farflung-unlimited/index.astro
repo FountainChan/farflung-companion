@@ -1,0 +1,38 @@
+---
+/** Unlimited — the no-official-mode page: status + how to practice. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allDays } from '../../content.js';
+
+const days = allDays();
+const prompts = days.reduce((s, d) => s + d.prompts.length, 0);
+const answers = days.reduce((s, d) => s + d.prompts.reduce((t, p) => t + p.answers.length, 0), 0);
+
+const title = 'Farflung Unlimited · Practice the Daily Geography Game Endlessly';
+const description = 'Is there a Farflung unlimited mode? Not yet — here is the official status, and how to practice with every collected expedition and answer list meanwhile.';
+---
+
+<BaseLayout title={title} description={description} path="/farflung-unlimited/">
+  <section class="hero">
+    <h1>Farflung Unlimited</h1>
+    <p class="lede">Looking to play more than one expedition a day? Here is the honest status.</p>
+  </section>
+
+  <div class="callout warn">
+    <strong>Official status:</strong> there is <strong>no official unlimited mode yet</strong>. The developers have said an endless mode is planned, with themed packs coming first. Anything advertising “Farflung unlimited” play today is not the official game.
+  </div>
+
+  <section class="block">
+    <h2>How to practice meanwhile</h2>
+    <ul>
+      <li><strong>Replay old expeditions blind.</strong> Visit an <a href="/archive/">archive day</a>, read only the prompt headings, and pick your country before opening each answer table — then score yourself against the tiers.</li>
+      <li><strong>Study the tier tables.</strong> Our archive holds <strong>{prompts}</strong> prompts and <strong>{answers.toLocaleString()}</strong> accepted answers. Skim the <span class="tier-tag tier-farflung">Farflung</span> rows to learn what kind of country tends to be a gem.</li>
+      <li><strong>Drill by prompt style.</strong> Prompts repeat patterns (island nations, official languages, borders, capitals). Group archive prompts and test yourself by pattern.</li>
+      <li><strong>Join the community.</strong> The official subreddit r/farflung discusses daily results and rare finds.</li>
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>What we are watching</h2>
+    <p>When the official endless mode or themed packs ship, this page will say so — and if a proper practice mode inside Farflung Clues makes sense, it will live here. No fake “unlimited” clone games from us.</p>
+  </section>
+</BaseLayout>

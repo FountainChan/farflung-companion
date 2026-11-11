@@ -1,0 +1,954 @@
+{
+  "day": "2026-10-21",
+  "expedition": 17,
+  "prompts": [
+    {
+      "id": "wonders-of-nature",
+      "text": "Pin a country with a winner or finalist in the New Seven Wonders of Nature vote",
+      "accepts": "country",
+      "note": "All 28 finalists in the 2011 vote count, including the seven winners. The Amazon counts in all nine countries, France for French Guiana; El Yunque counts for the United States through Puerto Rico. Papua New Guinea counts for the campaign’s shared Great Barrier Reef entry with Australia.",
+      "gems": [
+        "PHL",
+        "FRA"
+      ],
+      "gemNote": "Palawan's river won by running underground through a cave and straight out to sea. French Guiana is a region of France, which makes Brazil France's longest land border.",
+      "answers": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.221,
+          "tier": "tourist"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.088,
+          "tier": "traveller"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.074,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.052,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.052,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.044,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PNG",
+          "name": "Papua New Guinea",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.002,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 14,
+        "uncharted": 18,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 36,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "jesus-statue-20m",
+      "text": "Pin a country with a statue of Jesus at least 20 metres tall, not counting its pedestal",
+      "accepts": "country",
+      "note": "The figure alone counts, with close calls allowed: Timor-Leste (17 m on a 10 m globe), Cuba (sources disagree whether its 20 m includes the base) and Lebanon (16 m on a 10 m base). Nicaragua’s and Ecuador’s figures are about 15 m.",
+      "gems": [
+        "ROU"
+      ],
+      "gemNote": "Built from donations in 2011, it stands on a hill in Harghita, in the Carpathians of Transylvania.",
+      "answers": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.433,
+          "tier": "tourist"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.116,
+          "tier": "traveller"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.096,
+          "tier": "traveller"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.058,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HND",
+          "name": "Honduras",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "TLS",
+          "name": "Timor-Leste",
+          "share": 0.002,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 8,
+        "uncharted": 8,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 20,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "H",
+          "I",
+          "L",
+          "M",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "vampire-bats",
+      "text": "Pin a country where vampire bats live in the wild",
+      "accepts": "country",
+      "note": "Vampire bats live only in the Americas, with resident populations from Mexico to Chile and Argentina. The United States counts as a close call for one wild hairy-legged vampire bat recorded in Texas in 1967; no resident population is established. None live in Transylvania.",
+      "gems": [
+        "TTO",
+        "FRA"
+      ],
+      "gemNote": "Trinidad lies a few miles off Venezuela and was once joined to it. French Guiana is a part of France.",
+      "answers": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.304,
+          "tier": "tourist"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.162,
+          "tier": "traveller"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.061,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.051,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CRI",
+          "name": "Costa Rica",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GTM",
+          "name": "Guatemala",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PAN",
+          "name": "Panama",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "HND",
+          "name": "Honduras",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NIC",
+          "name": "Nicaragua",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRY",
+          "name": "Paraguay",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.005,
+          "tier": "farflung"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "SLV",
+          "name": "El Salvador",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.004,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 11,
+        "uncharted": 6,
+        "farflung": 4
+      },
+      "hints": {
+        "answerCount": 23,
+        "farflungCount": 4,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "H",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "alexander-the-great",
+      "text": "Pin a country whose land was once part of Alexander the Great's empire",
+      "accepts": "country",
+      "note": "The land he ruled, if only in name, client kings included, east to the Beas in India. Romania counts as an explicit campaign exception for his 335 BC raid across the Danube, without claiming lasting rule there. Other land he only raided does not count. The United Kingdom counts for its two bases on Cyprus.",
+      "gems": [
+        "TJK"
+      ],
+      "gemNote": "He founded the city in 329 BC on the Syr Darya, as a stronghold against the Scythian riders beyond it.",
+      "answers": [
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.303,
+          "tier": "tourist"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.121,
+          "tier": "traveller"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.101,
+          "tier": "traveller"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.071,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.061,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.061,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AFG",
+          "name": "Afghanistan",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MKD",
+          "name": "North Macedonia",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGR",
+          "name": "Bulgaria",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CYP",
+          "name": "Cyprus",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "TKM",
+          "name": "Turkmenistan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ALB",
+          "name": "Albania",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.003,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 9,
+        "uncharted": 13,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 26,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "G",
+          "I",
+          "J",
+          "K",
+          "L",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "G",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "jollibee",
+      "text": "Pin a country with a Jollibee today",
+      "accepts": "country",
+      "note": "Hong Kong and Macao count for China. Taiwan and Indonesia had one once, and Australia's first has yet to open.",
+      "gems": [
+        "BRN"
+      ],
+      "gemNote": "Jollibee has been in Brunei since 1987, and it now has more Jollibees for each person than the Philippines.",
+      "answers": [
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.453,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.121,
+          "tier": "traveller"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.05,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.05,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHR",
+          "name": "Bahrain",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRN",
+          "name": "Brunei",
+          "share": 0.008,
+          "tier": "farflung"
+        },
+        {
+          "code": "OMN",
+          "name": "Oman",
+          "share": 0.008,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 10,
+        "uncharted": 4,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 17,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "C",
+          "I",
+          "K",
+          "M",
+          "O",
+          "P",
+          "Q",
+          "S",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "P",
+          "letters": 11
+        }
+      }
+    }
+  ]
+}

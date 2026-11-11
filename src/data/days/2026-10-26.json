@@ -1,0 +1,1126 @@
+{
+  "day": "2026-10-26",
+  "expedition": 22,
+  "prompts": [
+    {
+      "id": "einstein-lived",
+      "text": "Pin a country Albert Einstein visited",
+      "accepts": "country",
+      "note": "Homes and brief stops ashore count, using today's borders. His 1923 tour reached both Israel and Palestine. His ships' calls count too: Amapala in Honduras in 1931, El Salvador in 1932 and Halifax in Canada in 1933.",
+      "gems": [
+        "PAN"
+      ],
+      "gemNote": "A voyage to California brought him ashore in Panama, where he met its president.",
+      "answers": [
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.342,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.185,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.092,
+          "tier": "traveller"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.055,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.046,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HND",
+          "name": "Honduras",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLV",
+          "name": "El Salvador",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SRB",
+          "name": "Serbia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "PAN",
+          "name": "Panama",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 7,
+        "uncharted": 15,
+        "farflung": 7
+      },
+      "hints": {
+        "answerCount": 32,
+        "farflungCount": 7,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "M",
+          "N",
+          "P",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "G",
+          "letters": 7
+        }
+      }
+    },
+    {
+      "id": "floating-markets",
+      "text": "Pin a country with a floating market",
+      "accepts": "country",
+      "note": "Moored stalls, tourist boats and grocery boats count, and so does a market that comes by boat once a year, as at Amiens. Dubai's Global Village market counts as an exception.",
+      "gems": [
+        "BEN"
+      ],
+      "gemNote": "Ganvié's traders sell from boats among a whole village of stilt houses on Lake Nokoué.",
+      "answers": [
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.461,
+          "tier": "tourist"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.158,
+          "tier": "traveller"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.063,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COD",
+          "name": "DR Congo",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "BEN",
+          "name": "Benin",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 6,
+        "uncharted": 14,
+        "farflung": 8
+      },
+      "hints": {
+        "answerCount": 30,
+        "farflungCount": 8,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "T",
+          "letters": 8
+        }
+      }
+    },
+    {
+      "id": "bioluminescent-bays",
+      "text": "Pin a country with a bioluminescent bay or lagoon",
+      "accepts": "country",
+      "note": "Seasonal blooms count, as do coastal lagoons, including Venezuela's Yapascua. Puerto Rico counts for the United States, and Grand Cayman for the United Kingdom. Norway's fjords are allowed as sheltered sea-inlet close calls, and Greece for the sea-sparkle blooms of Thessaloniki Bay. Nicaragua counts for El Charcón’s tide-fed brackish coastal pool at La Flor.",
+      "gems": [
+        "SWE"
+      ],
+      "gemNote": "September's dark nights reveal sea fire while the Swedish sea is still warm.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.283,
+          "tier": "tourist"
+        },
+        {
+          "code": "JAM",
+          "name": "Jamaica",
+          "share": 0.113,
+          "tier": "traveller"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.081,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CRI",
+          "name": "Costa Rica",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DOM",
+          "name": "Dominican Republic",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNE",
+          "name": "Montenegro",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NIC",
+          "name": "Nicaragua",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PNG",
+          "name": "Papua New Guinea",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SEN",
+          "name": "Senegal",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "PAN",
+          "name": "Panama",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "OMN",
+          "name": "Oman",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "PLW",
+          "name": "Palau",
+          "share": 0,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 7,
+        "uncharted": 31,
+        "farflung": 18
+      },
+      "hints": {
+        "answerCount": 58,
+        "farflungCount": 18,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "F",
+          "G",
+          "I",
+          "J",
+          "K",
+          "M",
+          "N",
+          "O",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "wild-sloths",
+      "text": "Pin a country where sloths live in the wild",
+      "accepts": "country",
+      "note": "Sloths in French Guiana count for France. Paraguay counts as a close call, on disputed records.",
+      "gems": [
+        "FRA"
+      ],
+      "gemNote": "In French Guiana, more than 900 sloths were rescued as the Petit Saut reservoir filled.",
+      "answers": [
+        {
+          "code": "CRI",
+          "name": "Costa Rica",
+          "share": 0.423,
+          "tier": "tourist"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.222,
+          "tier": "traveller"
+        },
+        {
+          "code": "PAN",
+          "name": "Panama",
+          "share": 0.101,
+          "tier": "traveller"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.05,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NIC",
+          "name": "Nicaragua",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HND",
+          "name": "Honduras",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRY",
+          "name": "Paraguay",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 5,
+        "uncharted": 4,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 14,
+        "farflungCount": 2,
+        "initials": [
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "H",
+          "N",
+          "P",
+          "S",
+          "V"
+        ],
+        "topHint": {
+          "initials": "C R",
+          "letters": 9
+        }
+      }
+    },
+    {
+      "id": "phoenician-settlements",
+      "text": "Pin a country where the Phoenicians founded a settlement",
+      "accepts": "country",
+      "note": "Trading communities and Carthaginian colonies count. France is allowed for the Phoenician community at Aléria in Corsica, although Greeks founded the town. Countries follow today's borders.",
+      "gems": [
+        "PRT"
+      ],
+      "gemNote": "Phoenician settlers reached the Atlantic: Abul stood beside Portugal's River Sado.",
+      "answers": [
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.337,
+          "tier": "tourist"
+        },
+        {
+          "code": "TUN",
+          "name": "Tunisia",
+          "share": 0.212,
+          "tier": "traveller"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.116,
+          "tier": "traveller"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.087,
+          "tier": "traveller"
+        },
+        {
+          "code": "CYP",
+          "name": "Cyprus",
+          "share": 0.058,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MAR",
+          "name": "Morocco",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DZA",
+          "name": "Algeria",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 4,
+        "uncharted": 5,
+        "farflung": 4
+      },
+      "hints": {
+        "answerCount": 17,
+        "farflungCount": 4,
+        "initials": [
+          "A",
+          "C",
+          "E",
+          "F",
+          "G",
+          "I",
+          "L",
+          "M",
+          "P",
+          "S",
+          "T"
+        ],
+        "topHint": {
+          "initials": "L",
+          "letters": 7
+        }
+      }
+    }
+  ]
+}

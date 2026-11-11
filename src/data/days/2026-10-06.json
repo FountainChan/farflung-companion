@@ -1,0 +1,812 @@
+{
+  "day": "2026-10-06",
+  "expedition": 2,
+  "prompts": [
+    {
+      "id": "landlocked",
+      "text": "Pin a country with no coastline",
+      "accepts": "country",
+      "note": "The Caspian is a lake, so its shores count as landlocked.",
+      "gems": [
+        "LIE",
+        "UZB"
+      ],
+      "gemNote": "The only two countries whose neighbours are all landlocked as well.",
+      "answers": [
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.093,
+          "tier": "tourist"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.093,
+          "tier": "tourist"
+        },
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.093,
+          "tier": "tourist"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "NER",
+          "name": "Niger",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "TCD",
+          "name": "Chad",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "AFG",
+          "name": "Afghanistan",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZMB",
+          "name": "Zambia",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PRY",
+          "name": "Paraguay",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BWA",
+          "name": "Botswana",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAF",
+          "name": "Central African Republic",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SSD",
+          "name": "South Sudan",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TKM",
+          "name": "Turkmenistan",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BFA",
+          "name": "Burkina Faso",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LAO",
+          "name": "Laos",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UGA",
+          "name": "Uganda",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KGZ",
+          "name": "Kyrgyzstan",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SRB",
+          "name": "Serbia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MWI",
+          "name": "Malawi",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RWA",
+          "name": "Rwanda",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BTN",
+          "name": "Bhutan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LSO",
+          "name": "Lesotho",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BDI",
+          "name": "Burundi",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MKD",
+          "name": "North Macedonia",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VAT",
+          "name": "Vatican City",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "XKX",
+          "name": "Kosovo",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AND",
+          "name": "Andorra",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "SMR",
+          "name": "San Marino",
+          "share": 0.001,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 3,
+        "traveller": 5,
+        "wayfarer": 10,
+        "uncharted": 25,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 45,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "H",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "S",
+          "letters": 11
+        }
+      }
+    },
+    {
+      "id": "two-capitals",
+      "text": "Pin a country with more than one capital",
+      "accepts": "country",
+      "note": "Official, administrative and constitutional capitals all count. So does the UK, whose four countries each have one. Countries still moving their capital, like Indonesia, do not.",
+      "gems": [
+        "MNE",
+        "BDI"
+      ],
+      "gemNote": "Montenegro keeps Cetinje as its Old Royal Capital, and Burundi made Gitega its political capital in 2019.",
+      "answers": [
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.221,
+          "tier": "tourist"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.214,
+          "tier": "traveller"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.141,
+          "tier": "traveller"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.104,
+          "tier": "traveller"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.074,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.045,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CIV",
+          "name": "Ivory Coast",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BEN",
+          "name": "Benin",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BDI",
+          "name": "Burundi",
+          "share": 0.021,
+          "tier": "farflung"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MNE",
+          "name": "Montenegro",
+          "share": 0.019,
+          "tier": "farflung"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.015,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 6,
+        "uncharted": 1,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 13,
+        "farflungCount": 2,
+        "initials": [
+          "B",
+          "C",
+          "E",
+          "I",
+          "M",
+          "N",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "M",
+          "letters": 8
+        }
+      }
+    },
+    {
+      "id": "borders-one",
+      "text": "Pin a country that borders exactly one other",
+      "accepts": "country",
+      "note": "Land borders only, so Bahrain counts for its short border with Saudi Arabia on the causeway between them. Hans Island, Gibraltar and the British bases on Cyprus are not counted.",
+      "gems": [
+        "PNG",
+        "TLS"
+      ],
+      "gemNote": "Both share an island, and their only border, with Indonesia.",
+      "answers": [
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.244,
+          "tier": "tourist"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.224,
+          "tier": "traveller"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.091,
+          "tier": "traveller"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.081,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.071,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DOM",
+          "name": "Dominican Republic",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "HTI",
+          "name": "Haiti",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GMB",
+          "name": "Gambia",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LSO",
+          "name": "Lesotho",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VAT",
+          "name": "Vatican City",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRN",
+          "name": "Brunei",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SMR",
+          "name": "San Marino",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHR",
+          "name": "Bahrain",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PNG",
+          "name": "Papua New Guinea",
+          "share": 0.008,
+          "tier": "farflung"
+        },
+        {
+          "code": "TLS",
+          "name": "Timor-Leste",
+          "share": 0.008,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 9,
+        "uncharted": 4,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 18,
+        "farflungCount": 2,
+        "initials": [
+          "B",
+          "C",
+          "D",
+          "G",
+          "H",
+          "I",
+          "L",
+          "M",
+          "P",
+          "Q",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "P",
+          "letters": 8
+        }
+      }
+    },
+    {
+      "id": "world-cup-winners",
+      "text": "Pin a country that has won the men's FIFA World Cup",
+      "accepts": "country",
+      "note": "West Germany's titles count for Germany, and England's for the United Kingdom.",
+      "gems": [
+        "URY"
+      ],
+      "gemNote": "Winners of the very first World Cup, in 1930, and again at the Maracanã in 1950.",
+      "answers": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.26,
+          "tier": "tourist"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.16,
+          "tier": "traveller"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.15,
+          "tier": "traveller"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.11,
+          "tier": "traveller"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.11,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.09,
+          "tier": "traveller"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "share": 0.04,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 5,
+        "wayfarer": 1,
+        "uncharted": 0,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 8,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "F",
+          "G",
+          "I",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "oceania",
+      "text": "Pin a country in Oceania",
+      "accepts": "country_or_territory",
+      "note": "The Cook Islands and Niue count. Both govern themselves in free association with New Zealand.",
+      "gems": [
+        "NRU",
+        "TUV",
+        "KIR"
+      ],
+      "gemNote": "Nauru has no official capital, Tuvalu rents out .tv, and Kiribati sees each new year first.",
+      "answers": [
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.62,
+          "tier": "tourist"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.247,
+          "tier": "traveller"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PNG",
+          "name": "Papua New Guinea",
+          "share": 0.034,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "WSM",
+          "name": "Samoa",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VUT",
+          "name": "Vanuatu",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COK",
+          "name": "Cook Islands",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NIU",
+          "name": "Niue",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PLW",
+          "name": "Palau",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MHL",
+          "name": "Marshall Islands",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "NRU",
+          "name": "Nauru",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "FSM",
+          "name": "Micronesia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUV",
+          "name": "Tuvalu",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 2,
+        "uncharted": 9,
+        "farflung": 3
+      },
+      "hints": {
+        "answerCount": 16,
+        "farflungCount": 3,
+        "initials": [
+          "A",
+          "C",
+          "F",
+          "K",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "V"
+        ],
+        "topHint": {
+          "initials": "A",
+          "letters": 9
+        }
+      }
+    }
+  ]
+}

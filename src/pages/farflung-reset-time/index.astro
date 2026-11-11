@@ -1,0 +1,57 @@
+---
+/** Reset time — how the daily reset works. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = 'Farflung Reset Time · When the Daily Expedition Opens';
+const description = 'Farflung resets at midnight in your own time zone — not a fixed UTC hour. How the reset works, time zone examples, and a live countdown.';
+---
+
+<BaseLayout title={title} description={description} path="/farflung-reset-time/">
+  <section class="hero">
+    <h1>Farflung Reset Time</h1>
+    <p class="lede">A new Farflung expedition opens <strong>at midnight, your local time</strong>. There is no single global reset hour — players in Tokyo, Berlin and New York each get their new expedition at their own midnight.</p>
+  </section>
+
+  <div class="countdown" id="reset-box">
+    <div>Next expedition opens in</div>
+    <div class="clock" id="reset-clock" role="timer" aria-live="off">—:—:—</div>
+    <p class="tz-note" id="reset-zone"></p>
+  </div>
+
+  <section class="block">
+    <h2>What this means in practice</h2>
+    <ul>
+      <li><strong>No fixed UTC time.</strong> Unlike many daily games, Farflung follows the player’s clock. The expedition date you play is your calendar date.</li>
+      <li><strong>Travelling?</strong> The reset follows your device, so a new expedition may open earlier or later than usual.</li>
+      <li><strong>Sharing answers.</strong> Friends in other time zones may still be mid-expedition when yours has rolled over — spoilers cut both ways.</li>
+      <li><strong>Streaks.</strong> Signing in keeps your streak across devices; missing a local midnight breaks it.</li>
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>Archive vs. local date</h2>
+    <p>Our archive is organised by the calendar date printed on each official day file. Because resets are local, your “today” may briefly differ from the newest file we have collected — the <a href="/">today page</a> always shows the latest completed expedition we hold.</p>
+  </section>
+
+  <script define:vars={{}}>
+    (function () {
+      const el = document.getElementById('reset-clock');
+      const zoneEl = document.getElementById('reset-zone');
+      if (!el) return;
+      const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      if (zoneEl) zoneEl.textContent = `Time zone on this device: ${zone}`;
+      function tick() {
+        const now = new Date();
+        const next = new Date(now);
+        next.setHours(24, 0, 0, 0);
+        let s = Math.max(0, Math.floor((next - now) / 1000));
+        const h = String(Math.floor(s / 3600)).padStart(2, '0');
+        const m = String(Math.floor((s % 3600) / 60)).padStart(2, '0');
+        const sec = String(s % 60).padStart(2, '0');
+        el.textContent = `${h}:${m}:${sec}`;
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+  </script>
+</BaseLayout>

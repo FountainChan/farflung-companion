@@ -1,0 +1,846 @@
+{
+  "day": "2026-10-07",
+  "expedition": 3,
+  "prompts": [
+    {
+      "id": "seven-eleven",
+      "text": "Pin a country with a 7-Eleven",
+      "accepts": "country",
+      "note": "Stores open under the name today. Indonesia's closed in 2017, Israel's were sold in 2024 and India's closed in September 2026. The United Arab Emirates' are gone too. Hong Kong and Macao count as China.",
+      "gems": [
+        "LAO"
+      ],
+      "gemNote": "The newest country on the list. Its first store opened in Vientiane in September 2023.",
+      "answers": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.231,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.231,
+          "tier": "tourist"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.106,
+          "tier": "traveller"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.091,
+          "tier": "traveller"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.058,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.034,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LAO",
+          "name": "Laos",
+          "share": 0.004,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 2,
+        "wayfarer": 8,
+        "uncharted": 5,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 18,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "C",
+          "D",
+          "J",
+          "L",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "J",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "arabic",
+      "text": "Pin a country where Arabic is an official language",
+      "accepts": "country",
+      "note": "Mali counts through Hassaniya Arabic, official since its 2023 constitution. Western Sahara uses Arabic too, but it is a territory.",
+      "gems": [
+        "COM",
+        "TCD"
+      ],
+      "gemNote": "Comoros sits in the Indian Ocean, and Chad has Arabic as official without being in the Arab League.",
+      "answers": [
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.229,
+          "tier": "tourist"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.139,
+          "tier": "traveller"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.095,
+          "tier": "traveller"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.09,
+          "tier": "traveller"
+        },
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.07,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.068,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.05,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MAR",
+          "name": "Morocco",
+          "share": 0.047,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DZA",
+          "name": "Algeria",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUN",
+          "name": "Tunisia",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SDN",
+          "name": "Sudan",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "OMN",
+          "name": "Oman",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SOM",
+          "name": "Somalia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHR",
+          "name": "Bahrain",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MRT",
+          "name": "Mauritania",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DJI",
+          "name": "Djibouti",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TCD",
+          "name": "Chad",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "COM",
+          "name": "Comoros",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 11,
+        "uncharted": 7,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 24,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "O",
+          "P",
+          "Q",
+          "S",
+          "T",
+          "U",
+          "Y"
+        ],
+        "topHint": {
+          "initials": "E",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "hippos",
+      "text": "Pin a country where hippos live in the wild",
+      "accepts": "country",
+      "note": "Both kinds count: Liberia's wild hippos are all pygmy hippos. Hippos are gone from Egypt, Algeria, Eritrea and Mauritania.",
+      "gems": [
+        "COL"
+      ],
+      "gemNote": "Pablo Escobar brought four to his private zoo in 1981. About 200 now roam the Magdalena valley, and in 2026 the government approved putting about 80 down.",
+      "answers": [
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.134,
+          "tier": "tourist"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.134,
+          "tier": "tourist"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.105,
+          "tier": "traveller"
+        },
+        {
+          "code": "BWA",
+          "name": "Botswana",
+          "share": 0.086,
+          "tier": "traveller"
+        },
+        {
+          "code": "UGA",
+          "name": "Uganda",
+          "share": 0.067,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZMB",
+          "name": "Zambia",
+          "share": 0.067,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.057,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "COD",
+          "name": "DR Congo",
+          "share": 0.048,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NAM",
+          "name": "Namibia",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MWI",
+          "name": "Malawi",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RWA",
+          "name": "Rwanda",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AGO",
+          "name": "Angola",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SDN",
+          "name": "Sudan",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CMR",
+          "name": "Cameroon",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SEN",
+          "name": "Senegal",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SSD",
+          "name": "South Sudan",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COG",
+          "name": "Republic of the Congo",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GAB",
+          "name": "Gabon",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GMB",
+          "name": "Gambia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NER",
+          "name": "Niger",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TCD",
+          "name": "Chad",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CIV",
+          "name": "Ivory Coast",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBR",
+          "name": "Liberia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEN",
+          "name": "Benin",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BFA",
+          "name": "Burkina Faso",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAF",
+          "name": "Central African Republic",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "SOM",
+          "name": "Somalia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BDI",
+          "name": "Burundi",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GIN",
+          "name": "Guinea",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLE",
+          "name": "Sierra Leone",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TGO",
+          "name": "Togo",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GNB",
+          "name": "Guinea-Bissau",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GNQ",
+          "name": "Equatorial Guinea",
+          "share": 0.002,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 2,
+        "wayfarer": 8,
+        "uncharted": 27,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 40,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "R",
+          "S",
+          "T",
+          "U",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "K",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "andes",
+      "text": "Pin a country the Andes run through",
+      "accepts": "country",
+      "note": "Seven countries, from Venezuela in the north to Chile and Argentina in the south.",
+      "gems": [
+        "VEN"
+      ],
+      "gemNote": "People forget the Andes reach this far north, yet Pico Bolívar stands at 4,978 metres.",
+      "answers": [
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.229,
+          "tier": "tourist"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.199,
+          "tier": "traveller"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.16,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.137,
+          "tier": "traveller"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.11,
+          "tier": "traveller"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.083,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.082,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 4,
+        "wayfarer": 1,
+        "uncharted": 0,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 7,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "P",
+          "V"
+        ],
+        "topHint": {
+          "initials": "P",
+          "letters": 4
+        }
+      }
+    },
+    {
+      "id": "starts-m",
+      "text": "Pin a country whose name starts with M",
+      "accepts": "country",
+      "note": "Current English short names, as the map labels them: North Macedonia starts with N now.",
+      "gems": [
+        "FSM"
+      ],
+      "gemNote": "Micronesia has Nan Madol, a ruined city of basalt built on a reef.",
+      "answers": [
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.264,
+          "tier": "tourist"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.156,
+          "tier": "traveller"
+        },
+        {
+          "code": "MAR",
+          "name": "Morocco",
+          "share": 0.098,
+          "tier": "traveller"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.093,
+          "tier": "traveller"
+        },
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.048,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MDG",
+          "name": "Madagascar",
+          "share": 0.048,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MNE",
+          "name": "Montenegro",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.034,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MWI",
+          "name": "Malawi",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MRT",
+          "name": "Mauritania",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MHL",
+          "name": "Marshall Islands",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FSM",
+          "name": "Micronesia",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.004,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 11,
+        "uncharted": 2,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 18,
+        "farflungCount": 1,
+        "initials": [
+          "M"
+        ],
+        "topHint": {
+          "initials": "M",
+          "letters": 6
+        }
+      }
+    }
+  ]
+}

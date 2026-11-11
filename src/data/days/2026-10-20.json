@@ -1,0 +1,808 @@
+{
+  "day": "2026-10-20",
+  "expedition": 16,
+  "prompts": [
+    {
+      "id": "letter-z",
+      "text": "Pin a country with a Z in its name",
+      "accepts": "country",
+      "note": "The Z can be anywhere: Switzerland and Tanzania count. Current English short names normally apply. Eswatini counts as an explicit exception for its former name Swaziland, changed in 2018. The Republic of the Congo counts as an exception for the common name Congo-Brazzaville.",
+      "gems": [
+        "BIH"
+      ],
+      "gemNote": "The Z is hiding in Herzegovina, the country's southern region.",
+      "answers": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.219,
+          "tier": "tourist"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.2,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.135,
+          "tier": "traveller"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.077,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.074,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.05,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.042,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZMB",
+          "name": "Zambia",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KGZ",
+          "name": "Kyrgyzstan",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "share": 0.018,
+          "tier": "farflung"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COG",
+          "name": "Republic of the Congo",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.002,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 10,
+        "uncharted": 3,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 17,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "K",
+          "M",
+          "N",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "caribbean",
+      "text": "Pin an island country in the Caribbean",
+      "accepts": "country",
+      "note": "The Bahamas and Barbados sit in the Atlantic, but both count. Puerto Rico and Martinique count for their countries, which are not island countries. The UK is one, so its Caribbean territories, such as the Cayman Islands, count for it.",
+      "gems": [
+        "KNA"
+      ],
+      "gemNote": "The smallest country in the Americas, and Alexander Hamilton was born on Nevis.",
+      "answers": [
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.304,
+          "tier": "tourist"
+        },
+        {
+          "code": "JAM",
+          "name": "Jamaica",
+          "share": 0.179,
+          "tier": "traveller"
+        },
+        {
+          "code": "DOM",
+          "name": "Dominican Republic",
+          "share": 0.151,
+          "tier": "traveller"
+        },
+        {
+          "code": "HTI",
+          "name": "Haiti",
+          "share": 0.109,
+          "tier": "traveller"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.061,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.054,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRB",
+          "name": "Barbados",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LCA",
+          "name": "Saint Lucia",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRD",
+          "name": "Grenada",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DMA",
+          "name": "Dominica",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.007,
+          "tier": "farflung"
+        },
+        {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.007,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 4,
+        "uncharted": 5,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 14,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "G",
+          "H",
+          "J",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 4
+        }
+      }
+    },
+    {
+      "id": "game-of-thrones-filming",
+      "text": "Pin a country where Game of Thrones was filmed",
+      "accepts": "country",
+      "note": "Any filming counts, animals too: a wolf in Canada and a bear in the United States. Ireland has one location beside Northern Ireland's many, and Greece counts for Meteora, photographed for the Eyrie's mountains.",
+      "gems": [
+        "MLT"
+      ],
+      "gemNote": "Malta played King's Landing in the first season, until the filming moved to Dubrovnik.",
+      "answers": [
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.396,
+          "tier": "tourist"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.22,
+          "tier": "traveller"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.132,
+          "tier": "traveller"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.086,
+          "tier": "traveller"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.072,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MAR",
+          "name": "Morocco",
+          "share": 0.055,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.009,
+          "tier": "farflung"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.007,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 2,
+        "uncharted": 3,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 10,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "G",
+          "I",
+          "M",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U K",
+          "letters": 13
+        }
+      }
+    },
+    {
+      "id": "capital-food",
+      "text": "Pin a country whose capital gives its name to a kind of food or drink in English",
+      "accepts": "country",
+      "note": "A shared name is enough, whatever its origin: beef Wellington, muscat, sucre, Kingston biscuits and the Warsaw grouper all count. Former and provisional capitals count too, as Rangoon and Aden do, and Jerusalem counts for both Israel and Palestine. Brazil counts as an exception, for the Brazil nut, whose name Brasília shares, and the UAE for Dubai chocolate: Dubai is an emirate's capital, not the country's.",
+      "gems": [
+        "SYR"
+      ],
+      "gemNote": "Damson is worn down from damascene, the plum of Damascus, though the English fruit may never have grown there.",
+      "answers": [
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.195,
+          "tier": "tourist"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.105,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.09,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.075,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.053,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.045,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JAM",
+          "name": "Jamaica",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "OMN",
+          "name": "Oman",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AFG",
+          "name": "Afghanistan",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVN",
+          "name": "Slovenia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "TUN",
+          "name": "Tunisia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.002,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 10,
+        "uncharted": 37,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 51,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Y"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 7
+        }
+      }
+    },
+    {
+      "id": "frankenstein",
+      "text": "Pin a country Victor Frankenstein sets foot in during Mary Shelley’s novel Frankenstein",
+      "accepts": "country",
+      "note": "Wherever Victor himself goes, from his birth at Naples in the 1831 text to the chase across Russia. Chamonix and Évian are in France today.",
+      "gems": [
+        "IRL"
+      ],
+      "gemNote": "Adrift after sinking the remains of the creature’s mate, Victor lands in Ireland and is charged with Clerval’s murder.",
+      "answers": [
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.476,
+          "tier": "tourist"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.245,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.136,
+          "tier": "traveller"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.068,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.007,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 2,
+        "uncharted": 2,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 8,
+        "farflungCount": 1,
+        "initials": [
+          "F",
+          "G",
+          "I",
+          "N",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "S",
+          "letters": 11
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+---
+/** Hints — spoiler-safe clue index for every collected expedition. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allDays } from '../../content.js';
+
+const days = allDays().slice().reverse();
+const latest = days[0];
+const title = 'Farflung Hints Without Spoilers';
+const description = 'Progressive, spoiler-free hints for today and every past Farflung expedition. Clues only — answers stay behind a separate reveal.';
+---
+
+<BaseLayout title={title} description={description} path="/hints/">
+  <section class="hero">
+    <h1>Farflung Hints Without Spoilers</h1>
+    <p class="lede">
+      Every clue below is derived from the day’s accepted-answer list — counts, initials and letter counts.
+      Nothing is revealed until you open a reveal on the day page.
+    </p>
+    <div class="callout">
+      Today is expedition <strong>#{latest.expedition} ({latest.day})</strong> — the clues are shown directly on the
+      <a href="/">today page</a>. Past expeditions are listed below.
+    </div>
+  </section>
+
+  <ul class="archive-list">
+    {days.slice(1).map((day) => (
+      <li>
+        <a href={`/archive/${day.day}/`}>
+          <span>Expedition #{day.expedition} · {day.day}</span>
+          <span class="exp-no">{day.prompts.reduce((s, p) => s + p.hints.farflungCount, 0)} gems</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="notice">Clue pages open the full tier tables behind a single click, so the archive doubles as the reveal step.</p>
+</BaseLayout>

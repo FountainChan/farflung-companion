@@ -1,0 +1,496 @@
+{
+  "day": "2026-10-08",
+  "expedition": 4,
+  "prompts": [
+    {
+      "id": "four-letters",
+      "text": "Pin a country whose name has four letters",
+      "accepts": "country_or_territory",
+      "note": "Current English short names, as the map labels them: Siam, now Thailand, does not count. Niue counts: it governs itself, in free association with New Zealand.",
+      "gems": [
+        "TGO"
+      ],
+      "gemNote": "A sliver with just 56 km of coast, named after Togoville, a village on Lake Togo.",
+      "answers": [
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.358,
+          "tier": "tourist"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.195,
+          "tier": "traveller"
+        },
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.141,
+          "tier": "traveller"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.098,
+          "tier": "traveller"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "OMN",
+          "name": "Oman",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LAO",
+          "name": "Laos",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TCD",
+          "name": "Chad",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TGO",
+          "name": "Togo",
+          "share": 0.016,
+          "tier": "farflung"
+        },
+        {
+          "code": "NIU",
+          "name": "Niue",
+          "share": 0.005,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 2,
+        "uncharted": 4,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 11,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "F",
+          "I",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "T"
+        ],
+        "topHint": {
+          "initials": "I",
+          "letters": 4
+        }
+      }
+    },
+    {
+      "id": "nuclear-weapons",
+      "text": "Pin a country that has had nuclear weapons",
+      "accepts": "country",
+      "note": "Nine have them now. South Africa, Ukraine, Kazakhstan and Belarus once did, and count. Hosting another country's, as Germany does, doesn't.",
+      "gems": [
+        "ISR",
+        "ZAF"
+      ],
+      "gemNote": "Israel has never said it has any. Outside estimates say about 90 warheads. South Africa built six in secret, then took them all apart.",
+      "answers": [
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.266,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.266,
+          "tier": "tourist"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.128,
+          "tier": "traveller"
+        },
+        {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.099,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.059,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.03,
+          "tier": "farflung"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.005,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 2,
+        "wayfarer": 3,
+        "uncharted": 4,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 13,
+        "farflungCount": 2,
+        "initials": [
+          "B",
+          "C",
+          "F",
+          "I",
+          "K",
+          "N",
+          "P",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "R",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "danube",
+      "text": "Pin a country the Danube flows through or along",
+      "accepts": "country",
+      "note": "Ten countries and four capitals. A riverbank is enough.",
+      "gems": [
+        "MDA"
+      ],
+      "gemNote": "Its whole Danube is a few hundred metres of bank at Giurgiulești, and it built a port there.",
+      "answers": [
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.247,
+          "tier": "tourist"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.206,
+          "tier": "traveller"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.154,
+          "tier": "traveller"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.124,
+          "tier": "traveller"
+        },
+        {
+          "code": "SRB",
+          "name": "Serbia",
+          "share": 0.093,
+          "tier": "traveller"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.072,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BGR",
+          "name": "Bulgaria",
+          "share": 0.062,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.005,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 4,
+        "wayfarer": 2,
+        "uncharted": 2,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 10,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "G",
+          "H",
+          "M",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "A",
+          "letters": 7
+        }
+      }
+    },
+    {
+      "id": "seven-wonders",
+      "text": "Pin a country with one of the New Seven Wonders of the World",
+      "accepts": "country",
+      "note": "The winners of the 2007 worldwide vote. Egypt counts for Giza's honorary status, Mongolia and Russia for their stretch of the Great Wall.",
+      "gems": [
+        "JOR",
+        "MNG",
+        "RUS"
+      ],
+      "gemNote": "Petra, the city cut into rock. Queen Rania joined the campaign for its votes. The Great Wall's northern line lies mostly outside China.",
+      "answers": [
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.213,
+          "tier": "tourist"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.213,
+          "tier": "tourist"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.188,
+          "tier": "traveller"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.137,
+          "tier": "traveller"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.111,
+          "tier": "traveller"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.068,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.043,
+          "tier": "farflung"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.004,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 3,
+        "wayfarer": 1,
+        "uncharted": 1,
+        "farflung": 3
+      },
+      "hints": {
+        "answerCount": 10,
+        "farflungCount": 3,
+        "initials": [
+          "B",
+          "C",
+          "E",
+          "I",
+          "J",
+          "M",
+          "P",
+          "R"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "no-airport",
+      "text": "Pin a country with no airport of its own",
+      "accepts": "country",
+      "note": "Monaco has a heliport. It does not count. Palestine counts: its airports have been closed since 2001.",
+      "gems": [
+        "AND"
+      ],
+      "gemNote": "The airport that carries its name sits 12 km over the border, in Spain.",
+      "answers": [
+        {
+          "code": "VAT",
+          "name": "Vatican City",
+          "share": 0.388,
+          "tier": "tourist"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.228,
+          "tier": "traveller"
+        },
+        {
+          "code": "SMR",
+          "name": "San Marino",
+          "share": 0.183,
+          "tier": "traveller"
+        },
+        {
+          "code": "AND",
+          "name": "Andorra",
+          "share": 0.114,
+          "tier": "farflung"
+        },
+        {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.068,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.018,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 1,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 6,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "L",
+          "M",
+          "P",
+          "S",
+          "V"
+        ],
+        "topHint": {
+          "initials": "V C",
+          "letters": 11
+        }
+      }
+    }
+  ]
+}

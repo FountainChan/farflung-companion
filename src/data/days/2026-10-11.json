@@ -1,0 +1,973 @@
+{
+  "day": "2026-10-11",
+  "expedition": 7,
+  "prompts": [
+    {
+      "id": "alps",
+      "text": "Pin a country the Alps run through",
+      "accepts": "country",
+      "note": "Eight countries are usually counted. Hungary counts too, for the last hills of the range. The Dinaric Alps are a separate range.",
+      "gems": [
+        "MCO"
+      ],
+      "gemNote": "The Alps meet the Mediterranean here, in a country of about two square kilometres.",
+      "answers": [
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.414,
+          "tier": "tourist"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.195,
+          "tier": "traveller"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.146,
+          "tier": "traveller"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.079,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.073,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SVN",
+          "name": "Slovenia",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.012,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 3,
+        "uncharted": 2,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 9,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "F",
+          "G",
+          "H",
+          "I",
+          "L",
+          "M",
+          "S"
+        ],
+        "topHint": {
+          "initials": "S",
+          "letters": 11
+        }
+      }
+    },
+    {
+      "id": "named-after-person",
+      "text": "Pin a country or territory named after a real or legendary person",
+      "accepts": "country_or_territory",
+      "note": "Saints, people of scripture and founders of legend all count. So do territories, like the Cook Islands, and a country's own name: Bharat for India, Hellas for Greece.",
+      "gems": [
+        "KIR"
+      ],
+      "gemNote": "The islands were the Gilberts, after Captain Thomas Gilbert. Kiribati, said Kiribass, is that name in a language with no G, L or S.",
+      "answers": [
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.177,
+          "tier": "tourist"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.145,
+          "tier": "traveller"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.12,
+          "tier": "traveller"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.112,
+          "tier": "traveller"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.064,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DOM",
+          "name": "Dominican Republic",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SLV",
+          "name": "El Salvador",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SMR",
+          "name": "San Marino",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYC",
+          "name": "Seychelles",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LCA",
+          "name": "Saint Lucia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NIC",
+          "name": "Nicaragua",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GEO",
+          "name": "Georgia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MHL",
+          "name": "Marshall Islands",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AFG",
+          "name": "Afghanistan",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MKD",
+          "name": "North Macedonia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "STP",
+          "name": "São Tomé and Príncipe",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BMU",
+          "name": "Bermuda",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COK",
+          "name": "Cook Islands",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DJI",
+          "name": "Djibouti",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FLK",
+          "name": "Falkland Islands",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GIB",
+          "name": "Gibraltar",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "LAO",
+          "name": "Laos",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SOM",
+          "name": "Somalia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SHN",
+          "name": "Saint Helena, Ascension and Tristan da Cunha",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ASM",
+          "name": "American Samoa",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATC",
+          "name": "Akrotiri",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLM",
+          "name": "Saint Barthélemy",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CCK",
+          "name": "Cocos (Keeling) Islands",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HMD",
+          "name": "Heard Island and McDonald Islands",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MAF",
+          "name": "Saint Martin",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNP",
+          "name": "Northern Mariana Islands",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NFK",
+          "name": "Norfolk Island",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PCN",
+          "name": "Pitcairn Islands",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SGS",
+          "name": "South Georgia",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SPM",
+          "name": "Saint Pierre and Miquelon",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SXM",
+          "name": "Sint Maarten",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VGB",
+          "name": "British Virgin Islands",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VIR",
+          "name": "United States Virgin Islands",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "WLF",
+          "name": "Wallis and Futuna",
+          "share": 0.001,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 5,
+        "uncharted": 65,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 75,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "U",
+          "V",
+          "W"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 8
+        }
+      }
+    },
+    {
+      "id": "happiest-twenty",
+      "text": "Pin a country in the top 20 of the 2026 World Happiness Report",
+      "accepts": "country",
+      "note": "The report ranks 147 countries by how people rate their own lives. The United Arab Emirates is 21st, the United States 23rd and Canada 25th.",
+      "gems": [
+        "XKX"
+      ],
+      "gemNote": "Sixteenth in 2026, up 13 places on 2025. No other country in the twenty rose more than five.",
+      "answers": [
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.286,
+          "tier": "tourist"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.125,
+          "tier": "traveller"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.089,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.063,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.063,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.063,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.054,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.045,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CRI",
+          "name": "Costa Rica",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVN",
+          "name": "Slovenia",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "XKX",
+          "name": "Kosovo",
+          "share": 0.009,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 9,
+        "uncharted": 7,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 20,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "F",
+          "G",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "S"
+        ],
+        "topHint": {
+          "initials": "F",
+          "letters": 7
+        }
+      }
+    },
+    {
+      "id": "costco",
+      "text": "Pin a country or territory with a Costco",
+      "accepts": "country_or_territory",
+      "note": "Fourteen countries have a Costco warehouse, and one territory: Puerto Rico, with four.",
+      "gems": [
+        "ISL",
+        "PRI"
+      ],
+      "gemNote": "Iceland, about 400,000 people, has had a Costco since 2017. Puerto Rico has four, counted with the United States.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.415,
+          "tier": "tourist"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.145,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.062,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.062,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.062,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.052,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.052,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.01,
+          "tier": "farflung"
+        },
+        {
+          "code": "PRI",
+          "name": "Puerto Rico",
+          "share": 0.008,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 7,
+        "uncharted": 4,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 15,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "C",
+          "F",
+          "I",
+          "J",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "element-names",
+      "text": "Pin a country with a chemical element named after it",
+      "accepts": "country",
+      "note": "A town does not count for its country: Ytterby, a Swedish village, named four elements. Americium counts for the United States alone.",
+      "gems": [
+        "CYP"
+      ],
+      "gemNote": "The Romans mined much of their copper here and called it the metal of Cyprus. Its symbol, Cu, comes from that name.",
+      "answers": [
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.429,
+          "tier": "tourist"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.236,
+          "tier": "traveller"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.15,
+          "tier": "traveller"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.075,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.064,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CYP",
+          "name": "Cyprus",
+          "share": 0.011,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 2,
+        "uncharted": 2,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 8,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "F",
+          "G",
+          "I",
+          "J",
+          "P",
+          "R",
+          "U"
+        ],
+        "topHint": {
+          "initials": "G",
+          "letters": 7
+        }
+      }
+    }
+  ]
+}

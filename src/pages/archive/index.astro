@@ -1,0 +1,26 @@
+---
+/** Archive — index of all collected expeditions. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allDays } from '../../content.js';
+
+const days = allDays().slice().reverse();
+const title = 'Farflung Archive · Every Past Expedition';
+const description = 'Browse every collected Farflung expedition by date, with expedition numbers and answer counts for all five prompts.';
+---
+
+<BaseLayout title={title} description={description} path="/archive/">
+  <section class="hero">
+    <h1>Farflung Archive</h1>
+    <p class="lede">Every expedition we have collected, newest first. Each page lists the day’s five prompts with the full answer and tier table — spoilers inside.</p>
+  </section>
+  <ul class="archive-list">
+    {days.map((day) => (
+      <li>
+        <a href={`/archive/${day.day}/`}>
+          <span>Expedition #{day.expedition} · {day.day}</span>
+          <span class="exp-no">{day.prompts.reduce((sum, p) => sum + p.answers.length, 0)} answers</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

@@ -1,0 +1,1478 @@
+{
+  "day": "2026-10-31",
+  "expedition": 27,
+  "prompts": [
+    {
+      "id": "witchcraft-executions",
+      "text": "Pin a country where someone was executed for witchcraft",
+      "accepts": "country",
+      "note": "An execution after a sentence counts where it happened, from ancient Athens to Islamic State's courts and village councils. Killings of accused witches by mobs do not. Nigeria counts as a close call for a fatal ordeal following an Efen Clan Council witchcraft trial in 2017, without a separately established death sentence. Jamaica counts for colonial executions after obeah convictions.",
+      "gems": [
+        "SAU",
+        "LIE"
+      ],
+      "gemNote": "Saudi Arabia beheaded a man for sorcery in 2014. Liechtenstein's trials of the 1670s left its counts so in debt that they sold the land to the Liechtensteins.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.232,
+          "tier": "tourist"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.108,
+          "tier": "traveller"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.077,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.046,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JAM",
+          "name": "Jamaica",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AGO",
+          "name": "Angola",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COD",
+          "name": "DR Congo",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HTI",
+          "name": "Haiti",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PNG",
+          "name": "Papua New Guinea",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UGA",
+          "name": "Uganda",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "CAF",
+          "name": "Central African Republic",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "COG",
+          "name": "Republic of the Congo",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "GNQ",
+          "name": "Equatorial Guinea",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LBR",
+          "name": "Liberia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LSO",
+          "name": "Lesotho",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SVN",
+          "name": "Slovenia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "SOM",
+          "name": "Somalia",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "AND",
+          "name": "Andorra",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "MDG",
+          "name": "Madagascar",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 7,
+        "uncharted": 39,
+        "farflung": 26
+      },
+      "hints": {
+        "answerCount": 74,
+        "farflungCount": 26,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "Y",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "pumpkin-top-ten-growers",
+      "text": "Pin a country among the ten that grow the most pumpkins",
+      "accepts": "country",
+      "note": "By weight of pumpkins, squash and gourds grown in 2024. Mexico, eleventh by a whisker, was ninth the year before, so it counts too.",
+      "gems": [
+        "EGY"
+      ],
+      "gemNote": "Egypt is third, behind only India and China.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.283,
+          "tier": "tourist"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.262,
+          "tier": "tourist"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.101,
+          "tier": "traveller"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.091,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.087,
+          "tier": "traveller"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.045,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.01,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 3,
+        "wayfarer": 4,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 11,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "C",
+          "E",
+          "I",
+          "M",
+          "R",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "ripleys-believe-it-or-not",
+      "text": "Pin a country that has had a Ripley's Believe It or Not! museum",
+      "accepts": "country",
+      "note": "Closed, franchised and seasonal ones count, like Jakarta's and Cape Town's, but not Ripley's aquariums or mazes. Hong Kong's counts for China.",
+      "gems": [
+        "IDN",
+        "PHL"
+      ],
+      "gemNote": "Jakarta's was billed as the largest of its kind in the world, and closed within a few years. Manila's stood in a shopping mall, Shangri-La Plaza.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.453,
+          "tier": "tourist"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.121,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.091,
+          "tier": "traveller"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.02,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.008,
+          "tier": "farflung"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.007,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 7,
+        "uncharted": 6,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 18,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "C",
+          "D",
+          "F",
+          "I",
+          "K",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "ancient-mummies",
+      "text": "Pin a country where mummies over 500 years old have been found",
+      "accepts": "country",
+      "note": "Bog, ice and desert mummies count as well as embalmed ones, and so do burials shown to have been dried first and naturally mummified animals. Bones alone don't, and Ho Chi Minh is too young. Ötzi lay 92 metres inside Italy; Austria counts for a salt miner at Hallstatt.",
+      "gems": [
+        "KGZ",
+        "ZAF"
+      ],
+      "gemNote": "A girl of 2,000 years ago, kept in Bishkek's history museum for over 60 years, was reburied in 2017. South Africa's first mummy, about 2,000 years old, was found in the Eastern Cape in 1999.",
+      "answers": [
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.158,
+          "tier": "tourist"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.073,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.07,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.07,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.07,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SDN",
+          "name": "Sudan",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ERI",
+          "name": "Eritrea",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "KGZ",
+          "name": "Kyrgyzstan",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 0,
+        "wayfarer": 9,
+        "uncharted": 40,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 52,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Y"
+        ],
+        "topHint": {
+          "initials": "E",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "catacombs-skeletons",
+      "text": "Pin a country with catacombs that still hold human remains",
+      "accepts": "country",
+      "note": "Crypts, ossuaries and burial caves that still hold the dead count, and so does Évora's Chapel of Bones. Most bodies were taken from Rome's ancient catacombs long ago.",
+      "gems": [
+        "RUS",
+        "ETH"
+      ],
+      "gemNote": "Pskov's monks still bury their own in the monastery's sandstone caves. At Yemrehanna Kristos, in Ethiopia, the skeletons of monks and others lie at the back of the cave that shelters the church.",
+      "answers": [
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.265,
+          "tier": "tourist"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.126,
+          "tier": "traveller"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.063,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.044,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGR",
+          "name": "Bulgaria",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GEO",
+          "name": "Georgia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GTM",
+          "name": "Guatemala",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HND",
+          "name": "Honduras",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDG",
+          "name": "Madagascar",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SRB",
+          "name": "Serbia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVN",
+          "name": "Slovenia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VAT",
+          "name": "Vatican City",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUN",
+          "name": "Tunisia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 10,
+        "uncharted": 38,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 52,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "F",
+          "letters": 6
+        }
+      }
+    }
+  ]
+}

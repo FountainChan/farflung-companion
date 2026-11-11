@@ -1,0 +1,102 @@
+---
+/** Today — latest expedition overview: prompts, spoiler-safe hints, reveal-gated answers. */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { latestDay, dayStats } from '../content.js';
+import { TIER_LABELS } from '../farflung.js';
+
+const day = latestDay();
+const stats = dayStats();
+const title = `Farflung Hints & Answers Today · Expedition #${day.expedition} (${day.day})`;
+const description = `Today's Farflung expedition (#${day.expedition}, ${day.day}): spoiler-free hints for all five prompts, plus reveal-gated answer tiers collected from the official day files.`;
+
+const fmt = (date) => new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', { timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+---
+
+<BaseLayout title={title} description={description} path="/">
+  <section class="hero">
+    <h1>Today’s Farflung Hints &amp; Answers</h1>
+    <p class="lede">
+      Expedition <strong>#{day.expedition}</strong> · {fmt(day.day)}. Start with the clues below —
+      every answer stays hidden until you open it. Play first at
+      <a href="https://farflung.game" rel="noopener noreferrer" target="_blank">farflung.game</a>, then come back to compare.
+    </p>
+    <div class="badges">
+      <span class="badge">{stats.days} expeditions collected</span>
+      <span class="badge">{stats.answers.toLocaleString()} answers indexed</span>
+      <span class="badge">{stats.farflung} Farflung-tier gems</span>
+    </div>
+  </section>
+
+  <div class="countdown" id="reset-box">
+    <div>Next expedition opens in</div>
+    <div class="clock" id="reset-clock" role="timer" aria-live="off">—:—:—</div>
+    <p class="tz-note">Farflung resets at midnight, your local time. The countdown follows the clock on this device.</p>
+  </div>
+
+  {day.prompts.map((prompt, i) => (
+    <article class="prompt-card" id={`prompt-${i + 1}`}>
+      <div class="prompt-head">
+        <div class="prompt-no">Prompt {i + 1} of 5</div>
+        <h2>{prompt.text}</h2>
+        {prompt.note && <p class="prompt-note"><strong>Ruling note:</strong> {prompt.note}</p>}
+        {prompt.gemNote && <p class="prompt-note"><strong>Gem note:</strong> {prompt.gemNote}</p>}
+      </div>
+      <ul class="hint-list">
+        <li>{prompt.hints.answerCount} accepted answers, including {prompt.hints.farflungCount} Farflung-tier gem{prompt.hints.farflungCount === 1 ? '' : 's'}.</li>
+        <li>Answers begin with the letters: {prompt.hints.initials.join(', ')}.</li>
+        {prompt.hints.topHint && (
+          <li>The most common answer has {prompt.hints.topHint.letters} letters and starts with “{prompt.hints.topHint.initials}”.</li>
+        )}
+        {prompt.gems && prompt.gems.length > 0 && <li>The official guidebook gem is hidden in the reveal below.</li>}
+      </ul>
+      <details class="reveal">
+        <summary>Reveal today’s answers &amp; tiers</summary>
+        <p class="reveal-warn">Spoiler warning: this lists every accepted answer for prompt {i + 1}.</p>
+        <table class="tiers-table">
+          <caption>Answers are grouped fastest-to-furthest: {Object.entries(prompt.tiers).filter(([, n]) => n > 0).map(([t, n]) => `${TIER_LABELS[t]} ×${n}`).join(' · ')}</caption>
+          <thead>
+            <tr><th scope="col">Country</th><th scope="col">Tier</th><th scope="col">Pick share</th></tr>
+          </thead>
+          <tbody>
+            {prompt.answers.map((a) => (
+              <tr>
+                <td>{a.name}</td>
+                <td><span class={`tier-tag tier-${a.tier}`}>{TIER_LABELS[a.tier]}</span></td>
+                <td class="share-cell">{a.share != null ? `${Math.round(a.share * 1000) / 10}%` : '—'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </details>
+    </article>
+  ))}
+
+  <section class="block" id="tools">
+    <h2>Explore more</h2>
+    <div class="card-grid">
+      <a class="tool-card" href="/hints/" style="text-decoration:none;color:inherit"><h3>Spoiler-free hints</h3><p>Clue pages for every collected expedition, nothing revealed by accident.</p></a>
+      <a class="tool-card" href="/archive/" style="text-decoration:none;color:inherit"><h3>Archive</h3><p>Browse every past expedition with full tier tables.</p></a>
+      <a class="tool-card" href="/farflung-unlimited/" style="text-decoration:none;color:inherit"><h3>Farflung unlimited</h3><p>There is no official endless mode yet — what to know and what to play meanwhile.</p></a>
+      <a class="tool-card" href="/how-to-play/" style="text-decoration:none;color:inherit"><h3>How to play</h3><p>Rules, scoring and tips, in plain language.</p></a>
+    </div>
+  </section>
+
+  <script define:vars={{}}>
+    (function () {
+      const el = document.getElementById('reset-clock');
+      if (!el) return;
+      function tick() {
+        const now = new Date();
+        const next = new Date(now);
+        next.setHours(24, 0, 0, 0);
+        let s = Math.max(0, Math.floor((next - now) / 1000));
+        const h = String(Math.floor(s / 3600)).padStart(2, '0');
+        const m = String(Math.floor((s % 3600) / 60)).padStart(2, '0');
+        const sec = String(s % 60).padStart(2, '0');
+        el.textContent = `${h}:${m}:${sec}`;
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+  </script>
+</BaseLayout>

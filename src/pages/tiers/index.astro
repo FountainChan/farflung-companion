@@ -1,0 +1,53 @@
+---
+/** Tiers — scoring/rarity reference computed from collected data. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allDays } from '../../content.js';
+import { TIERS, TIER_LABELS } from '../../farflung.js';
+
+const days = allDays();
+const counts = Object.fromEntries(TIERS.map((t) => [t, 0]));
+let total = 0;
+for (const day of days) {
+  for (const prompt of day.prompts) {
+    for (const [tier, n] of Object.entries(prompt.tiers)) {
+      counts[tier] += n;
+      total += n;
+    }
+  }
+}
+const share = (tier) => total ? `${Math.round((counts[tier] / total) * 1000) / 10}%` : '—';
+
+const title = 'Farflung Tiers · Common to Farflung, How Scoring Works';
+const description = `The five Farflung rarity tiers explained, with how often each tier appears across ${days.length} collected expeditions.`;
+---
+
+<BaseLayout title={title} description={description} path="/tiers/">
+  <section class="hero">
+    <h1>Farflung Rarity Tiers</h1>
+    <p class="lede">Every accepted answer belongs to one of five tiers, from the pick everyone makes to the gem almost nobody finds. Frequencies below are computed from our collected expeditions.</p>
+  </section>
+
+  <table class="tiers-table">
+    <thead>
+      <tr><th scope="col">Tier</th><th scope="col">Meaning</th><th scope="col">Share of all accepted answers</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><span class="tier-tag tier-tourist">Common</span></td><td>The obvious pick — most players pin this. Shortest distance.</td><td class="share-cell">{share('tourist')}</td></tr>
+      <tr><td><span class="tier-tag tier-traveller">Uncommon</span></td><td>A solid, slightly-less-obvious choice.</td><td class="share-cell">{share('traveller')}</td></tr>
+      <tr><td><span class="tier-tag tier-wayfarer">Rare</span></td><td>You know your world map. Decent distance.</td><td class="share-cell">{share('wayfarer')}</td></tr>
+      <tr><td><span class="tier-tag tier-uncharted">Elusive</span></td><td>A deep cut. Long haul.</td><td class="share-cell">{share('uncharted')}</td></tr>
+      <tr><td><span class="tier-tag tier-farflung">Farflung</span></td><td>The day’s gem(s). Furthest of all — this is what the game is named after.</td><td class="share-cell">{share('farflung')}</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    Across {days.length} expeditions we have indexed <strong>{total.toLocaleString()}</strong> accepted answers.
+    A pin on a country that does not fit the prompt is a <em>miss</em> — it is not a tier, and it gains nothing.
+  </div>
+
+  <section class="block">
+    <h2>How to aim higher</h2>
+    <p>Shares are not points — the official scoring converts your tier into distance, and expeditions with harder prompt mixes reward rare picks more. The practical takeaway: prefer an <span class="tier-tag tier-wayfarer">Rare</span> or better answer whenever you can think of one; the <span class="tier-tag tier-farflung">Farflung</span> gems are usually islands, microstates or places most players cannot place on a map.</p>
+    <p>Browse real examples in the <a href="/archive/">archive</a> to calibrate what “rare” looks like per prompt style.</p>
+  </section>
+</BaseLayout>

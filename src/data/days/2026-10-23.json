@@ -1,0 +1,727 @@
+{
+  "day": "2026-10-23",
+  "expedition": 19,
+  "prompts": [
+    {
+      "id": "baltic",
+      "text": "Pin a country with a Baltic Sea coast",
+      "accepts": "country",
+      "note": "Norway doesn't count: its coast stops at the Skagerrak, outside the Baltic.",
+      "gems": [
+        "DNK"
+      ],
+      "gemNote": "Denmark's straits are the Baltic's only natural way out to the ocean.",
+      "answers": [
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.343,
+          "tier": "tourist"
+        },
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.229,
+          "tier": "traveller"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.011,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 5,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 9,
+        "farflungCount": 1,
+        "initials": [
+          "D",
+          "E",
+          "F",
+          "G",
+          "L",
+          "P",
+          "R",
+          "S"
+        ],
+        "topHint": {
+          "initials": "S",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "diwali-holiday",
+      "text": "Pin a country where Diwali is a national public holiday",
+      "accepts": "country",
+      "note": "Malaysia counts, though Sarawak works through it. A day off for Hindus alone, as in Pakistan and Kenya, doesn’t count, and a US state’s holiday is no country’s.",
+      "gems": [
+        "GUY",
+        "SUR"
+      ],
+      "gemNote": "Workers from India brought Diwali to Guyana from 1838 and to Suriname from 1873, and their descendants keep its lamps burning in South America.",
+      "answers": [
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.637,
+          "tier": "tourist"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.127,
+          "tier": "traveller"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.053,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.053,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.042,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.005,
+          "tier": "farflung"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.004,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 5,
+        "uncharted": 2,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 11,
+        "farflungCount": 2,
+        "initials": [
+          "F",
+          "G",
+          "I",
+          "M",
+          "N",
+          "S",
+          "T"
+        ],
+        "topHint": {
+          "initials": "I",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "uniqlo",
+      "text": "Pin a country with a physical Uniqlo store today",
+      "accepts": "country",
+      "note": "Hong Kong's stores count for China. Russia counts as an exception, for the stores it had until 2022: none is open now.",
+      "gems": [
+        "LUX",
+        "POL"
+      ],
+      "gemNote": "Luxembourg got its one store in 2023 and Poland its first lasting one in 2024, the newest of Uniqlo’s countries.",
+      "answers": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.286,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.114,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.086,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.057,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.057,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 11,
+        "uncharted": 10,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 26,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "F",
+          "G",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "J",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "muhammad-ali-fights",
+      "text": "Pin a country where Muhammad Ali fought a professional bout",
+      "accepts": "country",
+      "note": "Professional bouts count, not exhibitions. Italy is an explicit exception for his amateur Olympic bouts in Rome in 1960, before his professional debut. Puerto Rico counts as the United States.",
+      "gems": [
+        "IDN",
+        "BHS"
+      ],
+      "gemNote": "Away from his famous fights, he beat a Dutchman in Jakarta in 1973 and lost to Trevor Berbick in Nassau in 1981.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.413,
+          "tier": "tourist"
+        },
+        {
+          "code": "COD",
+          "name": "DR Congo",
+          "share": 0.165,
+          "tier": "traveller"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.124,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.062,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.052,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.01,
+          "tier": "farflung"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.008,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 5,
+        "uncharted": 3,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 13,
+        "farflungCount": 2,
+        "initials": [
+          "B",
+          "C",
+          "D",
+          "G",
+          "I",
+          "J",
+          "M",
+          "P",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "diamond-mines",
+      "text": "Pin a country where diamonds are mined today",
+      "accepts": "country",
+      "note": "Recreational digging and mining by-products count. Cutting imported stones and growing laboratory diamonds do not.",
+      "gems": [
+        "GAB"
+      ],
+      "gemNote": "Gabon reported only 28.75 carats of diamonds for the whole of 2025.",
+      "answers": [
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.316,
+          "tier": "tourist"
+        },
+        {
+          "code": "BWA",
+          "name": "Botswana",
+          "share": 0.138,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.109,
+          "tier": "traveller"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.099,
+          "tier": "traveller"
+        },
+        {
+          "code": "AGO",
+          "name": "Angola",
+          "share": 0.059,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "COD",
+          "name": "DR Congo",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NAM",
+          "name": "Namibia",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SLE",
+          "name": "Sierra Leone",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LSO",
+          "name": "Lesotho",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBR",
+          "name": "Liberia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAF",
+          "name": "Central African Republic",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GIN",
+          "name": "Guinea",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CMR",
+          "name": "Cameroon",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "CIV",
+          "name": "Ivory Coast",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "COG",
+          "name": "Republic of the Congo",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "GAB",
+          "name": "Gabon",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 7,
+        "uncharted": 9,
+        "farflung": 7
+      },
+      "hints": {
+        "answerCount": 27,
+        "farflungCount": 7,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "G",
+          "I",
+          "L",
+          "M",
+          "N",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "S A",
+          "letters": 11
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+/**
+ * BaseLayout — site shell: head meta, navigation, header and footer.
+ * Independent, unofficial Farflung companion. Not affiliated with farflung.game.
+ */
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  /** canonical path beginning with a slash, trailing slash included */
+  path: string;
+  robots?: string;
+}
+
+const NAV = [
+  { href: '/', label: 'Today' },
+  { href: '/hints/', label: 'Hints' },
+  { href: '/archive/', label: 'Archive' },
+  { href: '/how-to-play/', label: 'How to Play' },
+  { href: '/tiers/', label: 'Tiers' },
+  { href: '/farflung-unlimited/', label: 'Unlimited' },
+  { href: '/farflung-reset-time/', label: 'Reset Time' },
+];
+
+const { title, description, path, robots = 'index, follow' } = Astro.props;
+const SITE = 'https://farflungclues.com';
+const canonical = `${SITE}${path}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#f6f4ee" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="masthead" role="banner">
+      <div class="shell masthead__inner">
+        <a class="masthead__brand" href="/">
+          <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="2" />
+            <path d="M24 8v6M24 34v6M8 24h6M34 24h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <circle cx="24" cy="24" r="9" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 3" />
+            <circle cx="30" cy="18" r="3" fill="currentColor" />
+          </svg>
+          <span>Farflung Clues<span class="brand-dot">.</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Main">
+          {NAV.map((item) => (
+            <a href={item.href} aria-current={item.href === path ? 'page' : undefined}>{item.label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="shell">
+      <slot />
+    </main>
+    <footer class="site-footer" role="contentinfo">
+      <div class="shell site-footer__inner">
+        <p>
+          Farflung Clues is an independent, unofficial companion to the daily geography game
+          <a href="https://farflung.game" rel="noopener noreferrer" target="_blank">Farflung</a>.
+          Not affiliated with, sponsored, or endorsed by Farflung LLC.
+        </p>
+        <p>
+          Clues and summaries are generated from collected day files; official answers, tiers and rulings belong to the game.
+          If we got something wrong, <a href="https://farflung.game/rulings/" rel="noopener noreferrer" target="_blank">the official rulings page</a> is the source of truth.
+        </p>
+        <p><a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">Sitemap</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

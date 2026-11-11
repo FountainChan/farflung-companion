@@ -1,0 +1,627 @@
+{
+  "day": "2026-10-14",
+  "expedition": 10,
+  "prompts": [
+    {
+      "id": "moon-landing",
+      "text": "Pin a country that has landed a spacecraft safely on the Moon",
+      "accepts": "country",
+      "note": "Soviet landings count for every country that was part of the Soviet Union, Russia and the 14 others. A crash does not count, so Israel misses, and nor does a rover lost on another country’s lander.",
+      "gems": [
+        "JPN"
+      ],
+      "gemNote": "Japan became the fifth, in January 2024. Its lander came down on its nose and still sent pictures home.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.694,
+          "tier": "tourist"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.173,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.069,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GEO",
+          "name": "Georgia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KGZ",
+          "name": "Kyrgyzstan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TKM",
+          "name": "Turkmenistan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.002,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 1,
+        "uncharted": 15,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 19,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "G",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "R",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "brics",
+      "text": "Pin a country in BRICS",
+      "accepts": "country",
+      "note": "Saudi Arabia counts: BRICS lists it as a member, though it has never confirmed. Partners such as Nigeria and Malaysia do not.",
+      "gems": [
+        "ETH"
+      ],
+      "gemNote": "Ethiopia joined in 2024, in the group’s first big expansion. It is the only member with no coastline.",
+      "answers": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.368,
+          "tier": "tourist"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.172,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.172,
+          "tier": "traveller"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.006,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 4,
+        "uncharted": 3,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 11,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "C",
+          "E",
+          "I",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "double-letter",
+      "text": "Pin a country whose name has a double letter (the same letter twice in a row)",
+      "accepts": "country",
+      "note": "The country’s English name, as the map labels it or as its official name, so Brunei Darussalam counts for Brunei and the Swiss Confederation for Switzerland. Letters either side of a space or hyphen count too, so Antigua and Barbuda and the Co-operative Republic of Guyana do. A part’s name, like Greenland’s, does not count for its country. Japan is on the list only because the card didn’t say English, so pins on it for Nippon keep their points.",
+      "gems": [
+        "KNA"
+      ],
+      "gemNote": "Kit was an old short form of Christopher, so St Christopher’s Island became Saint Kitts, double T and all.",
+      "answers": [
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.358,
+          "tier": "tourist"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.167,
+          "tier": "traveller"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.143,
+          "tier": "traveller"
+        },
+        {
+          "code": "MAR",
+          "name": "Morocco",
+          "share": 0.072,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CMR",
+          "name": "Cameroon",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SLE",
+          "name": "Sierra Leone",
+          "share": 0.048,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AND",
+          "name": "Andorra",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GNB",
+          "name": "Guinea-Bissau",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYC",
+          "name": "Seychelles",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MHL",
+          "name": "Marshall Islands",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRN",
+          "name": "Brunei",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DMA",
+          "name": "Dominica",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.002,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 4,
+        "uncharted": 12,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 20,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "G",
+          "J",
+          "M",
+          "P",
+          "R",
+          "S"
+        ],
+        "topHint": {
+          "initials": "R",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "chess-champions",
+      "text": "Pin a country a player has won the World Chess Championship for",
+      "accepts": "country",
+      "note": "The country a champion played for. Soviet champions count for Russia, and Tigran Petrosian for Armenia and Mikhail Tal for Latvia too. Georgia counts as an exception, for the Soviet Georgian women's world champions Nona Gaprindashvili and Maia Chiburdanidze. The blitz title is a separate event.",
+      "gems": [
+        "UZB"
+      ],
+      "gemNote": "From 1993 to 2006 the title was split in two. Rustam Kasimdzhanov won FIDE’s championship in 2004, ahead of far bigger names.",
+      "answers": [
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.426,
+          "tier": "tourist"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.149,
+          "tier": "traveller"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.128,
+          "tier": "traveller"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.075,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.053,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGR",
+          "name": "Bulgaria",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GEO",
+          "name": "Georgia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.005,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 5,
+        "uncharted": 7,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 16,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "G",
+          "I",
+          "L",
+          "N",
+          "R",
+          "U"
+        ],
+        "topHint": {
+          "initials": "R",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "tallest-buildings",
+      "text": "Pin a country with one of the world’s ten tallest buildings",
+      "accepts": "country",
+      "note": "Finished buildings, measured to the top of the structure. Taipei 101 is now eleventh. Towers such as Tokyo Skytree are not buildings.",
+      "gems": [
+        "KOR"
+      ],
+      "gemNote": "Lotte World Tower in Seoul, finished in 2017, is the sixth tallest building in the world, ahead of the tallest in New York.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.595,
+          "tier": "tourist"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.179,
+          "tier": "traveller"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.143,
+          "tier": "traveller"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.006,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 1,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 6,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "M",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    }
+  ]
+}

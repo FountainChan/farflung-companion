@@ -1,0 +1,49 @@
+---
+/** Archive day page — one expedition's full answer tables. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allDays } from '../../content.js';
+import { TIER_LABELS } from '../../farflung.js';
+
+export function getStaticPaths() {
+  return allDays().map((day) => ({ params: { date: day.day }, props: { day } }));
+}
+
+const { day } = Astro.props;
+const title = `Farflung Answers · Expedition #${day.expedition} (${day.day})`;
+const description = `All five prompts with the complete answer and rarity-tier table for Farflung expedition #${day.expedition}, ${day.day}.`;
+---
+
+<BaseLayout title={title} description={description} path={`/archive/${day.day}/`}>
+  <section class="hero">
+    <h1>Expedition #{day.expedition}</h1>
+    <p class="lede">{day.day} · five prompts, fully revealed. Prefer no spoilers? Use the <a href="/hints/">hints pages</a> instead.</p>
+  </section>
+
+  {day.prompts.map((prompt, i) => (
+    <article class="prompt-card">
+      <div class="prompt-head">
+        <div class="prompt-no">Prompt {i + 1} of 5</div>
+        <h2>{prompt.text}</h2>
+        {prompt.note && <p class="prompt-note"><strong>Ruling note:</strong> {prompt.note}</p>}
+        {prompt.gemNote && <p class="prompt-note"><strong>Gem note:</strong> {prompt.gemNote}</p>}
+      </div>
+      <table class="tiers-table">
+        <caption>{prompt.answers.length} accepted answers</caption>
+        <thead><tr><th scope="col">Country</th><th scope="col">Tier</th><th scope="col">Pick share</th></tr></thead>
+        <tbody>
+          {prompt.answers.map((a) => (
+            <tr>
+              <td>{a.name}</td>
+              <td><span class={`tier-tag tier-${a.tier}`}>{TIER_LABELS[a.tier]}</span></td>
+              <td class="share-cell">{a.share != null ? `${Math.round(a.share * 1000) / 10}%` : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </article>
+  ))}
+
+  <nav class="block">
+    <p><a href="/archive/">← All expeditions</a></p>
+  </nav>
+</BaseLayout>

@@ -1,0 +1,730 @@
+{
+  "day": "2026-10-10",
+  "expedition": 6,
+  "prompts": [
+    {
+      "id": "euro",
+      "text": "Pin a country whose currency is the euro",
+      "accepts": "country",
+      "note": "Bulgaria joined in 2026. Six more have it from outside the EU: four tiny states by agreement, Kosovo and Montenegro without one.",
+      "gems": [
+        "MNE",
+        "XKX"
+      ],
+      "gemNote": "Both ran on the Deutsche Mark, then moved to the euro in 2002 without a formal deal.",
+      "answers": [
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.274,
+          "tier": "tourist"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.264,
+          "tier": "tourist"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.095,
+          "tier": "traveller"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.088,
+          "tier": "traveller"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGR",
+          "name": "Bulgaria",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CYP",
+          "name": "Cyprus",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVN",
+          "name": "Slovenia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VAT",
+          "name": "Vatican City",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AND",
+          "name": "Andorra",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SMR",
+          "name": "San Marino",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNE",
+          "name": "Montenegro",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "XKX",
+          "name": "Kosovo",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 2,
+        "wayfarer": 7,
+        "uncharted": 14,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 27,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "S",
+          "V"
+        ],
+        "topHint": {
+          "initials": "F",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "red-white-flag",
+      "text": "Pin a country or territory whose flag is only red and white",
+      "accepts": "country_or_territory",
+      "note": "Greenland counts, as a territory, and China for Hong Kong's flag. So do Qatar's maroon, Latvia's dark red and Malta, whose small cross is grey. Northern Cyprus counts for its own flag.",
+      "gems": [
+        "TON"
+      ],
+      "gemNote": "Tonga's constitution says its flag shall never be altered.",
+      "answers": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.259,
+          "tier": "tourist"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.25,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.091,
+          "tier": "traveller"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.086,
+          "tier": "traveller"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.048,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.048,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GRL",
+          "name": "Greenland",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GEO",
+          "name": "Georgia",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUN",
+          "name": "Tunisia",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CYN",
+          "name": "Northern Cyprus",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "BHR",
+          "name": "Bahrain",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 6,
+        "uncharted": 6,
+        "farflung": 5
+      },
+      "hints": {
+        "answerCount": 21,
+        "farflungCount": 5,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "G",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "P",
+          "Q",
+          "S",
+          "T"
+        ],
+        "topHint": {
+          "initials": "J",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "tropic-capricorn",
+      "text": "Pin a country the Tropic of Capricorn crosses",
+      "accepts": "country",
+      "note": "The line is at about 23.4° south. On the December solstice the midday sun is directly overhead along it.",
+      "gems": [
+        "PRY",
+        "BWA"
+      ],
+      "gemNote": "The only two landlocked countries on the line, one either side of the Atlantic.",
+      "answers": [
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.485,
+          "tier": "tourist"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.161,
+          "tier": "traveller"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.114,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.074,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.071,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MDG",
+          "name": "Madagascar",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NAM",
+          "name": "Namibia",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BWA",
+          "name": "Botswana",
+          "share": 0.016,
+          "tier": "farflung"
+        },
+        {
+          "code": "PRY",
+          "name": "Paraguay",
+          "share": 0.014,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 4,
+        "uncharted": 1,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 10,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "M",
+          "N",
+          "P",
+          "S"
+        ],
+        "topHint": {
+          "initials": "A",
+          "letters": 9
+        }
+      }
+    },
+    {
+      "id": "legoland",
+      "text": "Pin a country with a Legoland park",
+      "accepts": "country",
+      "note": "Italy's is a water park, and counts. The indoor Discovery Centres are not parks and do not count.",
+      "gems": [
+        "ITA"
+      ],
+      "gemNote": "Its only Legoland is a water park, opened in 2021 inside the Gardaland theme park.",
+      "answers": [
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.363,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.235,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.149,
+          "tier": "traveller"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.075,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.064,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.053,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.011,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 3,
+        "uncharted": 3,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 10,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "D",
+          "G",
+          "I",
+          "J",
+          "M",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "D",
+          "letters": 7
+        }
+      }
+    },
+    {
+      "id": "eras-tour",
+      "text": "Pin a country that hosted a Taylor Swift Eras Tour concert",
+      "accepts": "country",
+      "note": "Austria does not count: its three shows in Vienna were cancelled. England, Scotland and Wales all pin as the United Kingdom.",
+      "gems": [
+        "POL"
+      ],
+      "gemNote": "Warsaw was the tour's only stop in the former Eastern Bloc.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.335,
+          "tier": "tourist"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.138,
+          "tier": "traveller"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.069,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.069,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.008,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 9,
+        "uncharted": 7,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 19,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "G",
+          "I",
+          "J",
+          "M",
+          "N",
+          "P",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    }
+  ]
+}

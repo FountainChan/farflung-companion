@@ -1,0 +1,637 @@
+{
+  "day": "2026-11-03",
+  "expedition": 30,
+  "prompts": [
+    {
+      "id": "arctic-circle",
+      "text": "Pin a country the Arctic Circle crosses",
+      "accepts": "country",
+      "note": "The line crosses Greenland for Denmark, and Grímsey for Iceland.",
+      "gems": [
+        "ISL"
+      ],
+      "gemNote": "On Grímsey, an eight-tonne stone ball is moved to follow the drifting circle.",
+      "answers": [
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.247,
+          "tier": "tourist"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.213,
+          "tier": "traveller"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.169,
+          "tier": "traveller"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.079,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.079,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.079,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.067,
+          "tier": "farflung"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.067,
+          "tier": "wayfarer"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 4,
+        "uncharted": 0,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 8,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "D",
+          "F",
+          "I",
+          "N",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "R",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "wild-tigers",
+      "text": "Pin a country where tigers live in the wild",
+      "accepts": "country",
+      "note": "Reintroduced tigers count, as in Kazakhstan. South Africa counts for Tiger Canyon’s managed, wild-living tigers.",
+      "gems": [
+        "KAZ"
+      ],
+      "gemNote": "A tigress released near Lake Balkhash in 2026 ended a gap of over 70 years.",
+      "answers": [
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.46,
+          "tier": "tourist"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.115,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.103,
+          "tier": "traveller"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.069,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.046,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.046,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.034,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BTN",
+          "name": "Bhutan",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.006,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 5,
+        "uncharted": 3,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 12,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "C",
+          "I",
+          "K",
+          "M",
+          "N",
+          "R",
+          "S",
+          "T"
+        ],
+        "topHint": {
+          "initials": "I",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "simpsons-trips",
+      "text": "Pin a country where a Simpson family member is shown on screen in The Simpsons TV show, outside dreams and daydreams",
+      "accepts": "country",
+      "note": "Flashbacks, holiday photos and Halloween stories count, including extended family and story roles. Dreams, daydreams and virtual-reality scenes do not; the Morocco trip is Lisa’s nightmare. Named places use today’s countries; Russian waters count too.",
+      "gems": [
+        "ISL"
+      ],
+      "gemNote": "Homer follows Carl and the stolen lottery winnings to Iceland, where Sigur Rós supplied the music.",
+      "answers": [
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.15,
+          "tier": "tourist"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.15,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.15,
+          "tier": "tourist"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.09,
+          "tier": "traveller"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.085,
+          "tier": "traveller"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.085,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.057,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CRI",
+          "name": "Costa Rica",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "ZMB",
+          "name": "Zambia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 3,
+        "traveller": 3,
+        "wayfarer": 4,
+        "uncharted": 17,
+        "farflung": 9
+      },
+      "hints": {
+        "answerCount": 36,
+        "farflungCount": 9,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "K",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "lollapalooza",
+      "text": "Pin a country that has hosted Lollapalooza",
+      "accepts": "country",
+      "note": "Canada counts for the 1990s touring festival. Announced editions in Israel and Colombia were cancelled before opening.",
+      "gems": [
+        "CAN"
+      ],
+      "gemNote": "Long before the Chicago fixture, Lollapalooza toured Vancouver and Barrie.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.503,
+          "tier": "tourist"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.112,
+          "tier": "traveller"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.089,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.078,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.067,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.067,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.056,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.011,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 4,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 9,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "G",
+          "I",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "mens-ice-hockey-world-champions",
+      "text": "Pin a country that has won the top-division men's Ice Hockey World Championship as an independent country",
+      "accepts": "country",
+      "note": "Olympic tournaments through 1968 also awarded world titles. Soviet and Czechoslovak titles alone do not qualify their successor countries.",
+      "gems": [
+        "GBR"
+      ],
+      "gemNote": "Great Britain beat Canada 2–1 on its way to the 1936 world title.",
+      "answers": [
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.55,
+          "tier": "tourist"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.18,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.1,
+          "tier": "traveller"
+        },
+        {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.07,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.005,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 3,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 8,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "F",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 6
+        }
+      }
+    }
+  ]
+}

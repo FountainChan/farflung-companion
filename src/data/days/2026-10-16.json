@@ -1,0 +1,792 @@
+{
+  "day": "2026-10-16",
+  "expedition": 12,
+  "prompts": [
+    {
+      "id": "equator",
+      "text": "Pin a country the equator crosses, by land or by its waters",
+      "accepts": "country",
+      "note": "Land or territorial waters: the line crosses the Maldives and Kiribati at sea, between their islands. It passes Equatorial Guinea outside its waters.",
+      "gems": [
+        "STP"
+      ],
+      "gemNote": "The line crosses Ilhéu das Rolas, a small islet off the south of São Tomé.",
+      "answers": [
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.26,
+          "tier": "tourist"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.2,
+          "tier": "traveller"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.14,
+          "tier": "traveller"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.11,
+          "tier": "traveller"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.08,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "COD",
+          "name": "DR Congo",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UGA",
+          "name": "Uganda",
+          "share": 0.05,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SOM",
+          "name": "Somalia",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GAB",
+          "name": "Gabon",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "COG",
+          "name": "Republic of the Congo",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "STP",
+          "name": "São Tomé and Príncipe",
+          "share": 0.008,
+          "tier": "farflung"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.006,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 5,
+        "uncharted": 3,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 13,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "I",
+          "K",
+          "M",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "E",
+          "letters": 7
+        }
+      }
+    },
+    {
+      "id": "sun-flag",
+      "text": "Pin a country whose national flag has a sun",
+      "accepts": "country",
+      "note": "Discs that stand for the sun count, and so do suns in the coat of arms on a national flag, state flags included. Australia counts for the Aboriginal flag, an official flag of Australia.",
+      "gems": [
+        "MWI"
+      ],
+      "gemNote": "Malawi swapped its rising sun for a full white one in 2010, then Parliament voted to change back in 2012.",
+      "answers": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.326,
+          "tier": "tourist"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.195,
+          "tier": "traveller"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KGZ",
+          "name": "Kyrgyzstan",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MKD",
+          "name": "North Macedonia",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NAM",
+          "name": "Namibia",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RWA",
+          "name": "Rwanda",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NER",
+          "name": "Niger",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CRI",
+          "name": "Costa Rica",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NIC",
+          "name": "Nicaragua",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLV",
+          "name": "El Salvador",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MWI",
+          "name": "Malawi",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 8,
+        "uncharted": 12,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 23,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "J",
+          "K",
+          "M",
+          "N",
+          "P",
+          "R",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "J",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "pyramids",
+      "text": "Pin a country with pyramids built over 500 years ago",
+      "accepts": "country",
+      "note": "Step pyramids, ziggurats, pyramid tombs and pyramid-shaped earth mounds count. Oman's stepped ruin at Khawr Kharfut and Brazil's shell mounds count as close calls. Tenerife's are from the 1800s and Bosnia's are natural hills.",
+      "gems": [
+        "ITA"
+      ],
+      "gemNote": "Rome caught a craze for Egypt after taking it in 30 BC. Gaius Cestius built his tomb as a pyramid, and it now forms part of the city walls.",
+      "answers": [
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.418,
+          "tier": "tourist"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.186,
+          "tier": "traveller"
+        },
+        {
+          "code": "GTM",
+          "name": "Guatemala",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.046,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SDN",
+          "name": "Sudan",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HND",
+          "name": "Honduras",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLV",
+          "name": "El Salvador",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "OMN",
+          "name": "Oman",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.005,
+          "tier": "farflung"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DZA",
+          "name": "Algeria",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "WSM",
+          "name": "Samoa",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.001,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 4,
+        "uncharted": 28,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 36,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "O",
+          "P",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "E",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "fjords",
+      "text": "Pin a country with glacial fjords",
+      "accepts": "country",
+      "note": "Sea inlets carved by glaciers. The Bay of Kotor is a sunken river canyon, and the Flensburg Fjord a different kind of inlet.",
+      "gems": [
+        "FRA"
+      ],
+      "gemNote": "France’s Kerguelen Islands, far south in the Indian Ocean, are cut by glacial fjords. Only staff at a research base live there.",
+      "answers": [
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.543,
+          "tier": "tourist"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.098,
+          "tier": "traveller"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.076,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.054,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.054,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 7,
+        "uncharted": 3,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 13,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "C",
+          "D",
+          "F",
+          "I",
+          "N",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "N",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "tour-start",
+      "text": "Pin a country that has hosted the Grand Départ, the start of the Tour de France",
+      "accepts": "country",
+      "note": "The Grand Départ is where the race itself sets off. Andorra has started stages, but never the race.",
+      "gems": [
+        "IRL"
+      ],
+      "gemNote": "The 1998 Tour, which began in Dublin, is remembered for the Festina doping affair, which broke days before the start.",
+      "answers": [
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.43,
+          "tier": "tourist"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.108,
+          "tier": "traveller"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.108,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.075,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.065,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.054,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.054,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.011,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 6,
+        "uncharted": 2,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 12,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "D",
+          "F",
+          "G",
+          "I",
+          "L",
+          "M",
+          "N",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "F",
+          "letters": 6
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+---
+/** How to play — rules, scoring and practical tips. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = 'How to Play Farflung · Rules & Scoring Guide';
+const description = 'How Farflung works: five prompts, pin a country, rarity tiers from Common to Farflung, the local-midnight reset, streaks and practice tips.';
+---
+
+<BaseLayout title={title} description={description} path="/how-to-play/">
+  <section class="hero">
+    <h1>How to Play Farflung</h1>
+    <p class="lede">Farflung is a free daily geography quiz at <a href="https://farflung.game" rel="noopener noreferrer" target="_blank">farflung.game</a>. This guide explains the rules as we understand them — the official <a href="https://farflung.game/how-to-play/" rel="noopener noreferrer" target="_blank">how-to-play page</a> is the source of truth.</p>
+  </section>
+
+  <section class="block">
+    <h2>The daily loop</h2>
+    <p>Each day’s expedition has <strong>five prompts</strong>. For each prompt you pin <strong>one country</strong> on the world map, then drop the pin. After your fifth pin the expedition is scored and the answer table opens in camp.</p>
+    <p>A new expedition opens at <strong>midnight, your local time</strong> (see <a href="/farflung-reset-time/">reset time details</a>). Play as a guest or sign in to keep streaks and history across devices.</p>
+  </section>
+
+  <section class="block">
+    <h2>Rarity decides your distance</h2>
+    <p>Every prompt accepts many countries, and each accepted answer carries a rarity tier — see the full <a href="/tiers/">tier breakdown</a>. The common pick (the <span class="tier-tag tier-tourist">Common</span> answer) keeps you close; unexpected picks travel further; the day’s <span class="tier-tag tier-farflung">Farflung</span> gems go furthest of all. A pin on a country that doesn’t fit the prompt is a miss and gains nothing.</p>
+  </section>
+
+  <section class="block">
+    <h2>Practical tips</h2>
+    <ul>
+      <li><strong>Think in regions.</strong> Prompts usually accept a whole family of countries. If your first idea feels obvious, a smaller neighbour often scores higher.</li>
+      <li><strong>Read the ruling note.</strong> Some prompts have edge rulings (for example, whether certain territories count). The note on our prompt cards mirrors the official guidance.</li>
+      <li><strong>Watch for gems.</strong> Every prompt has at least one Farflung gem — an answer “nobody” thinks of. Islands, microstates and enclaves are good hunting grounds.</li>
+      <li><strong>Take the clock seriously.</strong> There is an optional timed mode; if you are aiming for rare answers, untimed play gives you room to think.</li>
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>What about unlimited play?</h2>
+    <p>There is no official unlimited mode yet — the developers have said one is coming, with themed packs first. See our <a href="/farflung-unlimited/">Farflung unlimited page</a> for what exists today and how to practice.</p>
+  </section>
+</BaseLayout>

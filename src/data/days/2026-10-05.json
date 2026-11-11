@@ -1,0 +1,1029 @@
+{
+  "day": "2026-10-05",
+  "expedition": 1,
+  "prompts": [
+    {
+      "id": "drive-left",
+      "text": "Pin a country where they drive on the left",
+      "accepts": "country",
+      "note": "China counts for Hong Kong and Macao, which keep left, and the United States for the US Virgin Islands. Samoa switched to the left in 2009.",
+      "gems": [
+        "SUR"
+      ],
+      "gemNote": "From Alaska to Patagonia, only two countries on the mainland keep left: Suriname, and Guyana next door.",
+      "answers": [
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.149,
+          "tier": "tourist"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.149,
+          "tier": "tourist"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.099,
+          "tier": "traveller"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.089,
+          "tier": "traveller"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.053,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UGA",
+          "name": "Uganda",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CYP",
+          "name": "Cyprus",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JAM",
+          "name": "Jamaica",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ZMB",
+          "name": "Zambia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BWA",
+          "name": "Botswana",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PNG",
+          "name": "Papua New Guinea",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NAM",
+          "name": "Namibia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MWI",
+          "name": "Malawi",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRN",
+          "name": "Brunei",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LSO",
+          "name": "Lesotho",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRB",
+          "name": "Barbados",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LCA",
+          "name": "Saint Lucia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "WSM",
+          "name": "Samoa",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRD",
+          "name": "Grenada",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DMA",
+          "name": "Dominica",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NRU",
+          "name": "Nauru",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYC",
+          "name": "Seychelles",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUV",
+          "name": "Tuvalu",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BTN",
+          "name": "Bhutan",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TLS",
+          "name": "Timor-Leste",
+          "share": 0,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 3,
+        "wayfarer": 7,
+        "uncharted": 43,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 56,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "U K",
+          "letters": 13
+        }
+      }
+    },
+    {
+      "id": "soviet",
+      "text": "Pin a country that was a member of the Soviet Union",
+      "accepts": "country",
+      "note": "The Soviet Union broke up in 1991. Its 15 republics are now 15 countries.",
+      "gems": [
+        "KGZ"
+      ],
+      "gemNote": "Its great lake, Issyk-Kul, sits 1,607 metres up, and its name means hot lake.",
+      "answers": [
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.492,
+          "tier": "tourist"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.214,
+          "tier": "traveller"
+        },
+        {
+          "code": "GEO",
+          "name": "Georgia",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KGZ",
+          "name": "Kyrgyzstan",
+          "share": 0.009,
+          "tier": "farflung"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TKM",
+          "name": "Turkmenistan",
+          "share": 0.006,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 8,
+        "uncharted": 4,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 15,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "E",
+          "G",
+          "K",
+          "L",
+          "M",
+          "R",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "R",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "french",
+      "text": "Pin a country or territory where French is an official language",
+      "accepts": "country_or_territory",
+      "note": "Territories count, like New Caledonia and French Polynesia. Mali, Burkina Faso and Niger have dropped French since 2023, so they do not.",
+      "gems": [
+        "VUT"
+      ],
+      "gemNote": "Britain and France ruled it together until 1980, so it kept both their languages.",
+      "answers": [
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.317,
+          "tier": "tourist"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.251,
+          "tier": "tourist"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.107,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.088,
+          "tier": "traveller"
+        },
+        {
+          "code": "SEN",
+          "name": "Senegal",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CMR",
+          "name": "Cameroon",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "COD",
+          "name": "DR Congo",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CIV",
+          "name": "Ivory Coast",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HTI",
+          "name": "Haiti",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDG",
+          "name": "Madagascar",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RWA",
+          "name": "Rwanda",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEN",
+          "name": "Benin",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COG",
+          "name": "Republic of the Congo",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GAB",
+          "name": "Gabon",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GIN",
+          "name": "Guinea",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TCD",
+          "name": "Chad",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TGO",
+          "name": "Togo",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAF",
+          "name": "Central African Republic",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BDI",
+          "name": "Burundi",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GNQ",
+          "name": "Equatorial Guinea",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NCL",
+          "name": "New Caledonia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PYF",
+          "name": "French Polynesia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DJI",
+          "name": "Djibouti",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VUT",
+          "name": "Vanuatu",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "COM",
+          "name": "Comoros",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SPM",
+          "name": "Saint Pierre and Miquelon",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYC",
+          "name": "Seychelles",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATF",
+          "name": "French Southern and Antarctic Lands",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLM",
+          "name": "Saint Barthélemy",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GGY",
+          "name": "Guernsey",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JEY",
+          "name": "Jersey",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MAF",
+          "name": "Saint Martin",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "WLF",
+          "name": "Wallis and Futuna",
+          "share": 0.001,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 2,
+        "traveller": 2,
+        "wayfarer": 3,
+        "uncharted": 28,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 36,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "W"
+        ],
+        "topHint": {
+          "initials": "F",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "borders-brazil",
+      "text": "Pin a country that borders Brazil",
+      "accepts": "country",
+      "note": "Brazil borders every South American country except Chile and Ecuador.",
+      "gems": [
+        "FRA"
+      ],
+      "gemNote": "French Guiana makes Brazil France's longest land border, at 730 km.",
+      "answers": [
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.22,
+          "tier": "tourist"
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "share": 0.147,
+          "tier": "traveller"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.138,
+          "tier": "traveller"
+        },
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.126,
+          "tier": "traveller"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.125,
+          "tier": "traveller"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.114,
+          "tier": "traveller"
+        },
+        {
+          "code": "PRY",
+          "name": "Paraguay",
+          "share": 0.056,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.02,
+          "tier": "farflung"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.013,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 5,
+        "wayfarer": 2,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 10,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "G",
+          "P",
+          "S",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "A",
+          "letters": 9
+        }
+      }
+    },
+    {
+      "id": "no-rivers",
+      "text": "Pin a country with no permanent rivers",
+      "accepts": "country",
+      "note": "Wadis, canals and streams that dry up do not count.",
+      "gems": [
+        "TUV"
+      ],
+      "gemNote": "Its highest point is 4.6 metres, which leaves a river nowhere to run.",
+      "answers": [
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.284,
+          "tier": "tourist"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.159,
+          "tier": "traveller"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.1,
+          "tier": "traveller"
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.095,
+          "tier": "traveller"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.078,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.059,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "OMN",
+          "name": "Oman",
+          "share": 0.045,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VAT",
+          "name": "Vatican City",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BHR",
+          "name": "Bahrain",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DJI",
+          "name": "Djibouti",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NRU",
+          "name": "Nauru",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MHL",
+          "name": "Marshall Islands",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUV",
+          "name": "Tuvalu",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 8,
+        "uncharted": 5,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 18,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "D",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "Q",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Y"
+        ],
+        "topHint": {
+          "initials": "S A",
+          "letters": 11
+        }
+      }
+    }
+  ]
+}

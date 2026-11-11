@@ -1,0 +1,38 @@
+name: Update data and rebuild
+
+on:
+  schedule:
+    # 23:30 UTC — after the UTC-midnight day files roll over, ahead of most time zones' resets
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/fetch-days.mjs
+      - run: node scripts/validate-data.mjs
+      - run: npm test
+      - name: Commit new data
+        run: |
+          git config user.name "farflung-clues-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: collect $(date -u +%F) expedition"
+            git push
+          fi
+      # Trigger the site host's build (e.g. Cloudflare Pages deploy hook):
+      # - name: Redeploy
+      #   run: curl -X POST "${{ secrets.DEPLOY_HOOK_URL }}"

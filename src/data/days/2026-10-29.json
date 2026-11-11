@@ -1,0 +1,880 @@
+{
+  "day": "2026-10-29",
+  "expedition": 25,
+  "prompts": [
+    {
+      "id": "world-cup-hosts",
+      "text": "Pin a country that has hosted the men's FIFA World Cup",
+      "accepts": "country",
+      "note": "Canada joined the list in 2026. Morocco, Portugal and Paraguay host for the first time in 2030.",
+      "gems": [
+        "CHE",
+        "SWE"
+      ],
+      "gemNote": "Switzerland 1954 still has the most goals per game, and Sweden 1958 had a 17-year-old Pelé.",
+      "answers": [
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.187,
+          "tier": "tourist"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.126,
+          "tier": "traveller"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.123,
+          "tier": "traveller"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.097,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.072,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.064,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.053,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.041,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.013,
+          "tier": "farflung"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.011,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 8,
+        "uncharted": 5,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 19,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "G",
+          "I",
+          "J",
+          "M",
+          "Q",
+          "R",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "Q",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "countries-start-end-same-letter",
+      "text": "Pin a country whose English short name starts and ends with the same letter",
+      "accepts": "country",
+      "note": "Current English short names on the map count. Nine answers begin and end with A; four use S and one uses C.",
+      "gems": [
+        "VCT",
+        "KNA"
+      ],
+      "gemNote": "Its name joins Caribbean islands once ruled by Britain.",
+      "answers": [
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.38,
+          "tier": "tourist"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.18,
+          "tier": "traveller"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.12,
+          "tier": "traveller"
+        },
+        {
+          "code": "ALB",
+          "name": "Albania",
+          "share": 0.07,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DZA",
+          "name": "Algeria",
+          "share": 0.06,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AND",
+          "name": "Andorra",
+          "share": 0.05,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AGO",
+          "name": "Angola",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYC",
+          "name": "Seychelles",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAF",
+          "name": "Central African Republic",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.006,
+          "tier": "farflung"
+        },
+        {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.004,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 6,
+        "uncharted": 3,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 14,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "C",
+          "S"
+        ],
+        "topHint": {
+          "initials": "A",
+          "letters": 9
+        }
+      }
+    },
+    {
+      "id": "michelin-three-stars",
+      "text": "Pin a country where a restaurant holds three Michelin stars",
+      "accepts": "country",
+      "note": "Stars held today. Mexico, Canada and Portugal stop at two. Monaco counts on its own, for Le Louis XV.",
+      "gems": [
+        "BRA",
+        "SVN"
+      ],
+      "gemNote": "Brazil’s two, in 2026, were the first three-star restaurants in Latin America. Slovenia’s is just outside Kobarid, a small town near the Italian border.",
+      "answers": [
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.345,
+          "tier": "tourist"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.118,
+          "tier": "traveller"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.089,
+          "tier": "traveller"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.069,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.069,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.059,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.02,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.02,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.005,
+          "tier": "farflung"
+        },
+        {
+          "code": "SVN",
+          "name": "Slovenia",
+          "share": 0.005,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 6,
+        "uncharted": 12,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 23,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "F",
+          "G",
+          "I",
+          "J",
+          "M",
+          "N",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "F",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "nike-shoe-manufacturing",
+      "text": "Pin a country where Nike shoes are manufactured today",
+      "accepts": "country",
+      "note": "Contract factories, 3D printing, custom boot workshops and makers of shoe parts count; clothing and footballs alone do not. Bangladesh counts as an exception, for a factory announced to make Nike shoe parts.",
+      "gems": [
+        "BIH"
+      ],
+      "gemNote": "A Bosnian factory supplies a brand whose biggest shoe-making centres are in Asia.",
+      "answers": [
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.384,
+          "tier": "tourist"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.212,
+          "tier": "traveller"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.142,
+          "tier": "traveller"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.056,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.046,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 5,
+        "uncharted": 5,
+        "farflung": 4
+      },
+      "hints": {
+        "answerCount": 17,
+        "farflungCount": 4,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "G",
+          "I",
+          "J",
+          "M",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "dutch-rule",
+      "text": "Pin a country whose land the Dutch once ruled",
+      "accepts": "country",
+      "note": "Colonies, forts, whaling towns and Dutch monarchs in personal union count. Trading posts such as Dejima do not, nor New Holland on maps. The Maldives counts for its Dutch protectorate period.",
+      "gems": [
+        "DEU"
+      ],
+      "gemNote": "The Netherlands annexed Elten and the Selfkant in 1949, and Germany bought them back in 1963.",
+      "answers": [
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.365,
+          "tier": "tourist"
+        },
+        {
+          "code": "SUR",
+          "name": "Suriname",
+          "share": 0.111,
+          "tier": "traveller"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.111,
+          "tier": "traveller"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AGO",
+          "name": "Angola",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GMB",
+          "name": "Gambia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SEN",
+          "name": "Senegal",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "STP",
+          "name": "São Tomé and Príncipe",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEN",
+          "name": "Benin",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "GNQ",
+          "name": "Equatorial Guinea",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "HTI",
+          "name": "Haiti",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "MOZ",
+          "name": "Mozambique",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "MRT",
+          "name": "Mauritania",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "NAM",
+          "name": "Namibia",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "TLS",
+          "name": "Timor-Leste",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 8,
+        "uncharted": 15,
+        "farflung": 13
+      },
+      "hints": {
+        "answerCount": 39,
+        "farflungCount": 13,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "L",
+          "M",
+          "N",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "I",
+          "letters": 9
+        }
+      }
+    }
+  ]
+}
