@@ -6,7 +6,7 @@
       "id": "bird-flag",
       "text": "Pin a country with a bird on its national flag (variants of national flags count)",
       "accepts": "country",
-      "note": "Government flags count, birds in their coats of arms too; naval ensigns do not. Liechtenstein counts for its government and parliament's standard, and Colombia for its war flag. The United States counts as an exception, for the eagles on its states' flags, and the UAE for the falcon on its president's flag.",
+      "note": "Government flags count, birds in their coats of arms too; naval ensigns do not. Liechtenstein counts for its government and parliament's standard, Colombia for its war flag, and Armenia as an exception for the eagle on its coat of arms. The United States counts as an exception, for the eagles on its states' flags, and the UAE for the falcon on its president's flag.",
       "gems": [
         "FJI"
       ],
@@ -15,13 +15,13 @@
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.25,
+          "share": 0.248,
           "tier": "tourist"
         },
         {
           "code": "ALB",
           "name": "Albania",
-          "share": 0.096,
+          "share": 0.095,
           "tier": "traveller"
         },
         {
@@ -151,6 +151,12 @@
           "tier": "farflung"
         },
         {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
           "code": "LIE",
           "name": "Liechtenstein",
           "share": 0.002,
@@ -161,11 +167,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 13,
-        "uncharted": 7,
+        "uncharted": 8,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 24,
+        "answerCount": 25,
         "farflungCount": 1,
         "initials": [
           "A",

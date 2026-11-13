@@ -6,7 +6,7 @@
       "id": "urban-passenger-waterbuses",
       "text": "Pin a country that has had multi-stop city waterbuses",
       "accepts": "country",
-      "note": "City and city-region routes count, including former ferries with intermediate stops. Charters and sightseeing-only cruises do not.",
+      "note": "City and city-region routes count, including former ferries with intermediate stops, Lake Victoria's Waterbus and Lake Atitlán's public lanchas. Charters and sightseeing-only cruises do not.",
       "gems": [
         "ROU"
       ],
@@ -15,7 +15,7 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.261,
+          "share": 0.26,
           "tier": "tourist"
         },
         {
@@ -87,7 +87,7 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.022,
+          "share": 0.021,
           "tier": "wayfarer"
         },
         {
@@ -105,19 +105,19 @@
         {
           "code": "ARE",
           "name": "United Arab Emirates",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "SGP",
           "name": "Singapore",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
@@ -165,13 +165,13 @@
         {
           "code": "ARG",
           "name": "Argentina",
-          "share": 0.005,
+          "share": 0.004,
           "tier": "uncharted"
         },
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.005,
+          "share": 0.004,
           "tier": "uncharted"
         },
         {
@@ -183,13 +183,13 @@
         {
           "code": "KOR",
           "name": "South Korea",
-          "share": 0.004,
+          "share": 0.003,
           "tier": "uncharted"
         },
         {
           "code": "NZL",
           "name": "New Zealand",
-          "share": 0.004,
+          "share": 0.003,
           "tier": "uncharted"
         },
         {
@@ -225,19 +225,19 @@
         {
           "code": "FIN",
           "name": "Finland",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "NGA",
           "name": "Nigeria",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
@@ -283,6 +283,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "GTM",
+          "name": "Guatemala",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "KHM",
           "name": "Cambodia",
           "share": 0.002,
@@ -298,24 +310,24 @@
           "code": "LKA",
           "name": "Sri Lanka",
           "share": 0.001,
-          "tier": "uncharted"
+          "tier": "farflung"
         },
         {
           "code": "MNE",
           "name": "Montenegro",
           "share": 0.001,
-          "tier": "uncharted"
+          "tier": "farflung"
         },
         {
           "code": "CIV",
           "name": "Ivory Coast",
-          "share": 0.001,
+          "share": 0,
           "tier": "farflung"
         },
         {
           "code": "LTU",
           "name": "Lithuania",
-          "share": 0.001,
+          "share": 0,
           "tier": "farflung"
         },
         {
@@ -330,11 +342,11 @@
         "traveller": 3,
         "wayfarer": 17,
         "uncharted": 28,
-        "farflung": 3
+        "farflung": 5
       },
       "hints": {
-        "answerCount": 52,
-        "farflungCount": 3,
+        "answerCount": 54,
+        "farflungCount": 5,
         "initials": [
           "A",
           "B",
@@ -346,6 +358,7 @@
           "H",
           "I",
           "J",
+          "K",
           "L",
           "M",
           "N",
@@ -366,7 +379,7 @@
       "id": "retractable-roof-stadiums",
       "text": "Pin a country that has had a stadium with a retractable roof over the playing area",
       "accepts": "country",
-      "note": "Past and present stadiums count, including tennis stadiums and bullrings. The moving roof covers the playing area, not just the stands.",
+      "note": "Past and present stadiums count, including tennis stadiums and bullrings. South Korea counts for Daejeon World Cup Stadium's sliding roof over the stands, and Italy for Rome's approved Foro Italico roof.",
       "gems": [
         "CZE"
       ],
@@ -375,19 +388,19 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.285,
+          "share": 0.282,
           "tier": "tourist"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.122,
+          "share": 0.121,
           "tier": "traveller"
         },
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.102,
+          "share": 0.101,
           "tier": "traveller"
         },
         {
@@ -399,25 +412,25 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.051,
+          "share": 0.05,
           "tier": "wayfarer"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.051,
+          "share": 0.05,
           "tier": "wayfarer"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.041,
+          "share": 0.04,
           "tier": "wayfarer"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.041,
+          "share": 0.04,
           "tier": "wayfarer"
         },
         {
@@ -499,6 +512,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
           "code": "PRT",
           "name": "Portugal",
           "share": 0.005,
@@ -539,11 +564,11 @@
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 9,
-        "uncharted": 11,
+        "uncharted": 13,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 27,
+        "answerCount": 29,
         "farflungCount": 3,
         "initials": [
           "A",
@@ -573,7 +598,7 @@
       "id": "cloned-mammals-research",
       "text": "Pin a country where scientists have cloned a mammal",
       "accepts": "country",
-      "note": "A clone counts where it was made, not where its donor came from. Dolly was the first clone from an adult cell, not the first cloned mammal.",
+      "note": "A clone counts where it was made, not where its donor came from. Dolly was the first clone from an adult cell, not the first cloned mammal; Switzerland counts for 1981 mouse cloning in Geneva.",
       "gems": [
         "KEN"
       ],
@@ -582,25 +607,25 @@
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.299,
+          "share": 0.298,
           "tier": "tourist"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.11,
+          "share": 0.109,
           "tier": "traveller"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.095,
+          "share": 0.094,
           "tier": "traveller"
         },
         {
           "code": "KOR",
           "name": "South Korea",
-          "share": 0.09,
+          "share": 0.089,
           "tier": "traveller"
         },
         {
@@ -730,6 +755,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
           "code": "COL",
           "name": "Colombia",
           "share": 0.004,
@@ -788,11 +819,11 @@
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 12,
-        "uncharted": 14,
+        "uncharted": 15,
         "farflung": 4
       },
       "hints": {
-        "answerCount": 34,
+        "answerCount": 35,
         "farflungCount": 4,
         "initials": [
           "A",
@@ -1139,7 +1170,7 @@
       "id": "unique-national-script",
       "text": "Pin a country whose official language uses an alphabet or script that no other country uses for a national official language",
       "accepts": "country",
-      "note": "National official languages only. Greek, Hangul, Ge’ez and Tifinagh are shared; Tibetan and Bengali are regional in China and India. Mongolia’s traditional script has been co-official since 2025.",
+      "note": "National official languages only. Greek, Hangul, Ge’ez and Tifinagh are shared; Tibetan and Bengali are regional in China and India. Mongolia’s traditional script has been co-official since 2025. Latin alphabets with extra letters count.",
       "gems": [
         "MDV"
       ],
@@ -1148,73 +1179,109 @@
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.357,
+          "share": 0.331,
           "tier": "tourist"
         },
         {
           "code": "THA",
           "name": "Thailand",
-          "share": 0.183,
+          "share": 0.17,
           "tier": "traveller"
         },
         {
           "code": "ISR",
           "name": "Israel",
-          "share": 0.143,
+          "share": 0.132,
           "tier": "traveller"
         },
         {
           "code": "GEO",
           "name": "Georgia",
-          "share": 0.071,
+          "share": 0.066,
           "tier": "wayfarer"
         },
         {
           "code": "ARM",
           "name": "Armenia",
-          "share": 0.061,
+          "share": 0.057,
           "tier": "wayfarer"
         },
         {
           "code": "KHM",
           "name": "Cambodia",
-          "share": 0.051,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
           "code": "MMR",
           "name": "Myanmar",
-          "share": 0.041,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
           "code": "BGD",
           "name": "Bangladesh",
-          "share": 0.036,
+          "share": 0.033,
           "tier": "wayfarer"
         },
         {
           "code": "LKA",
           "name": "Sri Lanka",
-          "share": 0.016,
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ALB",
+          "name": "Albania",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.011,
           "tier": "uncharted"
         },
         {
           "code": "LAO",
           "name": "Laos",
-          "share": 0.012,
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.011,
           "tier": "uncharted"
         },
         {
           "code": "BTN",
           "name": "Bhutan",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
@@ -1228,23 +1295,26 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 5,
-        "uncharted": 4,
+        "uncharted": 10,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 13,
+        "answerCount": 19,
         "farflungCount": 1,
         "initials": [
           "A",
           "B",
           "C",
           "G",
+          "H",
           "I",
           "J",
           "L",
           "M",
+          "P",
           "S",
-          "T"
+          "T",
+          "V"
         ],
         "topHint": {
           "initials": "J",

@@ -6,7 +6,7 @@
       "id": "triumphal-arch-capital",
       "text": "Pin a country with a triumphal arch in its capital",
       "accepts": "country",
-      "note": "Ancient or modern, and memorial arches built in the style count. Tehran’s Azadi Tower and Kyiv’s rainbow arch are not triumphal arches. Tashkent’s and Montevideo’s arches are close calls.",
+      "note": "Ancient or modern, and memorial arches built in the style count. Tehran’s Azadi Tower and Kyiv’s rainbow arch are not triumphal arches. Tashkent’s, Montevideo’s and Prague’s Matthias Gate are close calls.",
       "gems": [
         "LAO",
         "CAF",
@@ -17,7 +17,7 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.358,
+          "share": 0.357,
           "tier": "tourist"
         },
         {
@@ -47,13 +47,13 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.043,
+          "share": 0.042,
           "tier": "wayfarer"
         },
         {
           "code": "ROU",
           "name": "Romania",
-          "share": 0.026,
+          "share": 0.025,
           "tier": "wayfarer"
         },
         {
@@ -95,13 +95,13 @@
         {
           "code": "BEL",
           "name": "Belgium",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
@@ -169,6 +169,12 @@
           "name": "North Korea",
           "share": 0.004,
           "tier": "farflung"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.003,
+          "tier": "uncharted"
         },
         {
           "code": "LBY",
@@ -253,11 +259,11 @@
         "tourist": 1,
         "traveller": 4,
         "wayfarer": 6,
-        "uncharted": 25,
+        "uncharted": 26,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 39,
+        "answerCount": 40,
         "farflungCount": 3,
         "initials": [
           "A",
@@ -478,7 +484,7 @@
       "id": "wild-tapirs",
       "text": "Pin a country where tapirs breed in the wild",
       "accepts": "country",
-      "note": "All four living tapir species count. Singapore and Trinidad get stray visitors from across the water, but have no breeding herds.",
+      "note": "All four living tapir species count; Cambodia counts as part of the Malayan tapir's endangered range. Singapore and Trinidad get stray visitors from across the water, but have no breeding herds.",
       "gems": [
         "FRA"
       ],
@@ -487,7 +493,7 @@
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.338,
+          "share": 0.337,
           "tier": "tourist"
         },
         {
@@ -505,13 +511,13 @@
         {
           "code": "CRI",
           "name": "Costa Rica",
-          "share": 0.07,
+          "share": 0.069,
           "tier": "wayfarer"
         },
         {
           "code": "THA",
           "name": "Thailand",
-          "share": 0.06,
+          "share": 0.059,
           "tier": "wayfarer"
         },
         {
@@ -611,6 +617,12 @@
           "tier": "farflung"
         },
         {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
           "code": "FRA",
           "name": "France",
           "share": 0.001,
@@ -622,11 +634,11 @@
         "traveller": 2,
         "wayfarer": 8,
         "uncharted": 7,
-        "farflung": 4
+        "farflung": 5
       },
       "hints": {
-        "answerCount": 22,
-        "farflungCount": 4,
+        "answerCount": 23,
+        "farflungCount": 5,
         "initials": [
           "A",
           "B",
