@@ -293,7 +293,7 @@
       "id": "million-sq-km",
       "text": "Pin a country covering over a million square kilometres",
       "accepts": "country",
-      "note": "Antarctic claims do not count, and nor does Greenland for Denmark. Twenty-nine countries qualify.",
+      "note": "Antarctic claims do not count; Greenland counts for Denmark. Thirty countries qualify.",
       "gems": [
         "MRT"
       ],
@@ -308,13 +308,13 @@
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.11,
+          "share": 0.109,
           "tier": "traveller"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.105,
+          "share": 0.104,
           "tier": "traveller"
         },
         {
@@ -326,19 +326,19 @@
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.086,
+          "share": 0.085,
           "tier": "traveller"
         },
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.084,
+          "share": 0.083,
           "tier": "traveller"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.048,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
@@ -350,7 +350,7 @@
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
@@ -381,13 +381,13 @@
           "code": "IDN",
           "name": "Indonesia",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "ZAF",
           "name": "South Africa",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "COL",
@@ -422,7 +422,7 @@
         {
           "code": "SDN",
           "name": "Sudan",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
@@ -468,6 +468,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
           "code": "MRT",
           "name": "Mauritania",
           "share": 0.003,
@@ -477,12 +483,12 @@
       "tiers": {
         "tourist": 1,
         "traveller": 5,
-        "wayfarer": 9,
-        "uncharted": 13,
+        "wayfarer": 7,
+        "uncharted": 16,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 29,
+        "answerCount": 30,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -1004,7 +1010,7 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.331,
+          "share": 0.33,
           "tier": "tourist"
         },
         {
@@ -1034,7 +1040,7 @@
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.043,
+          "share": 0.042,
           "tier": "wayfarer"
         },
         {
@@ -1100,7 +1106,7 @@
         {
           "code": "URY",
           "name": "Uruguay",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
@@ -1168,6 +1174,12 @@
           "name": "Grenada",
           "share": 0.002,
           "tier": "farflung"
+        },
+        {
+          "code": "TLS",
+          "name": "Timor-Leste",
+          "share": 0.002,
+          "tier": "farflung"
         }
       ],
       "tiers": {
@@ -1175,11 +1187,11 @@
         "traveller": 2,
         "wayfarer": 9,
         "uncharted": 13,
-        "farflung": 3
+        "farflung": 4
       },
       "hints": {
-        "answerCount": 28,
-        "farflungCount": 3,
+        "answerCount": 29,
+        "farflungCount": 4,
         "initials": [
           "A",
           "B",

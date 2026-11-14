@@ -1,0 +1,1073 @@
+{
+  "day": "2026-11-14",
+  "expedition": 41,
+  "prompts": [
+    {
+      "id": "highest-peak-volcano",
+      "text": "Pin a country whose highest mountain is a volcano",
+      "accepts": "country",
+      "note": "Extinct volcanoes and territories count. Indonesia's top, Puncak Jaya, is limestone; the UK's, Mount Paget, is not a volcano.",
+      "gems": [
+        "AUS"
+      ],
+      "gemNote": "Big Ben on Heard Island, far south in the Indian Ocean, is the highest mountain Australia truly holds.",
+      "answers": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.215,
+          "tier": "tourist"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.108,
+          "tier": "traveller"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.093,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.084,
+          "tier": "traveller"
+        },
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "share": 0.037,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.034,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GTM",
+          "name": "Guatemala",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CMR",
+          "name": "Cameroon",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "RWA",
+          "name": "Rwanda",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CPV",
+          "name": "Cape Verde",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PAN",
+          "name": "Panama",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COM",
+          "name": "Comoros",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DMA",
+          "name": "Dominica",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GNQ",
+          "name": "Equatorial Guinea",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRD",
+          "name": "Grenada",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LCA",
+          "name": "Saint Lucia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TCD",
+          "name": "Chad",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "WSM",
+          "name": "Samoa",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DJI",
+          "name": "Djibouti",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DZA",
+          "name": "Algeria",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDG",
+          "name": "Madagascar",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SDN",
+          "name": "Sudan",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "STP",
+          "name": "São Tomé and Príncipe",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FSM",
+          "name": "Micronesia",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 16,
+        "uncharted": 23,
+        "farflung": 3
+      },
+      "hints": {
+        "answerCount": 46,
+        "farflungCount": 3,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T"
+        ],
+        "topHint": {
+          "initials": "J",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "mongol-empire",
+      "text": "Pin a country whose land was once part of the Mongol Empire",
+      "accepts": "country",
+      "note": "Land the empire or its khanates ruled counts, however briefly, as Gaza did in 1260, and so do kingdoms that became their vassals, as Korea and Georgia did. Vietnam and Japan drove their invaders out.",
+      "gems": [
+        "MMR",
+        "KOR"
+      ],
+      "gemNote": "Kublai Khan's Yuan dynasty held northern Burma as a province for 18 years, and bred horses on Jeju island until 1356.",
+      "answers": [
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.248,
+          "tier": "tourist"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.128,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.099,
+          "tier": "traveller"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.085,
+          "tier": "traveller"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.043,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AFG",
+          "name": "Afghanistan",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GEO",
+          "name": "Georgia",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KGZ",
+          "name": "Kyrgyzstan",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TKM",
+          "name": "Turkmenistan",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGR",
+          "name": "Bulgaria",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBN",
+          "name": "Lebanon",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 12,
+        "uncharted": 13,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 31,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "M",
+          "letters": 8
+        }
+      }
+    },
+    {
+      "id": "leaning-towers",
+      "text": "Pin a country with a tower that leans more steeply than the Leaning Tower of Pisa, by accident or by design",
+      "accepts": "country",
+      "note": "Pisa leans 3.97 degrees; any tower past that counts, ruins and skyscrapers too. Bologna’s Garisenda, about 4, keeps Italy on the list.",
+      "gems": [
+        "CZE"
+      ],
+      "gemNote": "Surveyed in 2026, the ruined castle tower near Mladá Boleslav leans 7.3 degrees, nearly twice Pisa.",
+      "answers": [
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.283,
+          "tier": "tourist"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.131,
+          "tier": "traveller"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.101,
+          "tier": "traveller"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.056,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.051,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 11,
+        "uncharted": 13,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 28,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I",
+          "M",
+          "N",
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "I",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "federation",
+      "text": "Pin a country that is a federation",
+      "accepts": "country",
+      "note": "Only constitutional federations count. Spain and South Africa, sometimes described as federations in practice, are unitary states.",
+      "gems": [
+        "KNA"
+      ],
+      "gemNote": "Two islands, and the smallest federation of all. In 1998 Nevis voted 62% to leave, short of the two-thirds it needed.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.254,
+          "tier": "tourist"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.11,
+          "tier": "traveller"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.101,
+          "tier": "traveller"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.085,
+          "tier": "traveller"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.059,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.055,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.042,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.034,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SOM",
+          "name": "Somalia",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SDN",
+          "name": "Sudan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SSD",
+          "name": "South Sudan",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "COM",
+          "name": "Comoros",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FSM",
+          "name": "Micronesia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 12,
+        "uncharted": 10,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 27,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "G",
+          "I",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "unesco-wine-regions",
+      "text": "Pin a country with a wine-growing landscape on UNESCO’s World Heritage List",
+      "accepts": "country",
+      "note": "Mixed landscapes count, including Mallorca's. Georgia's wine-making tradition is on the separate intangible heritage list.",
+      "gems": [
+        "HRV"
+      ],
+      "gemNote": "On Hvar, Stari Grad Plain still grows grapes and olives within field divisions laid out by Greek settlers 2,400 years ago.",
+      "answers": [
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.465,
+          "tier": "tourist"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.24,
+          "tier": "traveller"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.09,
+          "tier": "traveller"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.07,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.04,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHE",
+          "name": "Switzerland",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.012,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 4,
+        "uncharted": 2,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 10,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "C",
+          "F",
+          "G",
+          "H",
+          "I",
+          "P",
+          "S"
+        ],
+        "topHint": {
+          "initials": "F",
+          "letters": 6
+        }
+      }
+    }
+  ]
+}
