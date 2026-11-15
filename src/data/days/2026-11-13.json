@@ -291,7 +291,7 @@
     },
     {
       "id": "million-sq-km",
-      "text": "Pin a country covering over a million square kilometres",
+      "text": "Pin a country covering over a million square kilometres (territories included, Antarctic claims not)",
       "accepts": "country",
       "note": "Antarctic claims do not count; Greenland counts for Denmark. Thirty countries qualify.",
       "gems": [

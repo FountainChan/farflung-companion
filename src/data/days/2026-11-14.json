@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "highest-peak-volcano",
-      "text": "Pin a country whose highest mountain is a volcano",
+      "text": "Pin a country whose highest mountain is a volcano (territories included, Antarctic claims not)",
       "accepts": "country",
       "note": "Extinct volcanoes and territories count. Indonesia's top, Puncak Jaya, is limestone; the UK's, Mount Paget, is not a volcano.",
       "gems": [
