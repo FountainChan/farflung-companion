@@ -17,19 +17,19 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.249,
+          "share": 0.247,
           "tier": "tourist"
         },
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.093,
+          "share": 0.092,
           "tier": "traveller"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.088,
+          "share": 0.087,
           "tier": "traveller"
         },
         {
@@ -95,19 +95,19 @@
         {
           "code": "BEL",
           "name": "Belgium",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
@@ -249,6 +249,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "IDN",
           "name": "Indonesia",
           "share": 0.002,
@@ -279,6 +285,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "KOR",
           "name": "South Korea",
           "share": 0.002,
@@ -287,6 +299,12 @@
         {
           "code": "NOR",
           "name": "Norway",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
           "share": 0.002,
           "tier": "uncharted"
         },
@@ -317,6 +335,12 @@
         {
           "code": "MKD",
           "name": "North Macedonia",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PAN",
+          "name": "Panama",
           "share": 0.001,
           "tier": "uncharted"
         },
@@ -355,11 +379,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 21,
-        "uncharted": 29,
+        "uncharted": 33,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 56,
+        "answerCount": 60,
         "farflungCount": 3,
         "initials": [
           "A",
@@ -872,55 +896,55 @@
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.429,
+          "share": 0.422,
           "tier": "tourist"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.163,
+          "share": 0.161,
           "tier": "traveller"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.092,
+          "share": 0.09,
           "tier": "traveller"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.051,
+          "share": 0.05,
           "tier": "wayfarer"
         },
         {
           "code": "TWN",
           "name": "Taiwan",
-          "share": 0.051,
+          "share": 0.05,
           "tier": "wayfarer"
         },
         {
           "code": "KOR",
           "name": "South Korea",
-          "share": 0.041,
+          "share": 0.04,
           "tier": "wayfarer"
         },
         {
           "code": "FIN",
           "name": "Finland",
-          "share": 0.031,
+          "share": 0.03,
           "tier": "wayfarer"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.026,
+          "share": 0.025,
           "tier": "wayfarer"
         },
         {
           "code": "SWE",
           "name": "Sweden",
-          "share": 0.026,
+          "share": 0.025,
           "tier": "wayfarer"
         },
         {
@@ -966,6 +990,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
           "code": "SVK",
           "name": "Slovakia",
           "share": 0.005,
@@ -976,23 +1012,36 @@
           "name": "Croatia",
           "share": 0.003,
           "tier": "farflung"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.003,
+          "tier": "uncharted"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 6,
-        "uncharted": 8,
+        "uncharted": 12,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 18,
+        "answerCount": 22,
         "farflungCount": 1,
         "initials": [
           "A",
           "C",
           "F",
           "G",
+          "I",
           "J",
           "N",
           "R",
@@ -1019,31 +1068,31 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.547,
+          "share": 0.556,
           "tier": "tourist"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.119,
+          "share": 0.121,
           "tier": "traveller"
         },
         {
           "code": "BHS",
           "name": "Bahamas",
-          "share": 0.09,
+          "share": 0.091,
           "tier": "traveller"
         },
         {
           "code": "BLZ",
           "name": "Belize",
-          "share": 0.06,
+          "share": 0.061,
           "tier": "wayfarer"
         },
         {
           "code": "MMR",
           "name": "Myanmar",
-          "share": 0.05,
+          "share": 0.051,
           "tier": "wayfarer"
         },
         {
@@ -1061,12 +1110,6 @@
         {
           "code": "DMA",
           "name": "Dominica",
-          "share": 0.015,
-          "tier": "uncharted"
-        },
-        {
-          "code": "LCA",
-          "name": "Saint Lucia",
           "share": 0.015,
           "tier": "uncharted"
         },
@@ -1105,11 +1148,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 4,
-        "uncharted": 6,
+        "uncharted": 5,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 14,
+        "answerCount": 13,
         "farflungCount": 1,
         "initials": [
           "A",

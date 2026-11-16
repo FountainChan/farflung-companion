@@ -328,7 +328,7 @@
       "id": "mongol-empire",
       "text": "Pin a country whose land was once part of the Mongol Empire",
       "accepts": "country",
-      "note": "Land the empire or its khanates ruled counts, however briefly, as Gaza did in 1260, and so do kingdoms that became their vassals, as Korea and Georgia did. Vietnam and Japan drove their invaders out.",
+      "note": "Land the empire or its khanates ruled counts, however briefly, as Gaza did in 1260, and so do kingdoms that became their vassals, as Korea and Georgia did. Japan drove its invaders out.",
       "gems": [
         "MMR",
         "KOR"
@@ -338,31 +338,31 @@
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.248,
+          "share": 0.245,
           "tier": "tourist"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.128,
+          "share": 0.126,
           "tier": "traveller"
         },
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.099,
+          "share": 0.098,
           "tier": "traveller"
         },
         {
           "code": "IRN",
           "name": "Iran",
-          "share": 0.085,
+          "share": 0.084,
           "tier": "traveller"
         },
         {
           "code": "KAZ",
           "name": "Kazakhstan",
-          "share": 0.043,
+          "share": 0.042,
           "tier": "wayfarer"
         },
         {
@@ -374,13 +374,13 @@
         {
           "code": "TUR",
           "name": "Türkiye",
-          "share": 0.032,
+          "share": 0.031,
           "tier": "wayfarer"
         },
         {
           "code": "UZB",
           "name": "Uzbekistan",
-          "share": 0.032,
+          "share": 0.031,
           "tier": "wayfarer"
         },
         {
@@ -398,37 +398,37 @@
         {
           "code": "GEO",
           "name": "Georgia",
-          "share": 0.025,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
           "code": "SYR",
           "name": "Syria",
-          "share": 0.025,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
           "code": "HUN",
           "name": "Hungary",
-          "share": 0.023,
+          "share": 0.022,
           "tier": "wayfarer"
         },
         {
           "code": "PAK",
           "name": "Pakistan",
-          "share": 0.023,
+          "share": 0.022,
           "tier": "wayfarer"
         },
         {
           "code": "KGZ",
           "name": "Kyrgyzstan",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "TJK",
           "name": "Tajikistan",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
@@ -452,7 +452,7 @@
         {
           "code": "IND",
           "name": "India",
-          "share": 0.011,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
@@ -464,7 +464,7 @@
         {
           "code": "BGR",
           "name": "Bulgaria",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
@@ -474,8 +474,20 @@
           "tier": "uncharted"
         },
         {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
           "code": "ROU",
           "name": "Romania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
           "share": 0.006,
           "tier": "uncharted"
         },
@@ -494,7 +506,7 @@
         {
           "code": "JOR",
           "name": "Jordan",
-          "share": 0.004,
+          "share": 0.003,
           "tier": "uncharted"
         },
         {
@@ -526,11 +538,11 @@
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 12,
-        "uncharted": 13,
+        "uncharted": 15,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 31,
+        "answerCount": 33,
         "farflungCount": 2,
         "initials": [
           "A",
@@ -548,7 +560,8 @@
           "R",
           "S",
           "T",
-          "U"
+          "U",
+          "V"
         ],
         "topHint": {
           "initials": "M",
@@ -569,37 +582,37 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.283,
+          "share": 0.277,
           "tier": "tourist"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.131,
+          "share": 0.129,
           "tier": "traveller"
         },
         {
           "code": "ARE",
           "name": "United Arab Emirates",
-          "share": 0.101,
+          "share": 0.099,
           "tier": "traveller"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.056,
+          "share": 0.054,
           "tier": "wayfarer"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.051,
+          "share": 0.05,
           "tier": "wayfarer"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.049,
+          "share": 0.048,
           "tier": "wayfarer"
         },
         {
@@ -669,9 +682,21 @@
           "tier": "uncharted"
         },
         {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
           "code": "SGP",
           "name": "Singapore",
           "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
@@ -729,6 +754,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
           "code": "CZE",
           "name": "Czechia",
           "share": 0.003,
@@ -739,11 +770,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 11,
-        "uncharted": 13,
+        "uncharted": 16,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 28,
+        "answerCount": 31,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -985,25 +1016,25 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.465,
+          "share": 0.46,
           "tier": "tourist"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.24,
+          "share": 0.238,
           "tier": "traveller"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.09,
+          "share": 0.089,
           "tier": "traveller"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.07,
+          "share": 0.069,
           "tier": "wayfarer"
         },
         {
@@ -1022,7 +1053,7 @@
           "code": "HUN",
           "name": "Hungary",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "CHE",
@@ -1041,17 +1072,23 @@
           "name": "Croatia",
           "share": 0.012,
           "tier": "farflung"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.01,
+          "tier": "uncharted"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 2,
-        "wayfarer": 4,
-        "uncharted": 2,
+        "wayfarer": 3,
+        "uncharted": 4,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 10,
+        "answerCount": 11,
         "farflungCount": 1,
         "initials": [
           "A",

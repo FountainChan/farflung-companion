@@ -508,19 +508,19 @@
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.324,
+          "share": 0.32,
           "tier": "tourist"
         },
         {
           "code": "CUB",
           "name": "Cuba",
-          "share": 0.086,
+          "share": 0.085,
           "tier": "traveller"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.065,
+          "share": 0.064,
           "tier": "wayfarer"
         },
         {
@@ -538,25 +538,25 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "TTO",
           "name": "Trinidad and Tobago",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "SYR",
           "name": "Syria",
-          "share": 0.022,
+          "share": 0.021,
           "tier": "wayfarer"
         },
         {
@@ -740,8 +740,20 @@
           "tier": "uncharted"
         },
         {
+          "code": "TUN",
+          "name": "Tunisia",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
           "code": "UGA",
           "name": "Uganda",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
           "share": 0.006,
           "tier": "uncharted"
         },
@@ -822,11 +834,11 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 7,
-        "uncharted": 41,
+        "uncharted": 43,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 52,
+        "answerCount": 54,
         "farflungCount": 2,
         "initials": [
           "A",
