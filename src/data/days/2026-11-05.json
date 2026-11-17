@@ -600,7 +600,7 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.269,
+          "share": 0.268,
           "tier": "tourist"
         },
         {
@@ -696,13 +696,19 @@
         {
           "code": "CRI",
           "name": "Costa Rica",
-          "share": 0.012,
+          "share": 0.011,
           "tier": "farflung"
         },
         {
           "code": "NOR",
           "name": "Norway",
           "share": 0.007,
+          "tier": "farflung"
+        },
+        {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.005,
           "tier": "farflung"
         }
       ],
@@ -711,11 +717,11 @@
         "traveller": 2,
         "wayfarer": 8,
         "uncharted": 5,
-        "farflung": 2
+        "farflung": 3
       },
       "hints": {
-        "answerCount": 18,
-        "farflungCount": 2,
+        "answerCount": 19,
+        "farflungCount": 3,
         "initials": [
           "B",
           "C",

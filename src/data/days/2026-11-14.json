@@ -338,25 +338,25 @@
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.245,
+          "share": 0.243,
           "tier": "tourist"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.126,
+          "share": 0.125,
           "tier": "traveller"
         },
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.098,
+          "share": 0.097,
           "tier": "traveller"
         },
         {
           "code": "IRN",
           "name": "Iran",
-          "share": 0.084,
+          "share": 0.083,
           "tier": "traveller"
         },
         {
@@ -522,6 +522,24 @@
           "tier": "uncharted"
         },
         {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SRB",
+          "name": "Serbia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "KOR",
           "name": "South Korea",
           "share": 0.002,
@@ -538,11 +556,11 @@
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 12,
-        "uncharted": 15,
+        "uncharted": 18,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 33,
+        "answerCount": 36,
         "farflungCount": 2,
         "initials": [
           "A",

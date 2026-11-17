@@ -525,7 +525,7 @@
         {
           "code": "BOL",
           "name": "Bolivia",
-          "share": 0.223,
+          "share": 0.22,
           "tier": "tourist"
         },
         {
@@ -537,13 +537,13 @@
         {
           "code": "BEL",
           "name": "Belgium",
-          "share": 0.079,
+          "share": 0.078,
           "tier": "wayfarer"
         },
         {
           "code": "COL",
           "name": "Colombia",
-          "share": 0.077,
+          "share": 0.076,
           "tier": "wayfarer"
         },
         {
@@ -561,7 +561,7 @@
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.033,
+          "share": 0.032,
           "tier": "wayfarer"
         },
         {
@@ -579,7 +579,7 @@
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.026,
+          "share": 0.025,
           "tier": "wayfarer"
         },
         {
@@ -621,13 +621,13 @@
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
@@ -667,9 +667,15 @@
           "tier": "uncharted"
         },
         {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
           "code": "GTM",
           "name": "Guatemala",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
@@ -717,6 +723,12 @@
         {
           "code": "SEN",
           "name": "Senegal",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
           "share": 0.003,
           "tier": "uncharted"
         },
@@ -779,11 +791,11 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 15,
-        "uncharted": 24,
+        "uncharted": 26,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 42,
+        "answerCount": 44,
         "farflungCount": 1,
         "initials": [
           "A",

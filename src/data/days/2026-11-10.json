@@ -15,7 +15,7 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.26,
+          "share": 0.259,
           "tier": "tourist"
         },
         {
@@ -307,6 +307,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
           "code": "LKA",
           "name": "Sri Lanka",
           "share": 0.001,
@@ -342,11 +354,11 @@
         "traveller": 3,
         "wayfarer": 17,
         "uncharted": 28,
-        "farflung": 5
+        "farflung": 7
       },
       "hints": {
-        "answerCount": 54,
-        "farflungCount": 5,
+        "answerCount": 56,
+        "farflungCount": 7,
         "initials": [
           "A",
           "B",
@@ -1127,6 +1139,12 @@
           "tier": "farflung"
         },
         {
+          "code": "GIN",
+          "name": "Guinea",
+          "share": 0,
+          "tier": "farflung"
+        },
+        {
           "code": "UZB",
           "name": "Uzbekistan",
           "share": 0,
@@ -1138,11 +1156,11 @@
         "traveller": 3,
         "wayfarer": 15,
         "uncharted": 23,
-        "farflung": 3
+        "farflung": 4
       },
       "hints": {
-        "answerCount": 45,
-        "farflungCount": 3,
+        "answerCount": 46,
+        "farflungCount": 4,
         "initials": [
           "A",
           "B",

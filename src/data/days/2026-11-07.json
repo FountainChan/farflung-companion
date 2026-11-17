@@ -508,31 +508,31 @@
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.32,
+          "share": 0.316,
           "tier": "tourist"
         },
         {
           "code": "CUB",
           "name": "Cuba",
-          "share": 0.085,
+          "share": 0.084,
           "tier": "traveller"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.064,
+          "share": 0.063,
           "tier": "wayfarer"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.043,
+          "share": 0.042,
           "tier": "wayfarer"
         },
         {
           "code": "HUN",
           "name": "Hungary",
-          "share": 0.036,
+          "share": 0.035,
           "tier": "wayfarer"
         },
         {
@@ -604,6 +604,12 @@
         {
           "code": "NGA",
           "name": "Nigeria",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
           "share": 0.014,
           "tier": "uncharted"
         },
@@ -834,11 +840,11 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 7,
-        "uncharted": 43,
+        "uncharted": 44,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 54,
+        "answerCount": 55,
         "farflungCount": 2,
         "initials": [
           "A",
