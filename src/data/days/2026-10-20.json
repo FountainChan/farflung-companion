@@ -4,9 +4,9 @@
   "prompts": [
     {
       "id": "letter-z",
-      "text": "Pin a country with a Z in its name",
+      "text": "Pin a country with a Z in its English short name",
       "accepts": "country",
-      "note": "The Z can be anywhere: Switzerland and Tanzania count. Current English short names normally apply. Eswatini counts as an explicit exception for its former name Swaziland, changed in 2018. The Republic of the Congo counts as an exception for the common name Congo-Brazzaville.",
+      "note": "The Z can be anywhere: Switzerland and Tanzania count. Current English short names normally apply. Eswatini counts as an exception, for its former name Swaziland, changed in 2018. The Republic of the Congo counts as an exception for the common name Congo-Brazzaville.",
       "gems": [
         "BIH"
       ],
@@ -368,7 +368,7 @@
       "id": "capital-food",
       "text": "Pin a country whose capital gives its name to a kind of food or drink in English",
       "accepts": "country",
-      "note": "A shared name is enough, whatever its origin: beef Wellington, muscat, sucre, Kingston biscuits and the Warsaw grouper all count. Former and provisional capitals count too, as Rangoon and Aden do, and Jerusalem counts for both Israel and Palestine. Brazil counts as an exception, for the Brazil nut, whose name Brasília shares, and the UAE for Dubai chocolate: Dubai is an emirate's capital, not the country's.",
+      "note": "A shared name is enough, whatever its origin: beef Wellington, muscat, sucre. Former and provisional capitals count, as Rangoon and Aden do, and Jerusalem counts for Israel and Palestine. Brazil counts as an exception, for the Brazil nut, and the UAE for Dubai chocolate.",
       "gems": [
         "SYR"
       ],

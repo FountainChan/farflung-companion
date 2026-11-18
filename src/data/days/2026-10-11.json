@@ -755,7 +755,7 @@
     },
     {
       "id": "costco",
-      "text": "Pin a country or territory with a Costco",
+      "text": "Pin a country or territory with a Costco warehouse store today",
       "accepts": "country_or_territory",
       "note": "Fourteen countries have a Costco warehouse, and one territory: Puerto Rico, with four.",
       "gems": [

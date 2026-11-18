@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "arctic-circle",
-      "text": "Pin a country the Arctic Circle crosses",
+      "text": "Pin a country the Arctic Circle crosses by land",
       "accepts": "country",
       "note": "The line crosses Greenland for Denmark, and Grímsey for Iceland.",
       "gems": [
@@ -462,7 +462,7 @@
     },
     {
       "id": "lollapalooza",
-      "text": "Pin a country that has hosted Lollapalooza",
+      "text": "Pin a country that has hosted the Lollapalooza music festival",
       "accepts": "country",
       "note": "Canada counts for the 1990s touring festival. Announced editions in Israel and Colombia were cancelled before opening.",
       "gems": [

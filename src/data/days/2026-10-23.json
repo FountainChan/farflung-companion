@@ -403,7 +403,7 @@
       "id": "muhammad-ali-fights",
       "text": "Pin a country where Muhammad Ali fought a professional bout",
       "accepts": "country",
-      "note": "Professional bouts count, not exhibitions. Italy is an explicit exception for his amateur Olympic bouts in Rome in 1960, before his professional debut. Puerto Rico counts as the United States.",
+      "note": "Professional bouts count, not exhibitions. Italy counts as an exception, for his amateur Olympic bouts in Rome in 1960. A bout in Puerto Rico counts for the United States.",
       "gems": [
         "IDN",
         "BHS"

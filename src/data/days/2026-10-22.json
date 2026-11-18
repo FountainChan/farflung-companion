@@ -830,9 +830,9 @@
     },
     {
       "id": "plant-on-flag",
-      "text": "Pin a country whose national flag shows a plant",
+      "text": "Pin a country whose national flag shows a plant (variants of national flags count)",
       "accepts": "country",
-      "note": "Flowers, leaves, branches, fruit and wreaths count, in a coat of arms too, on government flags and ensigns as well; a leader's own flag does not. Close calls that count: Belarus's hoist pattern, the twig under Dominica's parrot, Nicaragua's green volcanoes and the koru on New Zealand's national Māori flag, which has no official status.",
+      "note": "Flowers, leaves, branches, fruit and wreaths count, in a coat of arms too, on government flags, ensigns and a parliament’s flags as well; a leader’s own flag does not. Belarus’s hoist pattern, Dominica’s twig, Nicaragua’s volcanoes, Nigeria’s state flag and New Zealand’s Māori flag count as close calls.",
       "gems": [
         "FIN",
         "GRD",
@@ -843,25 +843,25 @@
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.379,
+          "share": 0.369,
           "tier": "tourist"
         },
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.132,
+          "share": 0.129,
           "tier": "traveller"
         },
         {
           "code": "LBN",
           "name": "Lebanon",
-          "share": 0.114,
+          "share": 0.111,
           "tier": "traveller"
         },
         {
           "code": "CYP",
           "name": "Cyprus",
-          "share": 0.047,
+          "share": 0.046,
           "tier": "wayfarer"
         },
         {
@@ -873,19 +873,19 @@
         {
           "code": "BLZ",
           "name": "Belize",
-          "share": 0.024,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
           "code": "HTI",
           "name": "Haiti",
-          "share": 0.024,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
           "code": "NZL",
           "name": "New Zealand",
-          "share": 0.019,
+          "share": 0.018,
           "tier": "uncharted"
         },
         {
@@ -955,27 +955,45 @@
           "tier": "uncharted"
         },
         {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
           "code": "NIC",
           "name": "Nicaragua",
-          "share": 0.008,
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
           "code": "OMN",
           "name": "Oman",
-          "share": 0.008,
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
           "code": "BOL",
           "name": "Bolivia",
-          "share": 0.008,
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
           "code": "VEN",
           "name": "Venezuela",
-          "share": 0.008,
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
@@ -1057,6 +1075,12 @@
           "tier": "farflung"
         },
         {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
           "code": "MUS",
           "name": "Mauritius",
           "share": 0.003,
@@ -1067,12 +1091,12 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 4,
-        "uncharted": 15,
-        "farflung": 15
+        "uncharted": 18,
+        "farflung": 16
       },
       "hints": {
-        "answerCount": 37,
-        "farflungCount": 15,
+        "answerCount": 41,
+        "farflungCount": 16,
         "initials": [
           "A",
           "B",
@@ -1102,7 +1126,7 @@
       "id": "impact-craters-50km",
       "text": "Pin a country with a confirmed meteorite impact crater over 50 kilometres across",
       "accepts": "country",
-      "note": "Buried and eroded craters count at estimated original size. France counts for Rochechouart's disputed 50–80 km estimate. Denmark counts for Greenland's Maniitsoq structure, though its impact origin is disputed. Germany is an explicit smaller-crater exception for Nördlinger Ries, about 25 km across.",
+      "note": "Buried and eroded craters count at estimated original size. France counts for Rochechouart's disputed 50–80 km estimate. Denmark counts for Greenland's Maniitsoq structure, though its impact origin is disputed. Germany counts as an exception, for the Nördlinger Ries, about 25 km across.",
       "gems": [
         "TJK"
       ],

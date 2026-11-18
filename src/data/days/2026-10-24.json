@@ -144,7 +144,7 @@
       "id": "napoleon-battles",
       "text": "Pin a country where Napoleon Bonaparte commanded in a battle",
       "accepts": "country",
-      "note": "Only battles he led in person count, so Portugal and Haiti don’t. Syria is an exception for his Syrian campaign’s name, despite its fighting being outside modern Syria. Slovenia counts as a close call for the 1797 campaign; his personal command there is uncertain.",
+      "note": "Only battles he led in person count, so Portugal and Haiti don’t. Syria counts as an exception, for his Syrian campaign, fought outside today’s Syria. Slovenia counts as a close call for the 1797 campaign; his personal command there is uncertain.",
       "gems": [
         "ISR",
         "BLR"
@@ -661,7 +661,7 @@
       "id": "river-dolphins",
       "text": "Pin a country where river dolphins live in the wild",
       "accepts": "country",
-      "note": "Only river dolphin species count, wherever they live: the Amazon, Ganges, Indus and La Plata river dolphins, the baiji, the tucuxi and the Irrawaddy dolphin. Sea dolphins do not, even up a river. China counts for its baiji, which may be extinct, and its Yangtze finless porpoise; Laos lost its last river dolphin in 2022.",
+      "note": "Only river dolphin species count, wherever they live, the tucuxi and the Irrawaddy dolphin included. Sea dolphins do not, even up a river. China counts for its baiji, which may be extinct, and its Yangtze finless porpoise. Laos lost its last river dolphin in 2022.",
       "gems": [
         "NPL",
         "CHN"

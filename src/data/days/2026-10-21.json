@@ -6,7 +6,7 @@
       "id": "wonders-of-nature",
       "text": "Pin a country with a winner or finalist in the New Seven Wonders of Nature vote",
       "accepts": "country",
-      "note": "All 28 finalists in the 2011 vote count, including the seven winners. The Amazon counts in all nine countries, France for French Guiana; El Yunque counts for the United States through Puerto Rico. Papua New Guinea counts for the campaign’s shared Great Barrier Reef entry with Australia.",
+      "note": "All 28 finalists in the 2011 vote count, including the seven winners. The Amazon counts in all nine countries, France for French Guiana; the United States counts for El Yunque in Puerto Rico. Papua New Guinea counts for the campaign’s shared Great Barrier Reef entry with Australia.",
       "gems": [
         "PHL",
         "FRA"
@@ -268,7 +268,7 @@
       "id": "jesus-statue-20m",
       "text": "Pin a country with a statue of Jesus at least 20 metres tall, not counting its pedestal",
       "accepts": "country",
-      "note": "The figure alone counts, with close calls allowed: Timor-Leste (17 m on a 10 m globe), Cuba (sources disagree whether its 20 m includes the base) and Lebanon (16 m on a 10 m base). Nicaragua’s and Ecuador’s figures are about 15 m.",
+      "note": "The figure alone counts. Timor-Leste (17 m on a 10 m globe), Cuba (sources disagree whether its 20 m includes the base) and Lebanon (16 m on a 10 m base) count as close calls. Nicaragua’s and Ecuador’s figures are about 15 m.",
       "gems": [
         "ROU"
       ],
@@ -612,7 +612,7 @@
       "id": "alexander-the-great",
       "text": "Pin a country whose land was once part of Alexander the Great's empire",
       "accepts": "country",
-      "note": "The land he ruled, if only in name, client kings included, east to the Beas in India. Romania counts as an explicit campaign exception for his 335 BC raid across the Danube, without claiming lasting rule there. Other land he only raided does not count. The United Kingdom counts for its two bases on Cyprus.",
+      "note": "The land he ruled, if only in name, client kings included, east to the Beas in India. Romania counts as an exception, for his raid across the Danube in 335 BC. Other land he only raided does not count. The United Kingdom counts for its two bases on Cyprus.",
       "gems": [
         "TJK"
       ],
@@ -810,7 +810,7 @@
     },
     {
       "id": "jollibee",
-      "text": "Pin a country with a Jollibee today",
+      "text": "Pin a country with a Jollibee fast-food restaurant today",
       "accepts": "country",
       "note": "Hong Kong and Macao count for China. Taiwan and Indonesia had one once, and Australia's first has yet to open.",
       "gems": [

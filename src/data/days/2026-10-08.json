@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "four-letters",
-      "text": "Pin a country whose name has four letters",
+      "text": "Pin a country whose English short name has four letters",
       "accepts": "country_or_territory",
       "note": "Current English short names, as the map labels them: Siam, now Thailand, does not count. Niue counts: it governs itself, in free association with New Zealand.",
       "gems": [

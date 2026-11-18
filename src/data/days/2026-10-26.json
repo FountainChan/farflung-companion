@@ -466,7 +466,7 @@
       "id": "bioluminescent-bays",
       "text": "Pin a country with a bioluminescent bay or lagoon",
       "accepts": "country",
-      "note": "Seasonal blooms count, as do coastal lagoons, including Venezuela's Yapascua. Puerto Rico counts for the United States, and Grand Cayman for the United Kingdom. Norway's fjords are allowed as sheltered sea-inlet close calls, and Greece for the sea-sparkle blooms of Thessaloniki Bay. Nicaragua counts for El Charcón’s tide-fed brackish coastal pool at La Flor.",
+      "note": "Seasonal blooms and coastal lagoons count. The United States counts for Puerto Rico, and the United Kingdom for Grand Cayman. Norway counts as a close call, for its sheltered fjords, and Greece for Thessaloniki Bay’s blooms. Nicaragua counts for a tide-fed pool at La Flor.",
       "gems": [
         "SWE"
       ],
@@ -984,7 +984,7 @@
       "id": "phoenician-settlements",
       "text": "Pin a country where the Phoenicians founded a settlement",
       "accepts": "country",
-      "note": "Trading communities and Carthaginian colonies count. France is allowed for the Phoenician community at Aléria in Corsica, although Greeks founded the town. Countries follow today's borders.",
+      "note": "Trading communities and Carthaginian colonies count. France counts as a close call, for the Phoenician community at Aléria in Corsica, though Greeks founded the town. Countries follow today's borders.",
       "gems": [
         "PRT"
       ],

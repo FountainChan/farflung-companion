@@ -387,7 +387,7 @@
     },
     {
       "id": "soviet",
-      "text": "Pin a country that was a member of the Soviet Union",
+      "text": "Pin a country that was once part of the Soviet Union",
       "accepts": "country",
       "note": "The Soviet Union broke up in 1991. Its 15 republics are now 15 countries.",
       "gems": [

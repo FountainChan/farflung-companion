@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "one-syllable",
-      "text": "Pin a country whose name is one syllable",
+      "text": "Pin a country whose English short name is one syllable",
       "accepts": "country",
       "note": "Countries’ current English names, said the usual English way. Laos counts: English dictionaries give it one syllable.",
       "gems": [

@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "commonwealth",
-      "text": "Pin a country in the Commonwealth",
+      "text": "Pin a country in the Commonwealth of Nations",
       "accepts": "country",
       "note": "Ireland and Zimbabwe left. Mozambique and Rwanda joined, though neither was a British colony.",
       "gems": [
@@ -776,7 +776,7 @@
     },
     {
       "id": "nba-mvp-born",
-      "text": "Pin a country where an NBA regular-season MVP was born",
+      "text": "Pin a country where a basketball player named the NBA's regular-season Most Valuable Player was born",
       "accepts": "country",
       "note": "Where a player was born counts, not the country they played for. Tony Parker's Finals MVP and Kyrie Irving's All-Star MVP are other awards.",
       "gems": [
@@ -860,7 +860,7 @@
       "id": "shared-island",
       "text": "Pin a country that shares an island in the sea with another country",
       "accepts": "country",
-      "note": "Bare and man-made islets count, such as Hans Island, but river and lake islands don’t. The United States counts as an exception for its leased base at Guantánamo Bay on Cuba; Cuba retains sovereignty over the land. Turkey is on the list only because the card didn’t say whose land the island must be, so pins on it for northern Cyprus keep their points. The Río de la Plata counts as the sea, so Uruguay counts for Timoteo Domínguez, which silt joined to Argentina’s Martín García in the 1980s.",
+      "note": "Bare and man-made islets count, such as Hans Island; river and lake islands don’t. The Río de la Plata counts as the sea, so Uruguay counts. The United States counts as an exception, for Guantánamo Bay, and Turkey for northern Cyprus.",
       "gems": [
         "CAN",
         "DNK"

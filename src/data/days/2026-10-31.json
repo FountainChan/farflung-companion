@@ -6,7 +6,7 @@
       "id": "witchcraft-executions",
       "text": "Pin a country where someone was executed for witchcraft",
       "accepts": "country",
-      "note": "An execution after a sentence counts where it happened, from ancient Athens to Islamic State's courts and village councils. Killings of accused witches by mobs do not. Nigeria counts as a close call for a fatal ordeal following an Efen Clan Council witchcraft trial in 2017, without a separately established death sentence. Jamaica counts for colonial executions after obeah convictions.",
+      "note": "An execution after a sentence counts where it happened, from ancient Athens to village councils. Killings by mobs do not. Nigeria counts as a close call, for a fatal ordeal after a clan council’s trial in 2017. Jamaica counts for colonial executions for obeah.",
       "gems": [
         "SAU",
         "LIE"
@@ -499,9 +499,9 @@
     },
     {
       "id": "pumpkin-top-ten-growers",
-      "text": "Pin a country among the ten that grow the most pumpkins",
+      "text": "Pin a country in the top ten for pumpkin production in 2024",
       "accepts": "country",
-      "note": "By weight of pumpkins, squash and gourds grown in 2024. Mexico, eleventh by a whisker, was ninth the year before, so it counts too.",
+      "note": "By weight of pumpkins, squash and gourds. Mexico counts as an exception: eleventh by a whisker in 2024, it was ninth the year before.",
       "gems": [
         "EGY"
       ],

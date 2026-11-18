@@ -6,7 +6,7 @@
       "id": "bird-flag",
       "text": "Pin a country with a bird on its national flag (variants of national flags count)",
       "accepts": "country",
-      "note": "Government flags count, birds in their coats of arms too; naval ensigns do not. Liechtenstein counts for its government and parliament's standard, Colombia for its war flag, and Armenia as an exception for the eagle on its coat of arms. The United States counts as an exception, for the eagles on its states' flags, and the UAE for the falcon on its president's flag.",
+      "note": "Government flags and naval ensigns count, birds in their coats of arms too. Liechtenstein and the Bahamas count for their parliaments’ flags and Colombia for its war flag. Armenia counts as an exception, for its coat of arms, the United States for its states’ flags and the UAE for its president’s flag.",
       "gems": [
         "FJI"
       ],
@@ -15,25 +15,25 @@
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.248,
+          "share": 0.244,
           "tier": "tourist"
         },
         {
           "code": "ALB",
           "name": "Albania",
-          "share": 0.095,
+          "share": 0.094,
           "tier": "traveller"
         },
         {
           "code": "EGY",
           "name": "Egypt",
-          "share": 0.086,
+          "share": 0.085,
           "tier": "traveller"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.048,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
@@ -81,19 +81,19 @@
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "UGA",
           "name": "Uganda",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "ZWE",
           "name": "Zimbabwe",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
@@ -111,13 +111,13 @@
         {
           "code": "ARE",
           "name": "United Arab Emirates",
-          "share": 0.019,
+          "share": 0.018,
           "tier": "uncharted"
         },
         {
           "code": "COL",
           "name": "Colombia",
-          "share": 0.019,
+          "share": 0.018,
           "tier": "uncharted"
         },
         {
@@ -147,13 +147,37 @@
         {
           "code": "FJI",
           "name": "Fiji",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "farflung"
         },
         {
           "code": "ARM",
           "name": "Armenia",
           "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.003,
           "tier": "uncharted"
         },
         {
@@ -167,11 +191,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 13,
-        "uncharted": 8,
+        "uncharted": 12,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 25,
+        "answerCount": 29,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -184,6 +208,7 @@
           "K",
           "L",
           "M",
+          "N",
           "P",
           "S",
           "U",
@@ -197,7 +222,7 @@
     },
     {
       "id": "tim-hortons",
-      "text": "Pin a country that has had a Tim Hortons outlet",
+      "text": "Pin a country that has had an outlet of the Tim Hortons coffee chain",
       "accepts": "country",
       "note": "Past and present outlets count, including licensed counters and military kiosks.",
       "gems": [

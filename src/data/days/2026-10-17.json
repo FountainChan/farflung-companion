@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "more-sheep-than-people",
-      "text": "Pin a country with more sheep than people",
+      "text": "Pin a country with more sheep than people (territories included)",
       "accepts": "country",
       "note": "A country counts all its land, so the Falklands’ half a million sheep leave the United Kingdom far short. Iceland counts for its summer flock.",
       "gems": [
@@ -112,7 +112,7 @@
       "id": "pixar-setting",
       "text": "Pin a country where a Pixar film is set",
       "accepts": "country",
-      "note": "Any country where a feature or a short sets part of its story, so Cars 2’s races and its stop in Paris count. Brave’s Scotland is the United Kingdom, and the Himalayas that Monsters, Inc. sends Mike and Sulley to count for Nepal. Cars 2’s Porto Corsa, drawn from Monte Carlo and its Grand Prix, counts for Monaco. Every country whose landmarks Cars 2’s end credits visit counts too, which adds Switzerland, Germany, Russia, Egypt, India and China.",
+      "note": "Any country where a feature or a short sets part of its story. Brave’s Scotland is the United Kingdom, and Monaco counts for Cars 2’s Porto Corsa. So does every country whose landmarks Cars 2’s end credits visit.",
       "gems": [
         "VEN"
       ],
@@ -260,9 +260,9 @@
     },
     {
       "id": "compass-in-name",
-      "text": "Pin a country with north, south, east or west in its name (in English or its own language)",
+      "text": "Pin a country with north, south, east or west in its name, in English or its own language",
       "accepts": "country",
-      "note": "A name in English or the country's own language counts, in full or by its roots: Australia comes from the Latin for southern. Western Sahara counts by its name, though it is disputed ground. Northern Cyprus counts as a historical exception by its own name; the rest of Cyprus and Turkey do not.",
+      "note": "A name in English or the country's own language counts, in full or by its roots: Australia comes from the Latin for southern. Western Sahara counts by its name, though it is disputed ground. Northern Cyprus counts as an exception, by its own name; the rest of Cyprus and Turkey do not.",
       "gems": [
         "TLS",
         "MKD"
@@ -597,7 +597,7 @@
       "id": "never-invaded-by-britain",
       "text": "Pin a country Britain has never invaded",
       "accepts": "country",
-      "note": "A country counts if no British force ever went in by force: no war, raid, landing or occupation without consent. Coming by treaty or invitation, as in Tonga and Bahrain, is not an invasion, nor are peacekeepers, shelling from the sea or troops arriving after a surrender. Ukraine, Finland and Fiji count as exceptions, because the fighting on their land came before their independence, and the United Kingdom counts as itself.",
+      "note": "A country counts if no British force ever went in by force. Coming by treaty or invitation, as in Tonga and Bahrain, is no invasion, nor are peacekeepers, shelling from the sea or troops arriving after a surrender. Ukraine, Finland and Fiji count as exceptions, for fighting before their independence. The United Kingdom counts as itself.",
       "gems": [
         "SWE"
       ],

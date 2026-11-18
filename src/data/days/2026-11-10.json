@@ -1186,9 +1186,9 @@
     },
     {
       "id": "unique-national-script",
-      "text": "Pin a country whose official language uses an alphabet or script that no other country uses for a national official language",
+      "text": "Pin a country whose official language uses an alphabet or script that no other country uses for a nationwide official language",
       "accepts": "country",
-      "note": "National official languages only. Greek, Hangul, Ge’ez and Tifinagh are shared; Tibetan and Bengali are regional in China and India. Mongolia’s traditional script has been co-official since 2025. Latin alphabets with extra letters count.",
+      "note": "Nationwide official languages only. Greek, Hangul, Ge’ez and Tifinagh are shared; Tibetan and Bengali are regional in China and India. Mongolia’s traditional script has been co-official since 2025. Latin alphabets with extra letters count.",
       "gems": [
         "MDV"
       ],

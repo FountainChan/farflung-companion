@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "ikea",
-      "text": "Pin a country that currently has an IKEA store",
+      "text": "Pin a country with an IKEA store today",
       "accepts": "country_or_territory",
       "note": "Full stores count. Russia's closed in 2022, and Ukraine's has been shut since the 2022 invasion.",
       "gems": [
@@ -1061,7 +1061,7 @@
       "id": "contains-country",
       "text": "Pin a country whose name on the map contains another country's name",
       "accepts": "country_or_territory",
-      "note": "Letter for letter, by the current English short names on the map. South Georgia, American Samoa and Northern Cyprus count by their own names. Taiwan and China count for their official names: the Republic of China has China in it, and the People’s Republic of China has the Republic of China in it. The United Kingdom is on the list only for Ireland in its full name, the United Kingdom of Great Britain and Northern Ireland, so pins on it keep their points.",
+      "note": "Letter for letter, by the English short names on the map. South Georgia, American Samoa and Northern Cyprus count by their own names, and Taiwan and China by their official ones. The United Kingdom counts as an exception, for Ireland in its full name.",
       "gems": [
         "ROU",
         "SOM"

@@ -4,9 +4,9 @@
   "prompts": [
     {
       "id": "national-flags-crosses",
-      "text": "Pin a country with a cross on its national flag today",
+      "text": "Pin a country with a cross on its national flag (variants of national flags count)",
       "accepts": "country",
-      "note": "Diagonal, heraldic and constellation crosses count, including on state flags and co-official variants. Portugal’s five shields form a cross, and the Southern Cross counts. Italy counts for the crosses on its official naval ensign.",
+      "note": "Diagonal, heraldic and constellation crosses count, including on state flags and co-official variants. Portugal’s five shields form a cross, and the Southern Cross counts. Naval ensigns count, as Italy’s and Russia’s do.",
       "gems": [
         "MHL"
       ],
@@ -15,19 +15,19 @@
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.131,
+          "share": 0.127,
           "tier": "tourist"
         },
         {
           "code": "SWE",
           "name": "Sweden",
-          "share": 0.131,
+          "share": 0.127,
           "tier": "tourist"
         },
         {
           "code": "CHE",
           "name": "Switzerland",
-          "share": 0.085,
+          "share": 0.084,
           "tier": "traveller"
         },
         {
@@ -39,25 +39,25 @@
         {
           "code": "NOR",
           "name": "Norway",
-          "share": 0.083,
+          "share": 0.081,
           "tier": "wayfarer"
         },
         {
           "code": "FIN",
           "name": "Finland",
-          "share": 0.082,
+          "share": 0.08,
           "tier": "wayfarer"
         },
         {
           "code": "ISL",
           "name": "Iceland",
-          "share": 0.082,
+          "share": 0.08,
           "tier": "wayfarer"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.039,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
@@ -69,7 +69,7 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
@@ -81,31 +81,31 @@
         {
           "code": "GEO",
           "name": "Georgia",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "JAM",
           "name": "Jamaica",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "DOM",
           "name": "Dominican Republic",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
@@ -163,6 +163,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
           "code": "VAT",
           "name": "Vatican City",
           "share": 0.004,
@@ -193,14 +199,38 @@
           "tier": "uncharted"
         },
         {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "LTU",
           "name": "Lithuania",
           "share": 0.003,
           "tier": "uncharted"
         },
         {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "LIE",
           "name": "Liechtenstein",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
           "share": 0.002,
           "tier": "uncharted"
         },
@@ -229,6 +259,48 @@
           "tier": "farflung"
         },
         {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "BRB",
+          "name": "Barbados",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
           "code": "GRD",
           "name": "Grenada",
           "share": 0.001,
@@ -239,12 +311,12 @@
         "tourist": 2,
         "traveller": 2,
         "wayfarer": 7,
-        "uncharted": 21,
-        "farflung": 5
+        "uncharted": 26,
+        "farflung": 12
       },
       "hints": {
-        "answerCount": 37,
-        "farflungCount": 5,
+        "answerCount": 49,
+        "farflungCount": 12,
         "initials": [
           "A",
           "B",
@@ -258,6 +330,7 @@
           "M",
           "N",
           "P",
+          "R",
           "S",
           "T",
           "U",
@@ -271,7 +344,7 @@
     },
     {
       "id": "disney-universal",
-      "text": "Pin a country with a Disney or Universal theme park open today",
+      "text": "Pin a country with a Disney or Universal theme park today",
       "accepts": "country",
       "note": "Disney's Abu Dhabi park and Universal's English one are still to come. Hong Kong Disneyland counts for China.",
       "gems": [

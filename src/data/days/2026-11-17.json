@@ -318,7 +318,7 @@
       "id": "league-mandates",
       "text": "Pin a country whose land was once under a League of Nations mandate",
       "accepts": "country",
-      "note": "Any land once inside a mandate counts, so Turkey does for Hatay. Germany's Saar, run by the League itself, was never a mandate.",
+      "note": "Any land once in a mandate counts: Turkey for Hatay, and Lithuania, a close call, for Memel. The League itself ran the Saar and Danzig.",
       "gems": [
         "NRU",
         "USA"
@@ -328,19 +328,19 @@
         {
           "code": "ISR",
           "name": "Israel",
-          "share": 0.252,
+          "share": 0.25,
           "tier": "tourist"
         },
         {
           "code": "IRQ",
           "name": "Iraq",
-          "share": 0.107,
+          "share": 0.106,
           "tier": "traveller"
         },
         {
           "code": "SYR",
           "name": "Syria",
-          "share": 0.107,
+          "share": 0.106,
           "tier": "traveller"
         },
         {
@@ -358,13 +358,13 @@
         {
           "code": "LBN",
           "name": "Lebanon",
-          "share": 0.068,
+          "share": 0.067,
           "tier": "wayfarer"
         },
         {
           "code": "NAM",
           "name": "Namibia",
-          "share": 0.044,
+          "share": 0.043,
           "tier": "wayfarer"
         },
         {
@@ -412,13 +412,13 @@
         {
           "code": "BDI",
           "name": "Burundi",
-          "share": 0.014,
+          "share": 0.013,
           "tier": "uncharted"
         },
         {
           "code": "WSM",
           "name": "Samoa",
-          "share": 0.014,
+          "share": 0.013,
           "tier": "uncharted"
         },
         {
@@ -446,6 +446,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
           "code": "NGA",
           "name": "Nigeria",
           "share": 0.006,
@@ -468,11 +474,11 @@
         "tourist": 1,
         "traveller": 4,
         "wayfarer": 9,
-        "uncharted": 7,
+        "uncharted": 8,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 23,
+        "answerCount": 24,
         "farflungCount": 2,
         "initials": [
           "B",

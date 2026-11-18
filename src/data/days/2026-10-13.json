@@ -181,7 +181,7 @@
       "id": "crescent-flag",
       "text": "Pin a country whose flag has a crescent",
       "accepts": "country",
-      "note": "A crescent inside an emblem or coat of arms counts, as on Iran's and Mongolia's flags. Laos and Palau fly full moons. Western Sahara counts for the Sahrawi Republic's flag, though it is disputed ground, and Northern Cyprus for its own, as the card did not say a national flag.",
+      "note": "A crescent inside an emblem or coat of arms counts, as on Iran's and Mongolia's flags. Laos and Palau fly full moons. Western Sahara counts for the Sahrawi Republic's flag, though it is disputed ground, and Northern Cyprus as an exception, for its own.",
       "gems": [
         "HRV",
         "MDA"
@@ -191,31 +191,31 @@
         {
           "code": "TUR",
           "name": "Türkiye",
-          "share": 0.41,
+          "share": 0.409,
           "tier": "tourist"
         },
         {
           "code": "PAK",
           "name": "Pakistan",
-          "share": 0.144,
+          "share": 0.143,
           "tier": "traveller"
         },
         {
           "code": "DZA",
           "name": "Algeria",
-          "share": 0.062,
+          "share": 0.061,
           "tier": "wayfarer"
         },
         {
           "code": "MYS",
           "name": "Malaysia",
-          "share": 0.062,
+          "share": 0.061,
           "tier": "wayfarer"
         },
         {
           "code": "TUN",
           "name": "Tunisia",
-          "share": 0.062,
+          "share": 0.061,
           "tier": "wayfarer"
         },
         {
@@ -309,6 +309,12 @@
           "tier": "farflung"
         },
         {
+          "code": "LIE",
+          "name": "Liechtenstein",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "MDA",
           "name": "Moldova",
           "share": 0.003,
@@ -319,11 +325,11 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 6,
-        "uncharted": 11,
+        "uncharted": 12,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 21,
+        "answerCount": 22,
         "farflungCount": 2,
         "initials": [
           "A",
@@ -347,7 +353,7 @@
     },
     {
       "id": "mekong",
-      "text": "Pin a country the Mekong flows through",
+      "text": "Pin a country the Mekong flows through or along",
       "accepts": "country",
       "note": "Six countries. A bank is enough: Myanmar and Thailand only ever border it.",
       "gems": [
@@ -417,9 +423,9 @@
     },
     {
       "id": "capital-same-letter",
-      "text": "Pin a country whose capital starts with the same letter as its name",
+      "text": "Pin a country whose capital starts with the same letter as its English name, short or official",
       "accepts": "country",
-      "note": "Both names as English has them today, by the short name or the official one: the Commonwealth of Australia and Canberra, the Republic of Latvia and Riga, the Islamic Republic of Pakistan and Islamabad, the Democratic Republic of Timor-Leste and Dili. With two capitals, either can match, as in Sri Lanka and Burundi. Israel is on the list only because the card didn’t say English, so pins on it for the Hebrew names keep their points.",
+      "note": "By the English name, short or official: Australia, Latvia, Pakistan and Timor-Leste count by the official one, as in the Commonwealth of Australia and Canberra. With two capitals, either can match, as in Sri Lanka and Burundi. Israel counts as an exception, for its Hebrew names.",
       "gems": [
         "LKA"
       ],

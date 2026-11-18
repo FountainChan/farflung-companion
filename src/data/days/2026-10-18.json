@@ -274,7 +274,7 @@
       "id": "viking-settlements",
       "text": "Pin a country where the Vikings built a settlement",
       "accepts": "country",
-      "note": "Their homelands count, and Greenland and the Faroe Islands are Denmark. The Normans of Sicily came later, so Italy does not. Portugal counts for the disputed scholarly case for Norse settlers in the Azores around 700–850. Estonia also counts as a close call: researchers suggest a possible Scandinavian settlement near Salme, but it has not been established.",
+      "note": "Their homelands count, and Denmark counts for Greenland and the Faroe Islands. The Normans of Sicily came later, so Italy does not. Portugal counts as a close call, for signs of Norse settlers in the Azores, and Estonia for a possible settlement near Salme.",
       "gems": [
         "DEU"
       ],
@@ -543,7 +543,7 @@
       "id": "antarctic-station",
       "text": "Pin a country that runs a research station in Antarctica",
       "accepts": "country",
-      "note": "Summer-only stations count, and so do Turkey’s camp and the Dutch lab at Britain’s Rothera. Romania’s lease of Law Base ended in 2015. Pakistan is an exception for its established Jinnah station, with reactivation still an objective of its Antarctic programme. The United Arab Emirates counts for its laboratory at Bulgaria’s base on Livingston Island, opened in February 2026.",
+      "note": "Summer-only stations count, and so do Turkey’s camp, the Dutch lab at Britain’s Rothera and the UAE’s at Bulgaria’s base. Romania’s lease of Law Base ended in 2015. Pakistan counts as an exception, for its Jinnah station, which it means to reopen.",
       "gems": [
         "UKR"
       ],

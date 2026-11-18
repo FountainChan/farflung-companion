@@ -89,7 +89,7 @@
       "id": "traditional-horse-archery",
       "text": "Pin a country that has had its own traditional horseback archery sport",
       "accepts": "country",
-      "note": "Historical games and local revivals count, including Japan's ritual yabusame and North America's mounted-archery heritage. Britain's modern sport is allowed as a revival of historical mounted archery.",
+      "note": "Historical games and local revivals count, including Japan's ritual yabusame and North America's mounted-archery heritage. The United Kingdom counts as a close call, for a modern revival of historical mounted archery.",
       "gems": [
         "GEO"
       ],
@@ -365,7 +365,7 @@
     },
     {
       "id": "the-office-local-adaptations",
-      "text": "Pin a country that has made its own version of The Office",
+      "text": "Pin a country that has made its own version of the TV comedy The Office",
       "accepts": "country",
       "note": "Britain's original counts, and so does Germany's Stromberg. Close copies made without a licence count too: Brazil's Os Aspones, Norway's Etaten and Hungary's Munkaügyek.",
       "gems": [

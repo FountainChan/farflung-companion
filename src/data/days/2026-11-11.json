@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "island-nations",
-      "text": "Pin a country located entirely on islands (Overseas territories don’t affect island status)",
+      "text": "Pin an island country (territories not counted)",
       "accepts": "country",
       "note": "Australia is a continent here, not an island. The UK counts even with Gibraltar.",
       "gems": [
@@ -333,7 +333,7 @@
     },
     {
       "id": "time-zones",
-      "text": "Pin a country with more than one official time zone",
+      "text": "Pin a country with more than one official time zone (territories included)",
       "accepts": "country",
       "note": "Overseas territories count, so the UK and Denmark do. China keeps one official zone, and Kazakhstan unified to one in 2024.",
       "gems": [
@@ -508,9 +508,9 @@
     },
     {
       "id": "borders-two",
-      "text": "Pin a country that borders exactly two others",
+      "text": "Pin a country that borders exactly two others (territories included)",
       "accepts": "country",
-      "note": "Canada and Denmark count via Hans Island (2022), and Morocco counts without Western Sahara. The UK borders three with Cyprus bases.",
+      "note": "Canada and Denmark count for their border on Hans Island, drawn in 2022, and Morocco counts without Western Sahara. The UK borders three with its Cyprus bases, and the Netherlands three with Sint Maarten.",
       "gems": [
         "BGD",
         "SWZ"
@@ -520,103 +520,97 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.199,
+          "share": 0.212,
           "tier": "tourist"
         },
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.109,
+          "share": 0.115,
           "tier": "traveller"
         },
         {
           "code": "NPL",
           "name": "Nepal",
-          "share": 0.081,
-          "tier": "wayfarer"
-        },
-        {
-          "code": "NLD",
-          "name": "Netherlands",
-          "share": 0.054,
+          "share": 0.082,
           "tier": "wayfarer"
         },
         {
           "code": "SWE",
           "name": "Sweden",
-          "share": 0.054,
+          "share": 0.058,
           "tier": "wayfarer"
         },
         {
           "code": "AND",
           "name": "Andorra",
-          "share": 0.045,
+          "share": 0.048,
           "tier": "wayfarer"
         },
         {
           "code": "BTN",
           "name": "Bhutan",
-          "share": 0.045,
+          "share": 0.048,
           "tier": "wayfarer"
         },
         {
           "code": "URY",
           "name": "Uruguay",
-          "share": 0.045,
+          "share": 0.048,
           "tier": "wayfarer"
         },
         {
           "code": "ECU",
           "name": "Ecuador",
-          "share": 0.036,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
           "code": "LIE",
           "name": "Liechtenstein",
-          "share": 0.036,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
           "code": "CRI",
           "name": "Costa Rica",
-          "share": 0.027,
+          "share": 0.029,
           "tier": "wayfarer"
         },
         {
           "code": "PAN",
           "name": "Panama",
-          "share": 0.027,
+          "share": 0.029,
           "tier": "wayfarer"
         },
         {
           "code": "KWT",
           "name": "Kuwait",
-          "share": 0.023,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
           "code": "LBN",
           "name": "Lebanon",
-          "share": 0.023,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
           "code": "EST",
           "name": "Estonia",
-          "share": 0.018,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "MDA",
           "name": "Moldova",
-          "share": 0.018,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "NIC",
           "name": "Nicaragua",
-          "share": 0.018,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
@@ -664,49 +658,49 @@
         {
           "code": "YEM",
           "name": "Yemen",
-          "share": 0.011,
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
           "code": "SLE",
           "name": "Sierra Leone",
-          "share": 0.009,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
           "code": "GNB",
           "name": "Guinea-Bissau",
-          "share": 0.007,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
           "code": "GNQ",
           "name": "Equatorial Guinea",
-          "share": 0.007,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
           "code": "BGD",
           "name": "Bangladesh",
-          "share": 0.005,
+          "share": 0.006,
           "tier": "farflung"
         },
         {
           "code": "SWZ",
           "name": "Eswatini",
-          "share": 0.005,
+          "share": 0.006,
           "tier": "farflung"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 1,
-        "wayfarer": 12,
+        "wayfarer": 11,
         "uncharted": 14,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 30,
+        "answerCount": 29,
         "farflungCount": 2,
         "initials": [
           "A",

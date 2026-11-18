@@ -6,7 +6,7 @@
       "id": "natural-salt-flats",
       "text": "Pin a country with a natural salt flat",
       "accepts": "country",
-      "note": "Seasonal pans and coastal flats count; built ponds alone do not. Bonaire qualifies the Netherlands, Akrotiri the UK.",
+      "note": "Seasonal pans and coastal flats count; built ponds alone do not. The Netherlands counts for Bonaire, and the UK for Akrotiri.",
       "gems": [
         "NZL"
       ],
@@ -745,7 +745,7 @@
     },
     {
       "id": "g20",
-      "text": "Pin a country in the G20",
+      "text": "Pin a country in the G20, the group of major economies",
       "accepts": "country",
       "note": "The EU and African Union are members too, but their other countries are not. Spain and Poland are guests.",
       "gems": [

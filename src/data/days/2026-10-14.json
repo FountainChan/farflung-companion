@@ -160,7 +160,7 @@
     },
     {
       "id": "brics",
-      "text": "Pin a country in BRICS",
+      "text": "Pin a country in BRICS, the group of major emerging economies",
       "accepts": "country",
       "note": "Saudi Arabia counts: BRICS lists it as a member, though it has never confirmed. Partners such as Nigeria and Malaysia do not.",
       "gems": [
@@ -262,9 +262,9 @@
     },
     {
       "id": "double-letter",
-      "text": "Pin a country whose name has a double letter (the same letter twice in a row)",
+      "text": "Pin a country whose English name, short or official, has the same letter twice in a row",
       "accepts": "country",
-      "note": "The country’s English name, as the map labels it or as its official name, so Brunei Darussalam counts for Brunei and the Swiss Confederation for Switzerland. Letters either side of a space or hyphen count too, so Antigua and Barbuda and the Co-operative Republic of Guyana do. A part’s name, like Greenland’s, does not count for its country. Japan is on the list only because the card didn’t say English, so pins on it for Nippon keep their points.",
+      "note": "The English name, short or official: Brunei Darussalam counts, and the Swiss Confederation. Letters either side of a space or hyphen count too, as in Antigua and Barbuda. A part’s name, like Greenland’s, does not. Japan counts as an exception, for Nippon.",
       "gems": [
         "KNA"
       ],
@@ -273,43 +273,43 @@
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.358,
+          "share": 0.354,
           "tier": "tourist"
         },
         {
           "code": "GRC",
           "name": "Greece",
-          "share": 0.167,
+          "share": 0.165,
           "tier": "traveller"
         },
         {
           "code": "PHL",
           "name": "Philippines",
-          "share": 0.143,
+          "share": 0.142,
           "tier": "traveller"
         },
         {
           "code": "MAR",
           "name": "Morocco",
-          "share": 0.072,
+          "share": 0.071,
           "tier": "wayfarer"
         },
         {
           "code": "CMR",
           "name": "Cameroon",
-          "share": 0.06,
+          "share": 0.059,
           "tier": "wayfarer"
         },
         {
           "code": "SLE",
           "name": "Sierra Leone",
-          "share": 0.048,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
           "code": "AND",
           "name": "Andorra",
-          "share": 0.036,
+          "share": 0.035,
           "tier": "wayfarer"
         },
         {
@@ -345,7 +345,7 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
@@ -385,8 +385,26 @@
           "tier": "uncharted"
         },
         {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "GUY",
           "name": "Guyana",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
           "share": 0.002,
           "tier": "uncharted"
         }
@@ -395,19 +413,21 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 4,
-        "uncharted": 12,
+        "uncharted": 15,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 20,
+        "answerCount": 23,
         "farflungCount": 1,
         "initials": [
           "A",
           "B",
           "C",
           "D",
+          "F",
           "G",
           "J",
+          "L",
           "M",
           "P",
           "R",
@@ -556,7 +576,7 @@
     },
     {
       "id": "tallest-buildings",
-      "text": "Pin a country with one of the world’s ten tallest buildings",
+      "text": "Pin a country with one of the world’s ten tallest buildings today",
       "accepts": "country",
       "note": "Finished buildings, measured to the top of the structure. Taipei 101 is now eleventh. Towers such as Tokyo Skytree are not buildings.",
       "gems": [

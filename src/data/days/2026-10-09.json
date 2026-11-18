@@ -451,7 +451,7 @@
       "id": "portuguese",
       "text": "Pin a country where Portuguese is an official language",
       "accepts": "country",
-      "note": "Portuguese spread with Portugal's empire and is official in nine countries. China counts for Macao, where it is still official.",
+      "note": "Portuguese spread with Portugal's empire and is official in nine countries. China counts as an exception, for Macao, where it is still official.",
       "gems": [
         "STP",
         "TLS",
@@ -1002,7 +1002,7 @@
     },
     {
       "id": "yugoslavia",
-      "text": "Pin a country that was part of Yugoslavia",
+      "text": "Pin a country that was once part of Yugoslavia",
       "accepts": "country",
       "note": "Yugoslavia broke up from 1991. Its six republics are now six countries. Kosovo, then a province of Serbia, declared independence in 2008 and counts.",
       "gems": [

@@ -379,7 +379,7 @@
     },
     {
       "id": "tropic-capricorn",
-      "text": "Pin a country the Tropic of Capricorn crosses",
+      "text": "Pin a country the Tropic of Capricorn crosses by land",
       "accepts": "country",
       "note": "The line is at about 23.4° south. On the December solstice the midday sun is directly overhead along it.",
       "gems": [
@@ -476,7 +476,7 @@
     },
     {
       "id": "legoland",
-      "text": "Pin a country with a Legoland park",
+      "text": "Pin a country with a Legoland park today",
       "accepts": "country",
       "note": "Italy's is a water park, and counts. The indoor Discovery Centres are not parks and do not count.",
       "gems": [
@@ -575,7 +575,7 @@
       "id": "eras-tour",
       "text": "Pin a country that hosted a Taylor Swift Eras Tour concert",
       "accepts": "country",
-      "note": "Austria does not count: its three shows in Vienna were cancelled. England, Scotland and Wales all pin as the United Kingdom.",
+      "note": "Austria does not count: its three shows in Vienna were cancelled. Shows in England, Scotland and Wales count for the United Kingdom.",
       "gems": [
         "POL"
       ],

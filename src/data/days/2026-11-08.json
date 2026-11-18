@@ -6,7 +6,7 @@
       "id": "type-g-plugs",
       "text": "Pin a country that uses Type G electrical plugs",
       "accepts": "country",
-      "note": "Type G use counts, including mixed systems; universal sockets alone do not. China qualifies through Hong Kong and Macao.",
+      "note": "Type G use counts, including mixed systems; universal sockets alone do not. China counts for Hong Kong and Macao.",
       "gems": [
         "DMA"
       ],

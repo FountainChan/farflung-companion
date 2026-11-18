@@ -6,7 +6,7 @@
       "id": "world-cup-hosts",
       "text": "Pin a country that has hosted the men's FIFA World Cup",
       "accepts": "country",
-      "note": "Canada joined the list in 2026. Morocco, Portugal and Paraguay host for the first time in 2030.",
+      "note": "Canada hosted for the first time in 2026. Morocco, Portugal and Paraguay host for the first time in 2030.",
       "gems": [
         "CHE",
         "SWE"
@@ -277,9 +277,9 @@
     },
     {
       "id": "michelin-three-stars",
-      "text": "Pin a country where a restaurant holds three Michelin stars",
+      "text": "Pin a country where a restaurant holds three Michelin stars today",
       "accepts": "country",
-      "note": "Stars held today. Mexico, Canada and Portugal stop at two. Monaco counts on its own, for Le Louis XV.",
+      "note": "Mexico, Canada and Portugal stop at two. Monaco counts on its own, for Le Louis XV.",
       "gems": [
         "BRA",
         "SVN"
@@ -458,7 +458,7 @@
     },
     {
       "id": "nike-shoe-manufacturing",
-      "text": "Pin a country where Nike shoes are manufactured today",
+      "text": "Pin a country where Nike shoes are made today",
       "accepts": "country",
       "note": "Contract factories, 3D printing, custom boot workshops and makers of shoe parts count; clothing and footballs alone do not. Bangladesh counts as an exception, for a factory announced to make Nike shoe parts.",
       "gems": [

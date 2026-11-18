@@ -4,9 +4,9 @@
   "prompts": [
     {
       "id": "seven-eleven",
-      "text": "Pin a country with a 7-Eleven",
+      "text": "Pin a country with a 7-Eleven convenience store today",
       "accepts": "country",
-      "note": "Stores open under the name today. Indonesia's closed in 2017, Israel's were sold in 2024 and India's closed in September 2026. The United Arab Emirates' are gone too. Hong Kong and Macao count as China.",
+      "note": "Stores open under the name today. Indonesia's closed in 2017, Israel's were sold in 2024 and India's closed in September 2026. The United Arab Emirates' are gone too. China counts for Hong Kong and Macao.",
       "gems": [
         "LAO"
       ],
@@ -153,7 +153,7 @@
     },
     {
       "id": "arabic",
-      "text": "Pin a country where Arabic is an official language",
+      "text": "Pin a country where Arabic is a nationwide official language",
       "accepts": "country",
       "note": "Mali counts through Hassaniya Arabic, official since its 2023 constitution. Western Sahara uses Arabic too, but it is a territory.",
       "gems": [
@@ -706,7 +706,7 @@
     },
     {
       "id": "starts-m",
-      "text": "Pin a country whose name starts with M",
+      "text": "Pin a country whose English short name starts with M",
       "accepts": "country",
       "note": "Current English short names, as the map labels them: North Macedonia starts with N now.",
       "gems": [

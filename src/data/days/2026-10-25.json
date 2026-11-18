@@ -74,7 +74,7 @@
     },
     {
       "id": "daiso",
-      "text": "Pin a country with a Daiso shop today",
+      "text": "Pin a country with a Daiso discount shop today",
       "accepts": "country",
       "note": "South Korea's independent chain counts too. Hong Kong and Macao count for China; resellers alone do not count.",
       "gems": [

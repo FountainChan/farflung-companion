@@ -1026,7 +1026,7 @@
       "id": "purpose-built-capitals",
       "text": "Pin a country whose capital city was planned and purpose-built",
       "accepts": "country",
-      "note": "Current national capitals planned and constructed to serve as the capital. Malaysia counts for its administrative centre, Putrajaya. Finland counts as a close call for Helsinki, made capital in 1812 and rebuilt to Engel's plan to serve as one. Malawi counts for Lilongwe’s New Town, planned and built to serve as the capital alongside the existing Old Town. Egypt counts for its New Administrative Capital, where the cabinet and parliament now meet. Yerevan, Dushanbe, Mexico City, Monrovia, Athens and Rabat's new town count as close calls too, each laid out or rebuilt to serve as the capital.",
+      "note": "Today’s capitals, planned and built to be the capital. Malaysia counts for Putrajaya, Malawi for Lilongwe’s New Town and Egypt for its New Administrative Capital. Helsinki, Yerevan, Dushanbe, Mexico City, Monrovia, Athens and Rabat count as close calls, each laid out or rebuilt to be one.",
       "gems": [
         "MRT",
         "PLW"

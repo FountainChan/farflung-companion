@@ -122,9 +122,9 @@
     },
     {
       "id": "sun-flag",
-      "text": "Pin a country whose national flag has a sun",
+      "text": "Pin a country whose national flag has a sun (variants of national flags count)",
       "accepts": "country",
-      "note": "Discs that stand for the sun count, and so do suns in the coat of arms on a national flag, state flags included. Australia counts for the Aboriginal flag, an official flag of Australia.",
+      "note": "Discs that stand for the sun count, and so do suns in the coat of arms on a national flag, state flags and a parliament's flags included. Australia counts for the Aboriginal flag, an official flag of Australia.",
       "gems": [
         "MWI"
       ],
@@ -133,13 +133,13 @@
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.326,
+          "share": 0.324,
           "tier": "tourist"
         },
         {
           "code": "ARG",
           "name": "Argentina",
-          "share": 0.195,
+          "share": 0.194,
           "tier": "traveller"
         },
         {
@@ -175,13 +175,13 @@
         {
           "code": "MKD",
           "name": "North Macedonia",
-          "share": 0.033,
+          "share": 0.032,
           "tier": "wayfarer"
         },
         {
           "code": "TWN",
           "name": "Taiwan",
-          "share": 0.033,
+          "share": 0.032,
           "tier": "wayfarer"
         },
         {
@@ -263,6 +263,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HND",
+          "name": "Honduras",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "MWI",
           "name": "Malawi",
           "share": 0.003,
@@ -273,17 +285,18 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 8,
-        "uncharted": 12,
+        "uncharted": 14,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 23,
+        "answerCount": 25,
         "farflungCount": 1,
         "initials": [
           "A",
           "B",
           "C",
           "E",
+          "H",
           "J",
           "K",
           "M",

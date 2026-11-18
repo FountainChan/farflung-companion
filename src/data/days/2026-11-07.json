@@ -122,7 +122,7 @@
     },
     {
       "id": "flags-four-or-more-stripes",
-      "text": "Pin a country whose national flag has at least four horizontal stripes",
+      "text": "Pin a country whose national flag has at least four horizontal stripes (variants of national flags count)",
       "accepts": "country",
       "note": "Every band from top to bottom counts, thin edging stripes too, so Kenya's flag has five. A cross, or a Y like South Africa's and Vanuatu's, is not a stripe. Australia counts for its five-band Torres Strait Islander flag.",
       "gems": [
@@ -133,55 +133,55 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.298,
+          "share": 0.295,
           "tier": "tourist"
         },
         {
           "code": "GRC",
           "name": "Greece",
-          "share": 0.109,
+          "share": 0.108,
           "tier": "traveller"
         },
         {
           "code": "MYS",
           "name": "Malaysia",
-          "share": 0.089,
+          "share": 0.088,
           "tier": "traveller"
         },
         {
           "code": "CUB",
           "name": "Cuba",
-          "share": 0.06,
+          "share": 0.059,
           "tier": "wayfarer"
         },
         {
           "code": "THA",
           "name": "Thailand",
-          "share": 0.055,
+          "share": 0.054,
           "tier": "wayfarer"
         },
         {
           "code": "URY",
           "name": "Uruguay",
-          "share": 0.045,
+          "share": 0.044,
           "tier": "wayfarer"
         },
         {
           "code": "LBR",
           "name": "Liberia",
-          "share": 0.04,
+          "share": 0.039,
           "tier": "wayfarer"
         },
         {
           "code": "CRI",
           "name": "Costa Rica",
-          "share": 0.035,
+          "share": 0.034,
           "tier": "wayfarer"
         },
         {
           "code": "ZWE",
           "name": "Zimbabwe",
-          "share": 0.03,
+          "share": 0.029,
           "tier": "wayfarer"
         },
         {
@@ -251,6 +251,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
           "code": "CAF",
           "name": "Central African Republic",
           "share": 0.009,
@@ -297,11 +303,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 9,
-        "uncharted": 8,
+        "uncharted": 9,
         "farflung": 7
       },
       "hints": {
-        "answerCount": 27,
+        "answerCount": 28,
         "farflungCount": 7,
         "initials": [
           "A",
