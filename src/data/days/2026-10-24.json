@@ -144,7 +144,7 @@
       "id": "napoleon-battles",
       "text": "Pin a country where Napoleon Bonaparte commanded in a battle",
       "accepts": "country",
-      "note": "Only battles he led in person count, so Portugal and Haiti don’t. Syria counts as an exception, for his Syrian campaign, fought outside today’s Syria. Slovenia counts as a close call for the 1797 campaign; his personal command there is uncertain.",
+      "note": "Only battles he led in person count, so Portugal and Haiti don't. Syria counts as an exception, for his Syrian campaign, fought outside today's Syria. Slovenia counts as a close call for the 1797 campaign; his personal command there is uncertain.",
       "gems": [
         "ISR",
         "BLR"
@@ -671,25 +671,25 @@
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.516,
+          "share": 0.509,
           "tier": "tourist"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.124,
+          "share": 0.122,
           "tier": "traveller"
         },
         {
           "code": "PER",
           "name": "Peru",
-          "share": 0.072,
+          "share": 0.071,
           "tier": "wayfarer"
         },
         {
           "code": "COL",
           "name": "Colombia",
-          "share": 0.052,
+          "share": 0.051,
           "tier": "wayfarer"
         },
         {
@@ -707,43 +707,43 @@
         {
           "code": "BGD",
           "name": "Bangladesh",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
           "code": "BOL",
           "name": "Bolivia",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
           "code": "KHM",
           "name": "Cambodia",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
           "code": "MMR",
           "name": "Myanmar",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
           "code": "PAK",
           "name": "Pakistan",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
           "code": "ECU",
           "name": "Ecuador",
-          "share": 0.017,
+          "share": 0.016,
           "tier": "uncharted"
         },
         {
           "code": "VEN",
           "name": "Venezuela",
-          "share": 0.017,
+          "share": 0.016,
           "tier": "uncharted"
         },
         {
@@ -755,6 +755,12 @@
         {
           "code": "ARG",
           "name": "Argentina",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
           "share": 0.012,
           "tier": "uncharted"
         },
@@ -787,18 +793,24 @@
           "name": "Malaysia",
           "share": 0.003,
           "tier": "farflung"
+        },
+        {
+          "code": "BRN",
+          "name": "Brunei",
+          "share": 0.001,
+          "tier": "farflung"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 3,
-        "uncharted": 8,
-        "farflung": 7
+        "uncharted": 9,
+        "farflung": 8
       },
       "hints": {
-        "answerCount": 20,
-        "farflungCount": 7,
+        "answerCount": 22,
+        "farflungCount": 8,
         "initials": [
           "A",
           "B",

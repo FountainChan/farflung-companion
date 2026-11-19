@@ -6,7 +6,7 @@
       "id": "wonders-of-nature",
       "text": "Pin a country with a winner or finalist in the New Seven Wonders of Nature vote",
       "accepts": "country",
-      "note": "All 28 finalists in the 2011 vote count, including the seven winners. The Amazon counts in all nine countries, France for French Guiana; the United States counts for El Yunque in Puerto Rico. Papua New Guinea counts for the campaign’s shared Great Barrier Reef entry with Australia.",
+      "note": "All 28 finalists in the 2011 vote count, including the seven winners. The Amazon counts in all nine countries, France for French Guiana; the United States counts for El Yunque in Puerto Rico. Papua New Guinea counts for the campaign's shared Great Barrier Reef entry with Australia.",
       "gems": [
         "PHL",
         "FRA"
@@ -268,7 +268,7 @@
       "id": "jesus-statue-20m",
       "text": "Pin a country with a statue of Jesus at least 20 metres tall, not counting its pedestal",
       "accepts": "country",
-      "note": "The figure alone counts. Timor-Leste (17 m on a 10 m globe), Cuba (sources disagree whether its 20 m includes the base) and Lebanon (16 m on a 10 m base) count as close calls. Nicaragua’s and Ecuador’s figures are about 15 m.",
+      "note": "The figure alone counts. Timor-Leste (17 m on a 10 m globe), Cuba (sources disagree whether its 20 m includes the base) and Lebanon (16 m on a 10 m base) count as close calls. Nicaragua's and Ecuador's figures are about 15 m.",
       "gems": [
         "ROU"
       ],

@@ -1026,7 +1026,7 @@
       "id": "purpose-built-capitals",
       "text": "Pin a country whose capital city was planned and purpose-built",
       "accepts": "country",
-      "note": "Today’s capitals, planned and built to be the capital. Malaysia counts for Putrajaya, Malawi for Lilongwe’s New Town and Egypt for its New Administrative Capital. Helsinki, Yerevan, Dushanbe, Mexico City, Monrovia, Athens and Rabat count as close calls, each laid out or rebuilt to be one.",
+      "note": "Today's capitals, planned and built to be the capital. Malaysia counts for Putrajaya, Malawi for Lilongwe's New Town and Egypt for its New Administrative Capital. Helsinki, Yerevan, Dushanbe, Mexico City, Monrovia, Athens and Rabat count as close calls, each laid out or rebuilt to be one.",
       "gems": [
         "MRT",
         "PLW"
@@ -1305,7 +1305,7 @@
       "id": "inhabited-bridges",
       "text": "Pin a country that has had a river bridge lined with houses or shops",
       "accepts": "country",
-      "note": "The houses or shops stand on the bridge itself, forming a street across the river. Former and rebuilt bridges count too. Spain (Ronda’s Puente Nuevo) and Myanmar (U Bein Bridge’s pavilions) count as close calls.",
+      "note": "The houses or shops stand on the bridge itself, forming a street across the river. Former and rebuilt bridges count too. Spain (Ronda's Puente Nuevo) and Myanmar (U Bein Bridge's pavilions) count as close calls.",
       "gems": [
         "IRN"
       ],

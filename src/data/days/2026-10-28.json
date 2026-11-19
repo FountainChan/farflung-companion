@@ -528,11 +528,11 @@
       "id": "wild-puffins",
       "text": "Pin a country where puffins breed in the wild",
       "accepts": "country",
-      "note": "All three kinds count, the Pacific’s tufted and horned puffins too. Sweden’s no longer breed there.",
+      "note": "All three kinds count, the Pacific's tufted and horned puffins too. Sweden's no longer breed there.",
       "gems": [
         "JPN"
       ],
-      "gemNote": "Japan’s tufted puffins are down to a pair or none, on two islets off Hokkaido.",
+      "gemNote": "Japan's tufted puffins are down to a pair or none, on two islets off Hokkaido.",
       "answers": [
         {
           "code": "ISL",

@@ -6,11 +6,11 @@
       "id": "national-flags-crosses",
       "text": "Pin a country with a cross on its national flag (variants of national flags count)",
       "accepts": "country",
-      "note": "Diagonal, heraldic and constellation crosses count, including on state flags and co-official variants. Portugal’s five shields form a cross, and the Southern Cross counts. Naval ensigns count, as Italy’s and Russia’s do.",
+      "note": "Diagonal, heraldic and constellation crosses count, including on state flags and co-official variants. Portugal's five shields form a cross, and the Southern Cross counts. Naval ensigns count, as Italy's and Russia's do.",
       "gems": [
         "MHL"
       ],
-      "gemNote": "The four longest rays of the Marshall Islands’ 24-pointed star form a Christian cross over the Pacific.",
+      "gemNote": "The four longest rays of the Marshall Islands' 24-pointed star form a Christian cross over the Pacific.",
       "answers": [
         {
           "code": "GBR",
@@ -416,7 +416,7 @@
         "DNK",
         "MLT"
       ],
-      "gemNote": "Moonraker shot Drax’s base at Tikal in Guatemala. The escape pod in The Spy Who Loved Me was retrieved off Malta, and the Faroes played an island off Russia.",
+      "gemNote": "Moonraker shot Drax's base at Tikal in Guatemala. The escape pod in The Spy Who Loved Me was retrieved off Malta, and the Faroes played an island off Russia.",
       "answers": [
         {
           "code": "GBR",

@@ -392,7 +392,7 @@
       "id": "street-fighter-2",
       "text": "Pin a country a playable character in a Street Fighter game comes from",
       "accepts": "country",
-      "note": "Guests, hidden fighters and spin-offs count: Poland has Arkane in the arcade Street Fighter: The Movie. Faces seen only in endings or stories don’t.",
+      "note": "Guests, hidden fighters and spin-offs count: Poland has Arkane in the arcade Street Fighter: The Movie. Faces seen only in endings or stories don't.",
       "gems": [
         "PHL"
       ],
@@ -860,7 +860,7 @@
       "id": "shared-island",
       "text": "Pin a country that shares an island in the sea with another country",
       "accepts": "country",
-      "note": "Bare and man-made islets count, such as Hans Island; river and lake islands don’t. The Río de la Plata counts as the sea, so Uruguay counts. The United States counts as an exception, for Guantánamo Bay, and Turkey for northern Cyprus.",
+      "note": "Bare and man-made islets count, such as Hans Island; river and lake islands don't. The Río de la Plata counts as the sea, so Uruguay counts. The United States counts as an exception, for Guantánamo Bay, and Turkey for northern Cyprus.",
       "gems": [
         "CAN",
         "DNK"

@@ -430,13 +430,13 @@
         {
           "code": "EGY",
           "name": "Egypt",
-          "share": 0.147,
+          "share": 0.146,
           "tier": "traveller"
         },
         {
           "code": "ISR",
           "name": "Israel",
-          "share": 0.118,
+          "share": 0.117,
           "tier": "traveller"
         },
         {
@@ -478,25 +478,25 @@
         {
           "code": "DZA",
           "name": "Algeria",
-          "share": 0.023,
+          "share": 0.022,
           "tier": "wayfarer"
         },
         {
           "code": "TUN",
           "name": "Tunisia",
-          "share": 0.023,
+          "share": 0.022,
           "tier": "wayfarer"
         },
         {
           "code": "JOR",
           "name": "Jordan",
-          "share": 0.022,
+          "share": 0.021,
           "tier": "wayfarer"
         },
         {
           "code": "LBN",
           "name": "Lebanon",
-          "share": 0.022,
+          "share": 0.021,
           "tier": "wayfarer"
         },
         {
@@ -554,6 +554,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "ERI",
+          "name": "Eritrea",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "MRT",
           "name": "Mauritania",
           "share": 0.003,
@@ -600,11 +606,11 @@
         "tourist": 1,
         "traveller": 5,
         "wayfarer": 8,
-        "uncharted": 13,
+        "uncharted": 14,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 29,
+        "answerCount": 30,
         "farflungCount": 2,
         "initials": [
           "A",
@@ -633,7 +639,7 @@
     },
     {
       "id": "unesco-heritage-in-danger",
-      "text": "Pin a country with a site on UNESCO’s List of World Heritage in Danger today",
+      "text": "Pin a country with a site on UNESCO's List of World Heritage in Danger today",
       "accepts": "country",
       "note": "Jerusalem's Old City, listed at Jordan's request, counts for Jordan, Israel and Palestine. Kosovo's medieval monasteries are listed under Serbia, so both count.",
       "gems": [

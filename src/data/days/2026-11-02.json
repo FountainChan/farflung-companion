@@ -10,7 +10,7 @@
       "gems": [
         "EGY"
       ],
-      "gemNote": "Egypt made 45,000 tonnes in 2024/25, taking tenth place. Siwa’s olives are pressed into extra virgin oil.",
+      "gemNote": "Egypt made 45,000 tonnes in 2024/25, taking tenth place. Siwa's olives are pressed into extra virgin oil.",
       "answers": [
         {
           "code": "ITA",
@@ -527,7 +527,7 @@
       "id": "nuclear-electricity",
       "text": "Pin a country where a nuclear power plant has generated electricity",
       "accepts": "country",
-      "note": "Past plants count, including Greenland’s former military plant. Imports and plants that never generated electricity do not.",
+      "note": "Past plants count, including Greenland's former military plant. Imports and plants that never generated electricity do not.",
       "gems": [
         "PAN"
       ],

@@ -200,7 +200,7 @@
       "id": "aldi",
       "text": "Pin a country with an Aldi supermarket today",
       "accepts": "country",
-      "note": "Aldi’s shops in Austria and Slovenia trade as Hofer, and count. Denmark’s closed in 2023 and Greece’s in 2010.",
+      "note": "Aldi's shops in Austria and Slovenia trade as Hofer, and count. Denmark's closed in 2023 and Greece's in 2010.",
       "gems": [
         "CHN"
       ],
@@ -1100,7 +1100,7 @@
       "id": "mythical-national-animal",
       "text": "Pin a country whose national animal is a mythical creature",
       "accepts": "country",
-      "note": "Heraldic beasts count, past or present: unicorns, dragons, double-headed eagles, forked-tailed lions and federal eagles. So do the Philippines' presidential sea-lion, Zimbabwe's carved bird, the winged maiden of Ireland's old harp and the Leo Belgicus, the Low Countries drawn as a lion.",
+      "note": "Heraldic beasts count, past or present: unicorns, dragons, double-headed eagles, forked-tailed lions and the federal eagles of Germany and Austria. So do the Philippines' presidential sea-lion, Zimbabwe's carved bird, the winged maiden of Ireland's old harp and the Leo Belgicus, the Low Countries drawn as a lion.",
       "gems": [
         "UZB"
       ],

@@ -6,7 +6,7 @@
       "id": "equator",
       "text": "Pin a country the equator crosses, by land or by its waters",
       "accepts": "country",
-      "note": "Land or territorial waters: the line crosses the Maldives and Kiribati at sea, between their islands. It passes Equatorial Guinea outside its waters.",
+      "note": "Land or territorial waters: the line crosses the Maldives and Kiribati at sea, between their islands, and passes Equatorial Guinea outside its waters. The United States counts as a close call, for Baker Island's waters.",
       "gems": [
         "STP"
       ],
@@ -15,19 +15,19 @@
         {
           "code": "ECU",
           "name": "Ecuador",
-          "share": 0.26,
+          "share": 0.259,
           "tier": "tourist"
         },
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.2,
+          "share": 0.199,
           "tier": "traveller"
         },
         {
           "code": "IDN",
           "name": "Indonesia",
-          "share": 0.14,
+          "share": 0.139,
           "tier": "traveller"
         },
         {
@@ -89,17 +89,23 @@
           "name": "Kiribati",
           "share": 0.006,
           "tier": "uncharted"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.005,
+          "tier": "uncharted"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 5,
-        "uncharted": 3,
+        "uncharted": 4,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 13,
+        "answerCount": 14,
         "farflungCount": 1,
         "initials": [
           "B",
@@ -582,7 +588,7 @@
       "gems": [
         "FRA"
       ],
-      "gemNote": "France’s Kerguelen Islands, far south in the Indian Ocean, are cut by glacial fjords. Only staff at a research base live there.",
+      "gemNote": "France's Kerguelen Islands, far south in the Indian Ocean, are cut by glacial fjords. Only staff at a research base live there.",
       "answers": [
         {
           "code": "NOR",

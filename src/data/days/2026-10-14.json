@@ -6,7 +6,7 @@
       "id": "moon-landing",
       "text": "Pin a country that has landed a spacecraft safely on the Moon",
       "accepts": "country",
-      "note": "Soviet landings count for every country that was part of the Soviet Union, Russia and the 14 others. A crash does not count, so Israel misses, and nor does a rover lost on another country’s lander.",
+      "note": "Soviet landings count for every country that was part of the Soviet Union, Russia and the 14 others. A crash does not count, so Israel misses, and nor does a rover lost on another country's lander.",
       "gems": [
         "JPN"
       ],
@@ -166,7 +166,7 @@
       "gems": [
         "ETH"
       ],
-      "gemNote": "Ethiopia joined in 2024, in the group’s first big expansion. It is the only member with no coastline.",
+      "gemNote": "Ethiopia joined in 2024, in the group's first big expansion. It is the only member with no coastline.",
       "answers": [
         {
           "code": "BRA",
@@ -264,11 +264,11 @@
       "id": "double-letter",
       "text": "Pin a country whose English name, short or official, has the same letter twice in a row",
       "accepts": "country",
-      "note": "The English name, short or official: Brunei Darussalam counts, and the Swiss Confederation. Letters either side of a space or hyphen count too, as in Antigua and Barbuda. A part’s name, like Greenland’s, does not. Japan counts as an exception, for Nippon.",
+      "note": "The English name, short or official: Brunei Darussalam counts, and the Swiss Confederation. Letters either side of a space or hyphen count too, as in Antigua and Barbuda. A part's name, like Greenland's, does not. Japan counts as an exception, for Nippon.",
       "gems": [
         "KNA"
       ],
-      "gemNote": "Kit was an old short form of Christopher, so St Christopher’s Island became Saint Kitts, double T and all.",
+      "gemNote": "Kit was an old short form of Christopher, so St Christopher's Island became Saint Kitts, double T and all.",
       "answers": [
         {
           "code": "RUS",
@@ -447,7 +447,7 @@
       "gems": [
         "UZB"
       ],
-      "gemNote": "From 1993 to 2006 the title was split in two. Rustam Kasimdzhanov won FIDE’s championship in 2004, ahead of far bigger names.",
+      "gemNote": "From 1993 to 2006 the title was split in two. Rustam Kasimdzhanov won FIDE's championship in 2004, ahead of far bigger names.",
       "answers": [
         {
           "code": "RUS",
@@ -576,7 +576,7 @@
     },
     {
       "id": "tallest-buildings",
-      "text": "Pin a country with one of the world’s ten tallest buildings today",
+      "text": "Pin a country with one of the world's ten tallest buildings today",
       "accepts": "country",
       "note": "Finished buildings, measured to the top of the structure. Taipei 101 is now eleventh. Towers such as Tokyo Skytree are not buildings.",
       "gems": [

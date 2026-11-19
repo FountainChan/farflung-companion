@@ -186,7 +186,7 @@
         "HRV",
         "MDA"
       ],
-      "gemNote": "Both keep one in the coat of arms: Croatia’s under a star in the crown, Moldova’s beside an aurochs head.",
+      "gemNote": "Both keep one in the coat of arms: Croatia's under a star in the crown, Moldova's beside an aurochs head.",
       "answers": [
         {
           "code": "TUR",
@@ -677,7 +677,7 @@
       "id": "austria-hungary",
       "text": "Pin a country whose land was once part of Austria-Hungary",
       "accepts": "country",
-      "note": "Any land it held counts, however small, like Montenegro’s coast at Kotor. A wartime occupation, as in Albania, does not.",
+      "note": "Any land it held counts, however small, like Montenegro's coast at Kotor. A wartime occupation, as in Albania, does not.",
       "gems": [
         "CHN"
       ],

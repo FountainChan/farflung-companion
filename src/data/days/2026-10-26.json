@@ -466,7 +466,7 @@
       "id": "bioluminescent-bays",
       "text": "Pin a country with a bioluminescent bay or lagoon",
       "accepts": "country",
-      "note": "Seasonal blooms and coastal lagoons count. The United States counts for Puerto Rico, and the United Kingdom for Grand Cayman. Norway counts as a close call, for its sheltered fjords, and Greece for Thessaloniki Bay’s blooms. Nicaragua counts for a tide-fed pool at La Flor.",
+      "note": "Seasonal blooms and coastal lagoons count. The United States counts for Puerto Rico, and the United Kingdom for Grand Cayman. Norway counts as a close call, for its sheltered fjords, and Greece for Thessaloniki Bay's blooms. Nicaragua counts for a tide-fed pool at La Flor.",
       "gems": [
         "SWE"
       ],

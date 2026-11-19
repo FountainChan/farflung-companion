@@ -171,13 +171,13 @@
         {
           "code": "SYR",
           "name": "Syria",
-          "share": 0.139,
+          "share": 0.138,
           "tier": "traveller"
         },
         {
           "code": "IRQ",
           "name": "Iraq",
-          "share": 0.095,
+          "share": 0.094,
           "tier": "traveller"
         },
         {
@@ -267,7 +267,7 @@
         {
           "code": "SOM",
           "name": "Somalia",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
@@ -283,9 +283,15 @@
           "tier": "uncharted"
         },
         {
+          "code": "ERI",
+          "name": "Eritrea",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "MLI",
           "name": "Mali",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
@@ -311,11 +317,11 @@
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 11,
-        "uncharted": 7,
+        "uncharted": 8,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 24,
+        "answerCount": 25,
         "farflungCount": 2,
         "initials": [
           "A",

@@ -97,7 +97,7 @@
       "id": "diwali-holiday",
       "text": "Pin a country where Diwali is a national public holiday",
       "accepts": "country",
-      "note": "Malaysia counts, though Sarawak works through it. A day off for Hindus alone, as in Pakistan and Kenya, doesn’t count, and a US state’s holiday is no country’s.",
+      "note": "Malaysia counts, though Sarawak works through it. A day off for Hindus alone, as in Pakistan and Kenya, doesn't count, and a US state's holiday is no country's.",
       "gems": [
         "GUY",
         "SUR"
@@ -205,7 +205,7 @@
         "LUX",
         "POL"
       ],
-      "gemNote": "Luxembourg got its one store in 2023 and Poland its first lasting one in 2024, the newest of Uniqlo’s countries.",
+      "gemNote": "Luxembourg got its one store in 2023 and Poland its first lasting one in 2024, the newest of Uniqlo's countries.",
       "answers": [
         {
           "code": "JPN",

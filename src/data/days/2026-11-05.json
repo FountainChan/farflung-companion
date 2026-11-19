@@ -6,11 +6,11 @@
       "id": "bird-flag",
       "text": "Pin a country with a bird on its national flag (variants of national flags count)",
       "accepts": "country",
-      "note": "Government flags and naval ensigns count, birds in their coats of arms too. Liechtenstein and the Bahamas count for their parliaments’ flags and Colombia for its war flag. Armenia counts as an exception, for its coat of arms, the United States for its states’ flags and the UAE for its president’s flag.",
+      "note": "Government flags and naval ensigns count, birds in their coats of arms too. Liechtenstein and the Bahamas count for their parliaments' flags and Colombia for its war flag. Armenia counts as an exception, for its coat of arms, the United States for its states' flags and the UAE for its president's flag.",
       "gems": [
         "FJI"
       ],
-      "gemNote": "Its dove of peace survives from King Cakobau’s flag, used before British rule.",
+      "gemNote": "Its dove of peace survives from King Cakobau's flag, used before British rule.",
       "answers": [
         {
           "code": "MEX",

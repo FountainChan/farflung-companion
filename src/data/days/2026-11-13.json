@@ -514,13 +514,13 @@
     },
     {
       "id": "unesco-masked-festivals",
-      "text": "Pin a country with a masked carnival, devil dance or masquerade ritual on UNESCO’s Intangible Cultural Heritage lists",
+      "text": "Pin a country with a masked carnival, devil dance or masquerade ritual on UNESCO's Intangible Cultural Heritage lists",
       "accepts": "country",
       "note": "Inscribed living traditions count. Famous carnivals in Venice, Rio, Trinidad and Cologne remain on national lists only.",
       "gems": [
         "GRD"
       ],
-      "gemNote": "In Carriacou’s Shakespeare Mas’, masked rivals duel with whips when a player misses a line from Julius Caesar.",
+      "gemNote": "In Carriacou's Shakespeare Mas', masked rivals duel with whips when a player misses a line from Julius Caesar.",
       "answers": [
         {
           "code": "BOL",

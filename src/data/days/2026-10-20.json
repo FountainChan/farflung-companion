@@ -722,13 +722,13 @@
     },
     {
       "id": "frankenstein",
-      "text": "Pin a country Victor Frankenstein sets foot in during Mary Shelley’s novel Frankenstein",
+      "text": "Pin a country Victor Frankenstein sets foot in during Mary Shelley's novel Frankenstein",
       "accepts": "country",
       "note": "Wherever Victor himself goes, from his birth at Naples in the 1831 text to the chase across Russia. Chamonix and Évian are in France today.",
       "gems": [
         "IRL"
       ],
-      "gemNote": "Adrift after sinking the remains of the creature’s mate, Victor lands in Ireland and is charged with Clerval’s murder.",
+      "gemNote": "Adrift after sinking the remains of the creature's mate, Victor lands in Ireland and is charged with Clerval's murder.",
       "answers": [
         {
           "code": "CHE",

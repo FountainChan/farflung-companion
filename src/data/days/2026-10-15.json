@@ -6,7 +6,7 @@
       "id": "one-syllable",
       "text": "Pin a country whose English short name is one syllable",
       "accepts": "country",
-      "note": "Countries’ current English names, said the usual English way. Laos counts: English dictionaries give it one syllable.",
+      "note": "Countries' current English names, said the usual English way. Laos counts: English dictionaries give it one syllable.",
       "gems": [
         "LAO"
       ],
@@ -643,7 +643,7 @@
       "gems": [
         "SOM"
       ],
-      "gemNote": "The Somali is a long-haired Abyssinian bred in North America. Its name is a play on Abyssinia’s neighbour.",
+      "gemNote": "The Somali is a long-haired Abyssinian bred in North America. Its name is a play on Abyssinia's neighbour.",
       "answers": [
         {
           "code": "THA",

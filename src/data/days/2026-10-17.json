@@ -6,7 +6,7 @@
       "id": "more-sheep-than-people",
       "text": "Pin a country with more sheep than people (territories included)",
       "accepts": "country",
-      "note": "A country counts all its land, so the Falklands’ half a million sheep leave the United Kingdom far short. Iceland counts for its summer flock.",
+      "note": "A country counts all its land, so the Falklands' half a million sheep leave the United Kingdom far short. Iceland counts for its summer flock.",
       "gems": [
         "MRT",
         "TCD"
@@ -112,11 +112,11 @@
       "id": "pixar-setting",
       "text": "Pin a country where a Pixar film is set",
       "accepts": "country",
-      "note": "Any country where a feature or a short sets part of its story. Brave’s Scotland is the United Kingdom, and Monaco counts for Cars 2’s Porto Corsa. So does every country whose landmarks Cars 2’s end credits visit.",
+      "note": "Any country where a feature or a short sets part of its story. Brave's Scotland is the United Kingdom, and Monaco counts for Cars 2's Porto Corsa. So does every country whose landmarks Cars 2's end credits visit.",
       "gems": [
         "VEN"
       ],
-      "gemNote": "The film says only South America, but its makers climbed Venezuela’s tepuis in 2004 to draw the house’s last stop.",
+      "gemNote": "The film says only South America, but its makers climbed Venezuela's tepuis in 2004 to draw the house's last stop.",
       "answers": [
         {
           "code": "USA",

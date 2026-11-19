@@ -6,7 +6,7 @@
       "id": "witchcraft-executions",
       "text": "Pin a country where someone was executed for witchcraft",
       "accepts": "country",
-      "note": "An execution after a sentence counts where it happened, from ancient Athens to village councils. Killings by mobs do not. Nigeria counts as a close call, for a fatal ordeal after a clan council’s trial in 2017. Jamaica counts for colonial executions for obeah.",
+      "note": "An execution after a sentence counts where it happened, from ancient Athens to village councils. Killings by mobs do not. Nigeria counts as a close call, for a fatal ordeal after a clan council's trial in 2017. Jamaica counts for colonial executions for obeah.",
       "gems": [
         "SAU",
         "LIE"
@@ -1128,13 +1128,13 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.265,
+          "share": 0.263,
           "tier": "tourist"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.126,
+          "share": 0.125,
           "tier": "traveller"
         },
         {
@@ -1261,6 +1261,12 @@
           "code": "UKR",
           "name": "Ukraine",
           "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
@@ -1442,11 +1448,11 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 10,
-        "uncharted": 38,
+        "uncharted": 39,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 52,
+        "answerCount": 53,
         "farflungCount": 2,
         "initials": [
           "A",

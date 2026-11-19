@@ -6,13 +6,13 @@
       "id": "triumphal-arch-capital",
       "text": "Pin a country with a triumphal arch in its capital",
       "accepts": "country",
-      "note": "Ancient or modern, and memorial arches built in the style count. Tehran’s Azadi Tower and Kyiv’s rainbow arch are not triumphal arches. Tashkent’s, Montevideo’s and Prague’s Matthias Gate are close calls.",
+      "note": "Ancient or modern, and memorial arches built in the style count. Tehran's Azadi Tower and Kyiv's rainbow arch are not triumphal arches. Tashkent's, Montevideo's and Prague's Matthias Gate are close calls.",
       "gems": [
         "LAO",
         "CAF",
         "PRK"
       ],
-      "gemNote": "The US gave Laos airport cement, which built Patuxai. Bokassa raised Bangui’s arch. Pyongyang’s is 10 m taller than Paris’s.",
+      "gemNote": "The US gave Laos airport cement, which built Patuxai. Bokassa raised Bangui's arch. Pyongyang's is 10 m taller than Paris's.",
       "answers": [
         {
           "code": "FRA",

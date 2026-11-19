@@ -232,12 +232,12 @@
       "id": "marvel-filmed-or-set",
       "text": "Pin a country where a Marvel film was shot or set",
       "accepts": "country",
-      "note": "Films of Marvel’s characters count, X-Men, Venom and Blade too; TV series do not. Made-up Wakanda and Sokovia stand for nowhere.",
+      "note": "Films of Marvel's characters count, X-Men, Venom and Blade too; TV series do not. Made-up Wakanda and Sokovia stand for nowhere.",
       "gems": [
         "PHL",
         "BGD"
       ],
-      "gemNote": "Thanos’s last shot shows Philippine rice terraces, and Age of Ultron shot extra footage at Chittagong’s ship-breaking yard.",
+      "gemNote": "Thanos's last shot shows Philippine rice terraces, and Age of Ultron shot extra footage at Chittagong's ship-breaking yard.",
       "answers": [
         {
           "code": "USA",

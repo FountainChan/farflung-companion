@@ -591,7 +591,7 @@
       "id": "leaning-towers",
       "text": "Pin a country with a tower that leans more steeply than the Leaning Tower of Pisa, by accident or by design",
       "accepts": "country",
-      "note": "Pisa leans 3.97 degrees; any tower past that counts, ruins and skyscrapers too. Italy counts for Bologna’s Garisenda, which leans about 4.",
+      "note": "Pisa leans 3.97 degrees; any tower past that counts, ruins and skyscrapers too. Italy counts for Bologna's Garisenda, which leans about 4.",
       "gems": [
         "CZE"
       ],
@@ -1023,7 +1023,7 @@
     },
     {
       "id": "unesco-wine-regions",
-      "text": "Pin a country with a wine-growing landscape on UNESCO’s World Heritage List",
+      "text": "Pin a country with a wine-growing landscape on UNESCO's World Heritage List",
       "accepts": "country",
       "note": "Mixed landscapes count, including Mallorca's. Georgia's wine-making tradition is on the separate intangible heritage list.",
       "gems": [

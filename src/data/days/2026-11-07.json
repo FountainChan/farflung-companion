@@ -883,7 +883,7 @@
       "id": "unit-namesake",
       "text": "Pin a country where a scientist with a unit of measurement named after them was born",
       "accepts": "country",
-      "note": "Births count by today’s map, so Tesla’s village is Croatia, but Serbia also counts for Nikola Tesla. Any unit counts, however old or obscure, but not a ratio like the Mach number.",
+      "note": "Births count by today's map, so Tesla's village is Croatia, but Serbia also counts for Nikola Tesla. Any unit counts, however old or obscure, but not a ratio like the Mach number.",
       "gems": [
         "HRV",
         "BRA",

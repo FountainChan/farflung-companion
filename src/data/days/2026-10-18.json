@@ -431,7 +431,7 @@
       "id": "wild-snow-leopards",
       "text": "Pin a country where snow leopards live in the wild",
       "accepts": "country",
-      "note": "Twelve countries share the snow leopard’s mountains. Myanmar’s far north looks right for them, but none has been confirmed there.",
+      "note": "Twelve countries share the snow leopard's mountains. Myanmar's far north looks right for them, but none has been confirmed there.",
       "gems": [
         "UZB"
       ],
@@ -543,7 +543,7 @@
       "id": "antarctic-station",
       "text": "Pin a country that runs a research station in Antarctica",
       "accepts": "country",
-      "note": "Summer-only stations count, and so do Turkey’s camp, the Dutch lab at Britain’s Rothera and the UAE’s at Bulgaria’s base. Romania’s lease of Law Base ended in 2015. Pakistan counts as an exception, for its Jinnah station, which it means to reopen.",
+      "note": "Summer-only stations count, and so do Turkey's camp, the Dutch lab at Britain's Rothera and the UAE's at Bulgaria's base. Romania's lease of Law Base ended in 2015. Pakistan counts as an exception, for its Jinnah station, which it means to reopen.",
       "gems": [
         "UKR"
       ],

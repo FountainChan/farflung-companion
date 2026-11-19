@@ -91,7 +91,7 @@
       "id": "wild-tigers",
       "text": "Pin a country where tigers live in the wild",
       "accepts": "country",
-      "note": "Reintroduced tigers count, as in Kazakhstan. South Africa counts for Tiger Canyon’s managed, wild-living tigers.",
+      "note": "Reintroduced tigers count, as in Kazakhstan. South Africa counts for Tiger Canyon's managed, wild-living tigers.",
       "gems": [
         "KAZ"
       ],
@@ -201,7 +201,7 @@
       "id": "simpsons-trips",
       "text": "Pin a country where a Simpson family member is shown on screen in The Simpsons TV show, outside dreams and daydreams",
       "accepts": "country",
-      "note": "Flashbacks, holiday photos and Halloween stories count, including extended family and story roles. Dreams, daydreams and virtual-reality scenes do not; the Morocco trip is Lisa’s nightmare. Named places use today’s countries; Russian waters count too.",
+      "note": "Flashbacks, holiday photos and Halloween stories count, including extended family and story roles. Dreams, daydreams and virtual-reality scenes do not; the Morocco trip is Lisa's nightmare. Named places use today's countries; Russian waters count too.",
       "gems": [
         "ISL"
       ],
