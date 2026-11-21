@@ -1,0 +1,781 @@
+{
+  "day": "2026-11-21",
+  "expedition": 48,
+  "prompts": [
+    {
+      "id": "himalayas",
+      "text": "Pin a country the Himalayas run through",
+      "accepts": "country",
+      "note": "Afghanistan, Tajikistan and Myanmar count as close calls, on wider definitions that take in the Hindu Kush and the eastern spurs.",
+      "gems": [
+        "MMR"
+      ],
+      "gemNote": "On wider definitions, the Eastern Himalayas reach on into Myanmar's far north, in Kachin State, near India and China.",
+      "answers": [
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.454,
+          "tier": "tourist"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.227,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.159,
+          "tier": "traveller"
+        },
+        {
+          "code": "BTN",
+          "name": "Bhutan",
+          "share": 0.079,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.057,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AFG",
+          "name": "Afghanistan",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.007,
+          "tier": "farflung"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 2,
+        "uncharted": 1,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 8,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "I",
+          "M",
+          "N",
+          "P",
+          "T"
+        ],
+        "topHint": {
+          "initials": "N",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "cook-voyages",
+      "text": "Pin a country where Captain James Cook's crews went ashore on his Pacific voyages",
+      "accepts": "country",
+      "note": "His stops on the way out and home count too, and so does Fiji, where his master landed on Vatoa in 1774.",
+      "gems": [
+        "KIR",
+        "RUS"
+      ],
+      "gemNote": "In 1778 he crossed the Bering Strait to land in Chukotka, in Russia; in 1777 he watched an eclipse from Kiritimati, in Kiribati.",
+      "answers": [
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.302,
+          "tier": "tourist"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.181,
+          "tier": "traveller"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.121,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.101,
+          "tier": "traveller"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.086,
+          "tier": "traveller"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VUT",
+          "name": "Vanuatu",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CPV",
+          "name": "Cape Verde",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 4,
+        "wayfarer": 5,
+        "uncharted": 8,
+        "farflung": 3
+      },
+      "hints": {
+        "answerCount": 21,
+        "farflungCount": 3,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "I",
+          "K",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "A",
+          "letters": 9
+        }
+      }
+    },
+    {
+      "id": "head-of-state-abroad",
+      "text": "Pin a country whose head of state lives in another country",
+      "accepts": "country",
+      "note": "Thailand is a close call, for a king long in Bavaria, and so are Venezuela, for a jailed president Caracas still names, and Cameroon, for a president who stays months at a time in Geneva.",
+      "gems": [
+        "AND"
+      ],
+      "gemNote": "Neither of its two princes lives in it: one is France's president, the other a bishop in Spain.",
+      "answers": [
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.273,
+          "tier": "tourist"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.2,
+          "tier": "traveller"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.145,
+          "tier": "traveller"
+        },
+        {
+          "code": "JAM",
+          "name": "Jamaica",
+          "share": 0.082,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.045,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PNG",
+          "name": "Papua New Guinea",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GRD",
+          "name": "Grenada",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LCA",
+          "name": "Saint Lucia",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CMR",
+          "name": "Cameroon",
+          "share": 0.007,
+          "tier": "farflung"
+        },
+        {
+          "code": "TUV",
+          "name": "Tuvalu",
+          "share": 0.007,
+          "tier": "farflung"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.007,
+          "tier": "farflung"
+        },
+        {
+          "code": "AND",
+          "name": "Andorra",
+          "share": 0.005,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 7,
+        "uncharted": 5,
+        "farflung": 4
+      },
+      "hints": {
+        "answerCount": 19,
+        "farflungCount": 4,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "G",
+          "J",
+          "N",
+          "P",
+          "S",
+          "T",
+          "V",
+          "Y"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "beatles",
+      "text": "Pin a country where the Beatles played a concert",
+      "accepts": "country",
+      "note": "Shows with the stand-in drummer Jimmie Nicol count, and China counts for Hong Kong. Austria is a close call, for a hotel jam while they were filming there. Other film shoots and solo tours don't.",
+      "gems": [
+        "CHN"
+      ],
+      "gemNote": "Hong Kong was a British colony when they played Kowloon in 1964, and high ticket prices left seats empty.",
+      "answers": [
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.39,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.156,
+          "tier": "traveller"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.088,
+          "tier": "traveller"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.088,
+          "tier": "traveller"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.049,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.034,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.005,
+          "tier": "farflung"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.004,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 6,
+        "uncharted": 5,
+        "farflung": 2
+      },
+      "hints": {
+        "answerCount": 17,
+        "farflungCount": 2,
+        "initials": [
+          "A",
+          "C",
+          "D",
+          "F",
+          "G",
+          "I",
+          "J",
+          "N",
+          "P",
+          "S",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U K",
+          "letters": 13
+        }
+      }
+    },
+    {
+      "id": "toyota-factory",
+      "text": "Pin a country where Toyota vehicles are built today",
+      "accepts": "country",
+      "note": "Partner van plants count. Venezuela is a close call, on Toyota's own list. Russia, Australia and Austria have stopped. Race cars and forklifts don't count.",
+      "gems": [
+        "MMR",
+        "GHA"
+      ],
+      "gemNote": "Small Hilux plants opened in Ghana in 2021 and near Yangon in 2022, for markets few would guess Toyota builds in.",
+      "answers": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.31,
+          "tier": "tourist"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.164,
+          "tier": "traveller"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.087,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.046,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.027,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.018,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 9,
+        "uncharted": 15,
+        "farflung": 3
+      },
+      "hints": {
+        "answerCount": 30,
+        "farflungCount": 3,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "K",
+          "M",
+          "P",
+          "S",
+          "T",
+          "U",
+          "V"
+        ],
+        "topHint": {
+          "initials": "J",
+          "letters": 5
+        }
+      }
+    }
+  ]
+}
