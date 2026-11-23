@@ -15,19 +15,19 @@
         {
           "code": "ISL",
           "name": "Iceland",
-          "share": 0.203,
+          "share": 0.202,
           "tier": "tourist"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.116,
+          "share": 0.115,
           "tier": "traveller"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.092,
+          "share": 0.091,
           "tier": "traveller"
         },
         {
@@ -135,6 +135,12 @@
         {
           "code": "IND",
           "name": "India",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
           "share": 0.006,
           "tier": "uncharted"
         },
@@ -329,11 +335,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 17,
-        "uncharted": 29,
+        "uncharted": 30,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 52,
+        "answerCount": 53,
         "farflungCount": 3,
         "initials": [
           "A",
@@ -642,7 +648,7 @@
       "id": "ancient-egyptian-obelisks",
       "text": "Pin a country with a standing obelisk carved in ancient Egypt",
       "accepts": "country",
-      "note": "Museum loans count: Taiwan's runs to 10 January 2027. So do ancient obelisks carved in Egypt's style abroad, like Lebanon's.",
+      "note": "Museum loans count, including Taiwan's until 10 January 2027. Ancient Egyptian-style obelisks carved abroad count, including Petra's as a close call.",
       "gems": [
         "POL"
       ],
@@ -651,43 +657,55 @@
         {
           "code": "EGY",
           "name": "Egypt",
-          "share": 0.507,
+          "share": 0.485,
           "tier": "tourist"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.178,
+          "share": 0.17,
           "tier": "traveller"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.119,
+          "share": 0.114,
           "tier": "traveller"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.079,
+          "share": 0.076,
           "tier": "wayfarer"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.049,
+          "share": 0.047,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "TUR",
           "name": "Türkiye",
-          "share": 0.03,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "VAT",
           "name": "Vatican City",
-          "share": 0.017,
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.014,
           "tier": "uncharted"
         },
         {
@@ -718,17 +736,19 @@
       "tiers": {
         "tourist": 1,
         "traveller": 2,
-        "wayfarer": 3,
-        "uncharted": 4,
+        "wayfarer": 4,
+        "uncharted": 5,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 11,
+        "answerCount": 13,
         "farflungCount": 1,
         "initials": [
           "E",
           "F",
+          "G",
           "I",
+          "J",
           "L",
           "P",
           "T",

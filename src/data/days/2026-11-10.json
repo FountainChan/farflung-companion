@@ -15,25 +15,25 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.259,
+          "share": 0.257,
           "tier": "tourist"
         },
         {
           "code": "THA",
           "name": "Thailand",
-          "share": 0.092,
+          "share": 0.091,
           "tier": "traveller"
         },
         {
           "code": "TUR",
           "name": "Türkiye",
-          "share": 0.088,
+          "share": 0.087,
           "tier": "traveller"
         },
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.085,
+          "share": 0.084,
           "tier": "traveller"
         },
         {
@@ -124,19 +124,19 @@
           "code": "CHE",
           "name": "Switzerland",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "ESP",
           "name": "Spain",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "BEL",
           "name": "Belgium",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "POL",
@@ -175,6 +175,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
           "code": "NOR",
           "name": "Norway",
           "share": 0.004,
@@ -207,6 +213,12 @@
         {
           "code": "IDN",
           "name": "Indonesia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
           "share": 0.003,
           "tier": "uncharted"
         },
@@ -265,6 +277,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "UKR",
           "name": "Ukraine",
           "share": 0.002,
@@ -304,6 +322,12 @@
           "code": "MMR",
           "name": "Myanmar",
           "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.001,
           "tier": "uncharted"
         },
         {
@@ -352,12 +376,12 @@
       "tiers": {
         "tourist": 1,
         "traveller": 3,
-        "wayfarer": 17,
-        "uncharted": 28,
+        "wayfarer": 14,
+        "uncharted": 35,
         "farflung": 7
       },
       "hints": {
-        "answerCount": 56,
+        "answerCount": 60,
         "farflungCount": 7,
         "initials": [
           "A",
@@ -1188,7 +1212,7 @@
       "id": "unique-national-script",
       "text": "Pin a country whose official language uses an alphabet or script that no other country uses for a nationwide official language",
       "accepts": "country",
-      "note": "Nationwide official languages only. Greek, Hangul, Ge'ez and Tifinagh are shared; Tibetan and Bengali are regional in China and India. Mongolia's traditional script has been co-official since 2025. Latin alphabets with extra letters count.",
+      "note": "Distinct Latin and Cyrillic alphabets count. The language must be official nationwide. Greek, Hangul, Ge'ez and Tifinagh are shared. Tibetan in China and Bengali in India are regional. Mongolia's traditional script has been co-official since 2025.",
       "gems": [
         "MDV"
       ],
@@ -1197,141 +1221,241 @@
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.331,
+          "share": 0.276,
           "tier": "tourist"
         },
         {
           "code": "THA",
           "name": "Thailand",
-          "share": 0.17,
+          "share": 0.142,
           "tier": "traveller"
         },
         {
           "code": "ISR",
           "name": "Israel",
-          "share": 0.132,
+          "share": 0.11,
           "tier": "traveller"
         },
         {
           "code": "GEO",
           "name": "Georgia",
-          "share": 0.066,
+          "share": 0.055,
           "tier": "wayfarer"
         },
         {
           "code": "ARM",
           "name": "Armenia",
-          "share": 0.057,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
           "code": "KHM",
           "name": "Cambodia",
-          "share": 0.047,
+          "share": 0.039,
           "tier": "wayfarer"
         },
         {
           "code": "MMR",
           "name": "Myanmar",
-          "share": 0.038,
+          "share": 0.032,
           "tier": "wayfarer"
         },
         {
           "code": "BGD",
           "name": "Bangladesh",
-          "share": 0.033,
+          "share": 0.028,
           "tier": "wayfarer"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDG",
+          "name": "Madagascar",
+          "share": 0.013,
+          "tier": "uncharted"
         },
         {
           "code": "LKA",
           "name": "Sri Lanka",
-          "share": 0.015,
+          "share": 0.013,
           "tier": "uncharted"
         },
         {
           "code": "POL",
           "name": "Poland",
-          "share": 0.014,
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
           "code": "VNM",
           "name": "Vietnam",
-          "share": 0.014,
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
           "code": "ALB",
           "name": "Albania",
-          "share": 0.011,
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGR",
+          "name": "Bulgaria",
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.011,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "HUN",
           "name": "Hungary",
-          "share": 0.011,
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "LAO",
           "name": "Laos",
-          "share": 0.011,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "SWE",
           "name": "Sweden",
-          "share": 0.011,
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HTI",
+          "name": "Haiti",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
           "code": "BTN",
           "name": "Bhutan",
-          "share": 0.009,
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EST",
+          "name": "Estonia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MKD",
+          "name": "North Macedonia",
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
           "code": "MDV",
           "name": "Maldives",
-          "share": 0.008,
+          "share": 0.006,
           "tier": "farflung"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.006,
+          "tier": "uncharted"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 2,
-        "wayfarer": 5,
-        "uncharted": 10,
+        "wayfarer": 6,
+        "uncharted": 25,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 19,
+        "answerCount": 35,
         "farflungCount": 1,
         "initials": [
           "A",
           "B",
           "C",
+          "E",
           "G",
           "H",
           "I",
           "J",
+          "K",
           "L",
           "M",
+          "N",
           "P",
           "S",
           "T",
+          "U",
           "V"
         ],
         "topHint": {

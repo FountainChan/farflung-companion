@@ -380,7 +380,7 @@
       "id": "mcdonalds-sells-beer",
       "text": "Pin a country where McDonald's has sold beer",
       "accepts": "country",
-      "note": "Past sales count, and alcohol-free beer as in Belgium. McDonald's in the UK keeps beer off menus as wrong for family places.",
+      "note": "Past sales and alcohol-free beer count. Gibraltar's branch sold draught beer, though mainland UK branches leave it off the menu.",
       "gems": [
         "SWE"
       ],
@@ -389,56 +389,62 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.309,
+          "share": 0.304,
           "tier": "tourist"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.134,
+          "share": 0.132,
           "tier": "traveller"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.103,
+          "share": 0.101,
           "tier": "traveller"
         },
         {
           "code": "BEL",
           "name": "Belgium",
-          "share": 0.072,
+          "share": 0.071,
           "tier": "wayfarer"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.072,
+          "share": 0.071,
           "tier": "wayfarer"
         },
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.062,
+          "share": 0.061,
           "tier": "wayfarer"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.062,
+          "share": 0.061,
           "tier": "wayfarer"
         },
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.041,
+          "share": 0.04,
           "tier": "wayfarer"
         },
         {
           "code": "CHE",
           "name": "Switzerland",
-          "share": 0.031,
+          "share": 0.03,
           "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.018,
+          "tier": "uncharted"
         },
         {
           "code": "HRV",
@@ -535,11 +541,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 6,
-        "uncharted": 6,
+        "uncharted": 7,
         "farflung": 9
       },
       "hints": {
-        "answerCount": 24,
+        "answerCount": 25,
         "farflungCount": 9,
         "initials": [
           "A",

@@ -1034,62 +1034,74 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.46,
+          "share": 0.445,
           "tier": "tourist"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.238,
+          "share": 0.23,
           "tier": "traveller"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.089,
+          "share": 0.086,
           "tier": "traveller"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.069,
+          "share": 0.067,
           "tier": "wayfarer"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.04,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.03,
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.021,
           "tier": "wayfarer"
         },
         {
           "code": "HUN",
           "name": "Hungary",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "CHE",
           "name": "Switzerland",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.015,
+          "share": 0.014,
           "tier": "uncharted"
         },
         {
           "code": "HRV",
           "name": "Croatia",
-          "share": 0.012,
+          "share": 0.011,
           "tier": "farflung"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.011,
+          "tier": "uncharted"
         },
         {
           "code": "PSE",
@@ -1101,12 +1113,12 @@
       "tiers": {
         "tourist": 1,
         "traveller": 2,
-        "wayfarer": 3,
-        "uncharted": 4,
+        "wayfarer": 4,
+        "uncharted": 5,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 11,
+        "answerCount": 13,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -1116,7 +1128,8 @@
           "H",
           "I",
           "P",
-          "S"
+          "S",
+          "T"
         ],
         "topHint": {
           "initials": "F",

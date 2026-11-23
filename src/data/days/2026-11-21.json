@@ -414,7 +414,7 @@
       "id": "beatles",
       "text": "Pin a country where the Beatles played a concert",
       "accepts": "country",
-      "note": "Shows with the stand-in drummer Jimmie Nicol count, and China counts for Hong Kong. Austria is a close call, for a hotel jam while they were filming there. Other film shoots and solo tours don't.",
+      "note": "Hong Kong counts for China, and Jimmie Nicol's concerts count. Austria and India count for private jams. Other film shoots and solo tours don't.",
       "gems": [
         "CHN"
       ],
@@ -423,49 +423,49 @@
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.39,
+          "share": 0.383,
           "tier": "tourist"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.156,
+          "share": 0.153,
           "tier": "traveller"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.088,
+          "share": 0.086,
           "tier": "traveller"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.088,
+          "share": 0.086,
           "tier": "traveller"
         },
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.049,
+          "share": 0.048,
           "tier": "wayfarer"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.039,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.039,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
           "code": "IRL",
           "name": "Ireland",
-          "share": 0.034,
+          "share": 0.033,
           "tier": "wayfarer"
         },
         {
@@ -481,21 +481,27 @@
           "tier": "wayfarer"
         },
         {
+          "code": "IND",
+          "name": "India",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
           "code": "SWE",
           "name": "Sweden",
-          "share": 0.015,
+          "share": 0.014,
           "tier": "uncharted"
         },
         {
           "code": "NLD",
           "name": "Netherlands",
-          "share": 0.014,
+          "share": 0.013,
           "tier": "uncharted"
         },
         {
           "code": "DNK",
           "name": "Denmark",
-          "share": 0.012,
+          "share": 0.011,
           "tier": "uncharted"
         },
         {
@@ -527,11 +533,11 @@
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 6,
-        "uncharted": 5,
+        "uncharted": 6,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 17,
+        "answerCount": 18,
         "farflungCount": 2,
         "initials": [
           "A",

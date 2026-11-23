@@ -6,7 +6,7 @@
       "id": "ancient-roman-aqueducts",
       "text": "Pin a country with surviving remains of an ancient Roman aqueduct",
       "accepts": "country",
-      "note": "Underground channels, earthworks and unfinished foundations count alongside standing arches. Armenia's aqueduct was never completed.",
+      "note": "Underground channels, earthworks and foundations count. San Marino is an exception for a museum pipe from the Serino water supply in Italy.",
       "gems": [
         "SVK"
       ],
@@ -15,13 +15,13 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.263,
+          "share": 0.262,
           "tier": "tourist"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.104,
+          "share": 0.103,
           "tier": "traveller"
         },
         {
@@ -69,13 +69,13 @@
         {
           "code": "HRV",
           "name": "Croatia",
-          "share": 0.024,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
           "code": "ISR",
           "name": "Israel",
-          "share": 0.023,
+          "share": 0.022,
           "tier": "wayfarer"
         },
         {
@@ -171,7 +171,7 @@
         {
           "code": "XKX",
           "name": "Kosovo",
-          "share": 0.008,
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
@@ -201,6 +201,12 @@
         {
           "code": "LBY",
           "name": "Libya",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SMR",
+          "name": "San Marino",
           "share": 0.005,
           "tier": "uncharted"
         },
@@ -257,11 +263,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 14,
-        "uncharted": 21,
+        "uncharted": 22,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 40,
+        "answerCount": 41,
         "farflungCount": 2,
         "initials": [
           "A",
@@ -516,7 +522,7 @@
       "id": "unesco-masked-festivals",
       "text": "Pin a country with a masked carnival, devil dance or masquerade ritual on UNESCO's Intangible Cultural Heritage lists",
       "accepts": "country",
-      "note": "Inscribed living traditions count. Famous carnivals in Venice, Rio, Trinidad and Cologne remain on national lists only.",
+      "note": "Suiti mumming counts within Latvia's listed tradition. The carnivals of Venice, Rio, Trinidad and Cologne have national listings only.",
       "gems": [
         "GRD"
       ],
@@ -525,49 +531,49 @@
         {
           "code": "BOL",
           "name": "Bolivia",
-          "share": 0.22,
+          "share": 0.215,
           "tier": "tourist"
         },
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.084,
-          "tier": "traveller"
+          "share": 0.082,
+          "tier": "wayfarer"
         },
         {
           "code": "BEL",
           "name": "Belgium",
-          "share": 0.078,
+          "share": 0.076,
           "tier": "wayfarer"
         },
         {
           "code": "COL",
           "name": "Colombia",
-          "share": 0.076,
+          "share": 0.075,
           "tier": "wayfarer"
         },
         {
           "code": "CHE",
           "name": "Switzerland",
-          "share": 0.047,
+          "share": 0.046,
           "tier": "wayfarer"
         },
         {
           "code": "VEN",
           "name": "Venezuela",
-          "share": 0.036,
+          "share": 0.035,
           "tier": "wayfarer"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.032,
+          "share": 0.031,
           "tier": "wayfarer"
         },
         {
           "code": "KOR",
           "name": "South Korea",
-          "share": 0.03,
+          "share": 0.029,
           "tier": "wayfarer"
         },
         {
@@ -585,19 +591,19 @@
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.024,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
           "code": "HUN",
           "name": "Hungary",
-          "share": 0.024,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
           "code": "BGR",
           "name": "Bulgaria",
-          "share": 0.023,
+          "share": 0.022,
           "tier": "wayfarer"
         },
         {
@@ -622,7 +628,7 @@
           "code": "CZE",
           "name": "Czechia",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "IND",
@@ -633,13 +639,13 @@
         {
           "code": "GRC",
           "name": "Greece",
-          "share": 0.019,
+          "share": 0.018,
           "tier": "uncharted"
         },
         {
           "code": "PER",
           "name": "Peru",
-          "share": 0.019,
+          "share": 0.018,
           "tier": "uncharted"
         },
         {
@@ -651,7 +657,13 @@
         {
           "code": "BHS",
           "name": "Bahamas",
-          "share": 0.018,
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
@@ -681,7 +693,7 @@
         {
           "code": "THA",
           "name": "Thailand",
-          "share": 0.008,
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
@@ -709,6 +721,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "LVA",
+          "name": "Latvia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
           "code": "KHM",
           "name": "Cambodia",
           "share": 0.004,
@@ -729,25 +753,25 @@
         {
           "code": "BGD",
           "name": "Bangladesh",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "MOZ",
           "name": "Mozambique",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "MWI",
           "name": "Malawi",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "ZMB",
           "name": "Zambia",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
@@ -789,13 +813,13 @@
       ],
       "tiers": {
         "tourist": 1,
-        "traveller": 1,
+        "traveller": 0,
         "wayfarer": 15,
-        "uncharted": 26,
+        "uncharted": 30,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 44,
+        "answerCount": 47,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -807,9 +831,11 @@
           "H",
           "I",
           "J",
+          "L",
           "M",
           "N",
           "P",
+          "R",
           "S",
           "T",
           "V",

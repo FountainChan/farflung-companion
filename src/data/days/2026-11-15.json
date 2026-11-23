@@ -1065,7 +1065,7 @@
       "id": "temperature-fahrenheit",
       "text": "Pin a country where official weather forecasts give temperatures in Fahrenheit",
       "accepts": "country",
-      "note": "Forecasts in both scales count, and so do territories: the Cayman Islands make the UK count. Liberia and Canada forecast in Celsius.",
+      "note": "Both scales count. Canada offers imperial forecasts, and the Cayman Islands count for the UK. Liberia forecasts in Celsius.",
       "gems": [
         "NLD"
       ],
@@ -1074,73 +1074,79 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.556,
+          "share": 0.514,
           "tier": "tourist"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.121,
+          "share": 0.112,
           "tier": "traveller"
         },
         {
           "code": "BHS",
           "name": "Bahamas",
-          "share": 0.091,
+          "share": 0.084,
           "tier": "traveller"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.075,
+          "tier": "wayfarer"
         },
         {
           "code": "BLZ",
           "name": "Belize",
-          "share": 0.061,
+          "share": 0.056,
           "tier": "wayfarer"
         },
         {
           "code": "MMR",
           "name": "Myanmar",
-          "share": 0.051,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
           "code": "ATG",
           "name": "Antigua and Barbuda",
-          "share": 0.03,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "KNA",
           "name": "Saint Kitts and Nevis",
-          "share": 0.025,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
           "code": "DMA",
           "name": "Dominica",
-          "share": 0.015,
+          "share": 0.014,
           "tier": "uncharted"
         },
         {
           "code": "PLW",
           "name": "Palau",
-          "share": 0.015,
+          "share": 0.014,
           "tier": "uncharted"
         },
         {
           "code": "FSM",
           "name": "Micronesia",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "GRD",
           "name": "Grenada",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "MHL",
           "name": "Marshall Islands",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
@@ -1153,16 +1159,17 @@
       "tiers": {
         "tourist": 1,
         "traveller": 2,
-        "wayfarer": 4,
+        "wayfarer": 5,
         "uncharted": 5,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 13,
+        "answerCount": 14,
         "farflungCount": 1,
         "initials": [
           "A",
           "B",
+          "C",
           "D",
           "G",
           "M",
