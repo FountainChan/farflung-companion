@@ -1,0 +1,1094 @@
+{
+  "day": "2026-11-24",
+  "expedition": 51,
+  "prompts": [
+    {
+      "id": "postwar-independence-from-uk",
+      "text": "Pin a country that gained independence directly from Britain after the Second World War",
+      "accepts": "country",
+      "note": "Dominions, protectorates and shared administrations count. Singapore gained independence from Malaysia, and Bangladesh from Pakistan.",
+      "gems": [
+        "NRU"
+      ],
+      "gemNote": "At independence in 1968, this Pacific island left a trusteeship shared by Australia, New Zealand and Britain.",
+      "answers": [
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.131,
+          "tier": "tourist"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.105,
+          "tier": "traveller"
+        },
+        {
+          "code": "JAM",
+          "name": "Jamaica",
+          "share": 0.044,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KEN",
+          "name": "Kenya",
+          "share": 0.044,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.044,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BWA",
+          "name": "Botswana",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CYP",
+          "name": "Cyprus",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MLT",
+          "name": "Malta",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SDN",
+          "name": "Sudan",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "UGA",
+          "name": "Uganda",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZMB",
+          "name": "Zambia",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ZWE",
+          "name": "Zimbabwe",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BHS",
+          "name": "Bahamas",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRB",
+          "name": "Barbados",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MWI",
+          "name": "Malawi",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SLE",
+          "name": "Sierra Leone",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TTO",
+          "name": "Trinidad and Tobago",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GMB",
+          "name": "Gambia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GUY",
+          "name": "Guyana",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LSO",
+          "name": "Lesotho",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MUS",
+          "name": "Mauritius",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SOM",
+          "name": "Somalia",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BHR",
+          "name": "Bahrain",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRN",
+          "name": "Brunei",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DMA",
+          "name": "Dominica",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRD",
+          "name": "Grenada",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LCA",
+          "name": "Saint Lucia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SWZ",
+          "name": "Eswatini",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SYC",
+          "name": "Seychelles",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VUT",
+          "name": "Vanuatu",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KIR",
+          "name": "Kiribati",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUV",
+          "name": "Tuvalu",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NRU",
+          "name": "Nauru",
+          "share": 0.001,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 24,
+        "uncharted": 27,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 54,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "Q",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Y",
+          "Z"
+        ],
+        "topHint": {
+          "initials": "I",
+          "letters": 5
+        }
+      }
+    },
+    {
+      "id": "polar-bears",
+      "text": "Pin a country where polar bears live in the wild (territories included)",
+      "accepts": "country",
+      "note": "Five countries share the polar bear's Arctic range. The occasional bear reaches Iceland on drifting ice.",
+      "gems": [
+        "NOR"
+      ],
+      "gemNote": "Svalbard's bears belong to a population that shares the Barents Sea with Russia.",
+      "answers": [
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.696,
+          "tier": "tourist"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.214,
+          "tier": "traveller"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.064,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "share": 0.006,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 1,
+        "uncharted": 1,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 5,
+        "farflungCount": 1,
+        "initials": [
+          "C",
+          "D",
+          "N",
+          "R",
+          "U"
+        ],
+        "topHint": {
+          "initials": "C",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "capitals-relocated-since-1900",
+      "text": "Pin a country that moved its capital or seat of government to another city since 1900 (colonial moves excluded)",
+      "accepts": "country",
+      "note": "Lasting moves count, including moves by predecessor republics. A wartime evacuation followed by a return to the old capital does not.",
+      "gems": [
+        "PLW"
+      ],
+      "gemNote": "When Palau moved its capital from Koror in 2006, the government crossed to a different island.",
+      "answers": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.25,
+          "tier": "tourist"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.093,
+          "tier": "traveller"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.081,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "share": 0.078,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.045,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.042,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.039,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.031,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.025,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.02,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TZA",
+          "name": "Tanzania",
+          "share": 0.02,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TWN",
+          "name": "Taiwan",
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.012,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CIV",
+          "name": "Ivory Coast",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LBY",
+          "name": "Libya",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BTN",
+          "name": "Bhutan",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MWI",
+          "name": "Malawi",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ALB",
+          "name": "Albania",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "YEM",
+          "name": "Yemen",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BDI",
+          "name": "Burundi",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MNE",
+          "name": "Montenegro",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEN",
+          "name": "Benin",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GNQ",
+          "name": "Equatorial Guinea",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GNB",
+          "name": "Guinea-Bissau",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "FSM",
+          "name": "Micronesia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PLW",
+          "name": "Palau",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "ARM",
+          "name": "Armenia",
+          "share": 0.001,
+          "tier": "uncharted"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 1,
+        "wayfarer": 12,
+        "uncharted": 24,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 39,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "G",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "Y"
+        ],
+        "topHint": {
+          "initials": "B",
+          "letters": 6
+        }
+      }
+    },
+    {
+      "id": "indiana-jones-filming",
+      "text": "Pin a country where an Indiana Jones feature film was shot or set (territories included)",
+      "accepts": "country",
+      "note": "The five feature films count. Tunisia doubled for Egypt in Raiders, so both countries count.",
+      "gems": [
+        "AUT"
+      ],
+      "gemNote": "Alpine slopes were photographed for the wartime train sequence in Dial of Destiny.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.254,
+          "tier": "tourist"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.151,
+          "tier": "traveller"
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "share": 0.134,
+          "tier": "traveller"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.097,
+          "tier": "traveller"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.074,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.047,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.036,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "MAR",
+          "name": "Morocco",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUN",
+          "name": "Tunisia",
+          "share": 0.032,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.029,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.019,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "share": 0.003,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 3,
+        "wayfarer": 7,
+        "uncharted": 9,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 21,
+        "farflungCount": 1,
+        "initials": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "M",
+          "N",
+          "P",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    },
+    {
+      "id": "iss-visitors",
+      "text": "Pin a country represented by a visitor to the International Space Station",
+      "accepts": "country",
+      "note": "Crew and paying visitors both count. A visitor represents the country they flew for, which can differ from their birthplace.",
+      "gems": [
+        "MYS"
+      ],
+      "gemNote": "Sheikh Muszaphar Shukor travelled to the station in a Soyuz capsule in 2007.",
+      "answers": [
+        {
+          "code": "USA",
+          "name": "United States",
+          "share": 0.326,
+          "tier": "tourist"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.144,
+          "tier": "traveller"
+        },
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "share": 0.096,
+          "tier": "traveller"
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "share": 0.048,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "share": 0.038,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.035,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "share": 0.033,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "share": 0.03,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.028,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.026,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "share": 0.024,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "share": 0.023,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "share": 0.022,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "share": 0.017,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.016,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DNK",
+          "name": "Denmark",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.011,
+          "tier": "uncharted"
+        },
+        {
+          "code": "POL",
+          "name": "Poland",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HUN",
+          "name": "Hungary",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MYS",
+          "name": "Malaysia",
+          "share": 0.002,
+          "tier": "farflung"
+        }
+      ],
+      "tiers": {
+        "tourist": 1,
+        "traveller": 2,
+        "wayfarer": 11,
+        "uncharted": 11,
+        "farflung": 1
+      },
+      "hints": {
+        "answerCount": 26,
+        "farflungCount": 1,
+        "initials": [
+          "B",
+          "C",
+          "D",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "U"
+        ],
+        "topHint": {
+          "initials": "U S",
+          "letters": 12
+        }
+      }
+    }
+  ]
+}
