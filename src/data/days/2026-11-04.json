@@ -400,7 +400,7 @@
       "id": "ice-age-cave-art",
       "text": "Pin a country with cave paintings from the last Ice Age",
       "accepts": "country",
-      "note": "Pigment drawings and painted stones in caves or shelters count, disputed dates included. The last Ice Age ended about 11,700 years ago. Algeria, Slovenia, Turkey and Peru count as close calls, on dates near that line or not yet confirmed.",
+      "note": "Pigment drawings and painted stones in caves or shelters count, disputed dates included. The last Ice Age ended about 11,700 years ago. Algeria, Slovenia, Turkey, Peru and Myanmar count as close calls, on dates near that line or not yet confirmed.",
       "gems": [
         "IDN"
       ],
@@ -409,7 +409,7 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.187,
+          "share": 0.186,
           "tier": "tourist"
         },
         {
@@ -445,7 +445,7 @@
         {
           "code": "ZAF",
           "name": "South Africa",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
@@ -593,6 +593,12 @@
           "tier": "farflung"
         },
         {
+          "code": "MMR",
+          "name": "Myanmar",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
           "code": "TLS",
           "name": "Timor-Leste",
           "share": 0.001,
@@ -604,11 +610,11 @@
         "traveller": 2,
         "wayfarer": 13,
         "uncharted": 13,
-        "farflung": 3
+        "farflung": 4
       },
       "hints": {
-        "answerCount": 32,
-        "farflungCount": 3,
+        "answerCount": 33,
+        "farflungCount": 4,
         "initials": [
           "A",
           "B",

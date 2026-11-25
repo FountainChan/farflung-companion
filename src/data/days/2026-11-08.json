@@ -380,7 +380,7 @@
       "id": "mcdonalds-sells-beer",
       "text": "Pin a country where McDonald's has sold beer",
       "accepts": "country",
-      "note": "Past sales and alcohol-free beer count. Gibraltar's branch sold draught beer, though mainland UK branches leave it off the menu.",
+      "note": "Past sales and alcohol-free beer count, Gibraltar's draught beer for the UK. Monaco is a close call, on McDonald's France's menu.",
       "gems": [
         "SWE"
       ],
@@ -389,13 +389,13 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.304,
+          "share": 0.303,
           "tier": "tourist"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.132,
+          "share": 0.131,
           "tier": "traveller"
         },
         {
@@ -531,6 +531,12 @@
           "tier": "farflung"
         },
         {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
           "code": "SWE",
           "name": "Sweden",
           "share": 0.003,
@@ -542,11 +548,11 @@
         "traveller": 2,
         "wayfarer": 6,
         "uncharted": 7,
-        "farflung": 9
+        "farflung": 10
       },
       "hints": {
-        "answerCount": 25,
-        "farflungCount": 9,
+        "answerCount": 26,
+        "farflungCount": 10,
         "initials": [
           "A",
           "B",

@@ -851,7 +851,7 @@
       "id": "countries-named-for-rivers",
       "text": "Pin a country named after a river",
       "accepts": "country",
-      "note": "Current English names count, including partial and indirect river links. Disputed river origins count too.",
+      "note": "Current English names count, including partial and indirect river links. Disputed river origins count too. Egypt is a close call, for Homer's Aigyptos.",
       "gems": [
         "MDA"
       ],
@@ -860,13 +860,13 @@
         {
           "code": "NGA",
           "name": "Nigeria",
-          "share": 0.282,
+          "share": 0.281,
           "tier": "tourist"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.16,
+          "share": 0.159,
           "tier": "traveller"
         },
         {
@@ -896,13 +896,13 @@
         {
           "code": "JOR",
           "name": "Jordan",
-          "share": 0.038,
+          "share": 0.037,
           "tier": "wayfarer"
         },
         {
           "code": "SEN",
           "name": "Senegal",
-          "share": 0.038,
+          "share": 0.037,
           "tier": "wayfarer"
         },
         {
@@ -920,7 +920,7 @@
         {
           "code": "PRY",
           "name": "Paraguay",
-          "share": 0.024,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
@@ -950,7 +950,7 @@
         {
           "code": "MYS",
           "name": "Malaysia",
-          "share": 0.008,
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
@@ -963,6 +963,12 @@
           "code": "PER",
           "name": "Peru",
           "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "share": 0.005,
           "tier": "uncharted"
         },
         {
@@ -1006,17 +1012,18 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 8,
-        "uncharted": 12,
+        "uncharted": 13,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 24,
+        "answerCount": 25,
         "farflungCount": 1,
         "initials": [
           "A",
           "B",
           "C",
           "D",
+          "E",
           "G",
           "I",
           "J",
@@ -1039,7 +1046,7 @@
       "id": "native-marsupials",
       "text": "Pin a country where marsupials are native",
       "accepts": "country",
-      "note": "Marsupials brought by people, however long ago, don't count. So New Zealand's possums are out, and so are Dominica's opossums.",
+      "note": "Marsupials brought by people, however long ago, don't count. So New Zealand's possums are out, and so are Dominica's opossums. Cuscuses brought in prehistoric times to Timor and the Solomons count as close calls.",
       "gems": [
         "CHL"
       ],
@@ -1060,7 +1067,7 @@
         {
           "code": "PNG",
           "name": "Papua New Guinea",
-          "share": 0.09,
+          "share": 0.089,
           "tier": "traveller"
         },
         {
@@ -1102,7 +1109,7 @@
         {
           "code": "PER",
           "name": "Peru",
-          "share": 0.025,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
@@ -1214,6 +1221,12 @@
           "tier": "farflung"
         },
         {
+          "code": "SLB",
+          "name": "Solomon Islands",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "TLS",
           "name": "Timor-Leste",
           "share": 0.002,
@@ -1225,11 +1238,11 @@
         "traveller": 2,
         "wayfarer": 9,
         "uncharted": 13,
-        "farflung": 4
+        "farflung": 5
       },
       "hints": {
-        "answerCount": 29,
-        "farflungCount": 4,
+        "answerCount": 30,
+        "farflungCount": 5,
         "initials": [
           "A",
           "B",

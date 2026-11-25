@@ -6,7 +6,7 @@
       "id": "bird-flag",
       "text": "Pin a country with a bird on its national flag (variants of national flags count)",
       "accepts": "country",
-      "note": "Government flags and naval ensigns count, including birds in their arms. Other cases include parliamentary flags in Liechtenstein and the Bahamas, Colombia's war flag, Armenia's arms, US state flags, and heads of state's standards in the UAE, Seychelles, Russia and Thailand.",
+      "note": "Government flags and naval ensigns count, including birds in their arms. Other cases include parliamentary flags in Liechtenstein and the Bahamas, Colombia's war flag, Armenia's arms, US state flags, and heads of state's standards, as in Chile, Czechia, Iceland, Russia, Thailand, Tonga, the UAE and Seychelles.",
       "gems": [
         "FJI"
       ],
@@ -15,85 +15,85 @@
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.239,
+          "share": 0.236,
           "tier": "tourist"
         },
         {
           "code": "ALB",
           "name": "Albania",
-          "share": 0.092,
+          "share": 0.091,
           "tier": "traveller"
         },
         {
           "code": "EGY",
           "name": "Egypt",
-          "share": 0.083,
+          "share": 0.082,
           "tier": "wayfarer"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.046,
+          "share": 0.045,
           "tier": "wayfarer"
         },
         {
           "code": "ECU",
           "name": "Ecuador",
-          "share": 0.037,
+          "share": 0.036,
           "tier": "wayfarer"
         },
         {
           "code": "GTM",
           "name": "Guatemala",
-          "share": 0.037,
+          "share": 0.036,
           "tier": "wayfarer"
         },
         {
           "code": "KAZ",
           "name": "Kazakhstan",
-          "share": 0.037,
+          "share": 0.036,
           "tier": "wayfarer"
         },
         {
           "code": "PNG",
           "name": "Papua New Guinea",
-          "share": 0.037,
+          "share": 0.036,
           "tier": "wayfarer"
         },
         {
           "code": "POL",
           "name": "Poland",
-          "share": 0.037,
+          "share": 0.036,
           "tier": "wayfarer"
         },
         {
           "code": "SRB",
           "name": "Serbia",
-          "share": 0.037,
+          "share": 0.036,
           "tier": "wayfarer"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.037,
+          "share": 0.036,
           "tier": "wayfarer"
         },
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.028,
+          "share": 0.027,
           "tier": "wayfarer"
         },
         {
           "code": "UGA",
           "name": "Uganda",
-          "share": 0.028,
+          "share": 0.027,
           "tier": "wayfarer"
         },
         {
           "code": "ZWE",
           "name": "Zimbabwe",
-          "share": 0.028,
+          "share": 0.027,
           "tier": "wayfarer"
         },
         {
@@ -123,19 +123,19 @@
         {
           "code": "DMA",
           "name": "Dominica",
-          "share": 0.017,
+          "share": 0.016,
           "tier": "uncharted"
         },
         {
           "code": "MNE",
           "name": "Montenegro",
-          "share": 0.017,
+          "share": 0.016,
           "tier": "uncharted"
         },
         {
           "code": "MDA",
           "name": "Moldova",
-          "share": 0.016,
+          "share": 0.015,
           "tier": "uncharted"
         },
         {
@@ -187,8 +187,32 @@
           "tier": "uncharted"
         },
         {
+          "code": "CHL",
+          "name": "Chile",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISL",
+          "name": "Iceland",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "MUS",
           "name": "Mauritius",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "TON",
+          "name": "Tonga",
           "share": 0.003,
           "tier": "uncharted"
         },
@@ -209,11 +233,11 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 14,
-        "uncharted": 15,
+        "uncharted": 19,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 32,
+        "answerCount": 36,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -223,6 +247,7 @@
           "E",
           "F",
           "G",
+          "I",
           "K",
           "L",
           "M",

@@ -15,13 +15,13 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.412,
+          "share": 0.411,
           "tier": "tourist"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.177,
+          "share": 0.176,
           "tier": "traveller"
         },
         {
@@ -33,7 +33,7 @@
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.079,
+          "share": 0.078,
           "tier": "wayfarer"
         },
         {
@@ -51,7 +51,7 @@
         {
           "code": "VEN",
           "name": "Venezuela",
-          "share": 0.025,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
@@ -145,6 +145,12 @@
           "tier": "farflung"
         },
         {
+          "code": "PHL",
+          "name": "Philippines",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
           "code": "DMA",
           "name": "Dominica",
           "share": 0.002,
@@ -168,11 +174,11 @@
         "traveller": 2,
         "wayfarer": 4,
         "uncharted": 10,
-        "farflung": 8
+        "farflung": 9
       },
       "hints": {
-        "answerCount": 25,
-        "farflungCount": 8,
+        "answerCount": 26,
+        "farflungCount": 9,
         "initials": [
           "A",
           "B",
@@ -1100,7 +1106,7 @@
       "id": "mythical-national-animal",
       "text": "Pin a country whose national animal is a mythical creature",
       "accepts": "country",
-      "note": "Heraldic beasts count, past or present: unicorns, dragons, double-headed eagles, forked-tailed lions and the federal eagles of Germany and Austria. So do the Philippines' presidential sea-lion, Zimbabwe's carved bird, the winged maiden of Ireland's old harp and the Leo Belgicus, the Low Countries drawn as a lion.",
+      "note": "Heraldic beasts count, past or present: unicorns, dragons, double-headed eagles, forked-tailed lions and the federal eagles of Germany and Austria. So do the Philippines' presidential sea-lion, Zimbabwe's carved bird, the winged maiden of Ireland's old harp and the Leo Belgicus, the Low Countries drawn as a lion. Mexico counts for its Second Empire's griffins.",
       "gems": [
         "UZB"
       ],
@@ -1121,7 +1127,7 @@
         {
           "code": "BTN",
           "name": "Bhutan",
-          "share": 0.125,
+          "share": 0.124,
           "tier": "traveller"
         },
         {
@@ -1133,7 +1139,7 @@
         {
           "code": "SGP",
           "name": "Singapore",
-          "share": 0.045,
+          "share": 0.044,
           "tier": "wayfarer"
         },
         {
@@ -1291,6 +1297,12 @@
           "name": "Latvia",
           "share": 0.003,
           "tier": "farflung"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.003,
+          "tier": "farflung"
         }
       ],
       "tiers": {
@@ -1298,11 +1310,11 @@
         "traveller": 2,
         "wayfarer": 6,
         "uncharted": 9,
-        "farflung": 13
+        "farflung": 14
       },
       "hints": {
-        "answerCount": 31,
-        "farflungCount": 13,
+        "answerCount": 32,
+        "farflungCount": 14,
         "initials": [
           "A",
           "B",

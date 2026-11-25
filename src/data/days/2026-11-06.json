@@ -1305,7 +1305,7 @@
       "id": "inhabited-bridges",
       "text": "Pin a country that has had a river bridge lined with houses or shops",
       "accepts": "country",
-      "note": "The houses or shops stand on the bridge itself, forming a street across the river. Former and rebuilt bridges count too. Spain (Ronda's Puente Nuevo) and Myanmar (U Bein Bridge's pavilions) count as close calls.",
+      "note": "The houses or shops stand on the bridge itself, forming a street across the river. Former and rebuilt bridges count too. Spain (Ronda's Puente Nuevo), Myanmar (U Bein Bridge's pavilions) and Colombia (Las Lajas Sanctuary) count as close calls.",
       "gems": [
         "IRN"
       ],
@@ -1314,7 +1314,7 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.409,
+          "share": 0.408,
           "tier": "tourist"
         },
         {
@@ -1456,6 +1456,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "COL",
+          "name": "Colombia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "IRN",
           "name": "Iran",
           "share": 0.002,
@@ -1466,11 +1472,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 5,
-        "uncharted": 16,
+        "uncharted": 17,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 25,
+        "answerCount": 26,
         "farflungCount": 1,
         "initials": [
           "A",

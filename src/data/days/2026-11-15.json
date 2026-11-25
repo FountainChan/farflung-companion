@@ -6,7 +6,7 @@
       "id": "place-sausages",
       "text": "Pin a country with a sausage named after one of its towns or cities",
       "accepts": "country",
-      "note": "The namesake town counts, wherever the sausage is made. Salami, blood sausage, skinless ćevapi and Solo's meat-filled crêpes count too.",
+      "note": "The namesake town counts, wherever the sausage is made. Salami, blood sausage, skinless ćevapi and Solo's meat-filled crêpes count too. Tampere black sausage counts for Finland.",
       "gems": [
         "PER",
         "LTU",
@@ -17,7 +17,7 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.247,
+          "share": 0.246,
           "tier": "tourist"
         },
         {
@@ -327,6 +327,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "FIN",
+          "name": "Finland",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
           "code": "LVA",
           "name": "Latvia",
           "share": 0.001,
@@ -351,8 +357,20 @@
           "tier": "uncharted"
         },
         {
+          "code": "PRY",
+          "name": "Paraguay",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
           "code": "SLV",
           "name": "El Salvador",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
+          "code": "VEN",
+          "name": "Venezuela",
           "share": 0.001,
           "tier": "uncharted"
         },
@@ -379,11 +397,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 21,
-        "uncharted": 33,
+        "uncharted": 36,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 60,
+        "answerCount": 63,
         "farflungCount": 3,
         "initials": [
           "A",

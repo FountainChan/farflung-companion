@@ -257,7 +257,7 @@
       "id": "surname-first-order",
       "text": "Pin a country where the family name usually comes before the given name",
       "accepts": "country",
-      "note": "Common custom counts, as in Singapore, Uganda and Madagascar, but not a minority's, as in Malaysia.",
+      "note": "Common custom counts, as in Singapore, Uganda and Madagascar, but not a minority's, as in Malaysia. Sri Lanka counts for Sinhalese names, which open with the family's ge name.",
       "gems": [
         "SGP"
       ],
@@ -266,25 +266,25 @@
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.322,
+          "share": 0.318,
           "tier": "tourist"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.222,
+          "share": 0.219,
           "tier": "traveller"
         },
         {
           "code": "KOR",
           "name": "South Korea",
-          "share": 0.141,
+          "share": 0.139,
           "tier": "traveller"
         },
         {
           "code": "VNM",
           "name": "Vietnam",
-          "share": 0.076,
+          "share": 0.075,
           "tier": "wayfarer"
         },
         {
@@ -315,6 +315,12 @@
           "code": "MNG",
           "name": "Mongolia",
           "share": 0.015,
+          "tier": "uncharted"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
@@ -352,11 +358,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 4,
-        "uncharted": 4,
+        "uncharted": 5,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 14,
+        "answerCount": 15,
         "farflungCount": 3,
         "initials": [
           "C",

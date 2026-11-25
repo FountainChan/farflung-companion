@@ -277,7 +277,7 @@
       "id": "thanksgiving-holiday",
       "text": "Pin a country with a Thanksgiving public holiday",
       "accepts": "country",
-      "note": "Norfolk Island counts for Australia, Montserrat and Turks and Caicos for the UK. Chuseok, Umuganura and Ghana's July 1 count as close calls.",
+      "note": "Norfolk Island counts for Australia, Montserrat and Turks and Caicos for the UK. Chuseok, Umuganura, Ghana's July 1 and Pongal count as close calls.",
       "gems": [
         "HRV",
         "SLB"
@@ -287,19 +287,19 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.475,
+          "share": 0.472,
           "tier": "tourist"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.211,
+          "share": 0.21,
           "tier": "traveller"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.095,
+          "share": 0.094,
           "tier": "traveller"
         },
         {
@@ -385,6 +385,18 @@
           "name": "Micronesia",
           "share": 0.003,
           "tier": "farflung"
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.003,
+          "tier": "farflung"
         }
       ],
       "tiers": {
@@ -392,15 +404,16 @@
         "traveller": 2,
         "wayfarer": 4,
         "uncharted": 7,
-        "farflung": 3
+        "farflung": 5
       },
       "hints": {
-        "answerCount": 17,
-        "farflungCount": 3,
+        "answerCount": 19,
+        "farflungCount": 5,
         "initials": [
           "A",
           "C",
           "G",
+          "I",
           "J",
           "L",
           "M",

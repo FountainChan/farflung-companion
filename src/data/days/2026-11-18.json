@@ -656,7 +656,7 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.243,
+          "share": 0.242,
           "tier": "tourist"
         },
         {
@@ -746,14 +746,14 @@
         {
           "code": "SAU",
           "name": "Saudi Arabia",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "PRY",
           "name": "Paraguay",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "BHS",
@@ -864,6 +864,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "TUR",
+          "name": "Türkiye",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
           "code": "GRD",
           "name": "Grenada",
           "share": 0.004,
@@ -957,12 +963,12 @@
       "tiers": {
         "tourist": 1,
         "traveller": 2,
-        "wayfarer": 14,
-        "uncharted": 31,
+        "wayfarer": 13,
+        "uncharted": 33,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 50,
+        "answerCount": 51,
         "farflungCount": 2,
         "initials": [
           "A",

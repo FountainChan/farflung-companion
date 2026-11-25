@@ -648,7 +648,7 @@
       "id": "ancient-egyptian-obelisks",
       "text": "Pin a country with a standing obelisk carved in ancient Egypt",
       "accepts": "country",
-      "note": "Museum loans count, including Taiwan's until 10 January 2027. Ancient Egyptian-style obelisks carved abroad count, including Petra's as a close call.",
+      "note": "Museum loans count, including Taiwan's until 10 January 2027. Ancient Egyptian-style obelisks carved abroad count, including Petra's and Axum's as close calls.",
       "gems": [
         "POL"
       ],
@@ -657,25 +657,25 @@
         {
           "code": "EGY",
           "name": "Egypt",
-          "share": 0.485,
+          "share": 0.483,
           "tier": "tourist"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.17,
+          "share": 0.169,
           "tier": "traveller"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.114,
+          "share": 0.113,
           "tier": "traveller"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.076,
+          "share": 0.075,
           "tier": "wayfarer"
         },
         {
@@ -721,6 +721,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
           "code": "LBN",
           "name": "Lebanon",
           "share": 0.005,
@@ -737,11 +743,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 4,
-        "uncharted": 5,
+        "uncharted": 6,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 13,
+        "answerCount": 14,
         "farflungCount": 1,
         "initials": [
           "E",

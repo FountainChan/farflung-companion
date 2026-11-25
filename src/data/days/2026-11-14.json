@@ -328,7 +328,7 @@
       "id": "mongol-empire",
       "text": "Pin a country whose land was once part of the Mongol Empire",
       "accepts": "country",
-      "note": "Land the empire or its khanates ruled counts, however briefly, as Gaza did in 1260, and so do kingdoms that became their vassals, as Korea and Georgia did. Japan drove its invaders out.",
+      "note": "Land the empire or its khanates ruled counts, however briefly, as Gaza did in 1260, and so do kingdoms that became their vassals, as Korea and Georgia did. Japan drove its invaders out. A vassal's former lands count for today's country, as Serres does for Greece.",
       "gems": [
         "MMR",
         "KOR"
@@ -338,37 +338,37 @@
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.243,
+          "share": 0.241,
           "tier": "tourist"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.125,
+          "share": 0.124,
           "tier": "traveller"
         },
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.097,
+          "share": 0.096,
           "tier": "traveller"
         },
         {
           "code": "IRN",
           "name": "Iran",
           "share": 0.083,
-          "tier": "traveller"
+          "tier": "wayfarer"
         },
         {
           "code": "KAZ",
           "name": "Kazakhstan",
-          "share": 0.042,
+          "share": 0.041,
           "tier": "wayfarer"
         },
         {
           "code": "IRQ",
           "name": "Iraq",
-          "share": 0.035,
+          "share": 0.034,
           "tier": "wayfarer"
         },
         {
@@ -423,13 +423,13 @@
           "code": "KGZ",
           "name": "Kyrgyzstan",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "TJK",
           "name": "Tajikistan",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "TKM",
@@ -440,7 +440,7 @@
         {
           "code": "ARM",
           "name": "Armenia",
-          "share": 0.013,
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
@@ -522,8 +522,38 @@
           "tier": "uncharted"
         },
         {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "ISR",
           "name": "Israel",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MKD",
+          "name": "North Macedonia",
           "share": 0.002,
           "tier": "uncharted"
         },
@@ -554,13 +584,13 @@
       ],
       "tiers": {
         "tourist": 1,
-        "traveller": 3,
-        "wayfarer": 12,
-        "uncharted": 18,
+        "traveller": 2,
+        "wayfarer": 11,
+        "uncharted": 25,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 36,
+        "answerCount": 41,
         "farflungCount": 2,
         "initials": [
           "A",
@@ -600,19 +630,19 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.277,
+          "share": 0.276,
           "tier": "tourist"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.129,
+          "share": 0.128,
           "tier": "traveller"
         },
         {
           "code": "ARE",
           "name": "United Arab Emirates",
-          "share": 0.099,
+          "share": 0.098,
           "tier": "traveller"
         },
         {
@@ -624,25 +654,25 @@
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.05,
+          "share": 0.049,
           "tier": "wayfarer"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.048,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.04,
+          "share": 0.039,
           "tier": "wayfarer"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.038,
+          "share": 0.037,
           "tier": "wayfarer"
         },
         {
@@ -782,17 +812,29 @@
           "name": "Czechia",
           "share": 0.003,
           "tier": "farflung"
+        },
+        {
+          "code": "GRC",
+          "name": "Greece",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "RUS",
+          "name": "Russia",
+          "share": 0.003,
+          "tier": "uncharted"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 11,
-        "uncharted": 16,
+        "uncharted": 18,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 31,
+        "answerCount": 33,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -1025,7 +1067,7 @@
       "id": "unesco-wine-regions",
       "text": "Pin a country with a wine-growing landscape on UNESCO's World Heritage List",
       "accepts": "country",
-      "note": "Mixed landscapes count, including Mallorca's. Georgia's wine-making tradition is on the separate intangible heritage list.",
+      "note": "Mixed landscapes count, including Mallorca's. Georgia's wine-making tradition is on the separate intangible heritage list. Ukraine counts for Chersonese's vineyards.",
       "gems": [
         "HRV"
       ],
@@ -1034,25 +1076,25 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.445,
+          "share": 0.441,
           "tier": "tourist"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.23,
+          "share": 0.228,
           "tier": "traveller"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.086,
+          "share": 0.085,
           "tier": "traveller"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.067,
+          "share": 0.066,
           "tier": "wayfarer"
         },
         {
@@ -1064,7 +1106,7 @@
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
@@ -1106,7 +1148,13 @@
         {
           "code": "PSE",
           "name": "Palestine",
-          "share": 0.01,
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "UKR",
+          "name": "Ukraine",
+          "share": 0.009,
           "tier": "uncharted"
         }
       ],
@@ -1114,11 +1162,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 4,
-        "uncharted": 5,
+        "uncharted": 6,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 13,
+        "answerCount": 14,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -1129,7 +1177,8 @@
           "I",
           "P",
           "S",
-          "T"
+          "T",
+          "U"
         ],
         "topHint": {
           "initials": "F",
