@@ -33,6 +33,10 @@ jobs:
             git commit -m "data: collect $(date -u +%F) expedition"
             git push
           fi
-      # Trigger the site host's build (e.g. Cloudflare Pages deploy hook):
-      # - name: Redeploy
-      #   run: curl -X POST "${{ secrets.DEPLOY_HOOK_URL }}"
+  # 默认令牌推送的数据提交不会触发另一个 push 工作流。
+  deploy:
+    needs: update
+    permissions:
+      contents: read
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit
