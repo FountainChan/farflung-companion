@@ -322,9 +322,9 @@
     },
     {
       "id": "bandung-conference",
-      "text": "Pin a country named in the 1955 Bandung Conference's final communiqué, not a later breakaway such as Bangladesh",
+      "text": "Pin one of the 29 countries at the 1955 Bandung Conference",
       "accepts": "country",
-      "note": "29 delegations, two of them now Vietnam; Ghana came as the Gold Coast. Observers, such as Cyprus, are not named.",
+      "note": "29 delegations, two of them now Vietnam; Ghana came as the Gold Coast. Observers, such as Cyprus, do not count.",
       "gems": [
         "LBR"
       ],
