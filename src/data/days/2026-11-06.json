@@ -1026,7 +1026,7 @@
       "id": "purpose-built-capitals",
       "text": "Pin a country whose capital city was planned and purpose-built",
       "accepts": "country",
-      "note": "Today's capitals, planned and built to be the capital. Malaysia counts for Putrajaya, Malawi for Lilongwe's New Town and Egypt for its New Administrative Capital. Helsinki, Yerevan, Dushanbe, Mexico City, Monrovia, Athens and Rabat count as close calls, each laid out or rebuilt to be one.",
+      "note": "Today's capitals, planned and built to be the capital. Malaysia counts for Putrajaya, Malawi for Lilongwe's New Town and Egypt for its New Administrative Capital. Helsinki, Yerevan, Dushanbe, Mexico City, Monrovia, Athens, Rabat, Ashgabat and Pyongyang count as close calls, each laid out or rebuilt to be one.",
       "gems": [
         "MRT",
         "PLW"
@@ -1036,7 +1036,7 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.205,
+          "share": 0.204,
           "tier": "tourist"
         },
         {
@@ -1054,7 +1054,7 @@
         {
           "code": "IND",
           "name": "India",
-          "share": 0.07,
+          "share": 0.069,
           "tier": "wayfarer"
         },
         {
@@ -1244,6 +1244,18 @@
           "tier": "farflung"
         },
         {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "TKM",
+          "name": "Turkmenistan",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "LBR",
           "name": "Liberia",
           "share": 0.002,
@@ -1273,11 +1285,11 @@
         "traveller": 2,
         "wayfarer": 9,
         "uncharted": 21,
-        "farflung": 6
+        "farflung": 8
       },
       "hints": {
-        "answerCount": 39,
-        "farflungCount": 6,
+        "answerCount": 41,
+        "farflungCount": 8,
         "initials": [
           "A",
           "B",

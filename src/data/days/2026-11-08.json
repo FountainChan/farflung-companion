@@ -380,7 +380,7 @@
       "id": "mcdonalds-sells-beer",
       "text": "Pin a country where McDonald's has sold beer",
       "accepts": "country",
-      "note": "Past sales and alcohol-free beer count, Gibraltar's draught beer for the UK. Monaco is a close call, on McDonald's France's menu.",
+      "note": "Past sales and alcohol-free beer count, Gibraltar's draught beer for the UK. Monaco and Lithuania are close calls.",
       "gems": [
         "SWE"
       ],
@@ -389,7 +389,7 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.303,
+          "share": 0.302,
           "tier": "tourist"
         },
         {
@@ -407,25 +407,25 @@
         {
           "code": "BEL",
           "name": "Belgium",
-          "share": 0.071,
+          "share": 0.07,
           "tier": "wayfarer"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.071,
+          "share": 0.07,
           "tier": "wayfarer"
         },
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.061,
+          "share": 0.06,
           "tier": "wayfarer"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.061,
+          "share": 0.06,
           "tier": "wayfarer"
         },
         {
@@ -519,6 +519,12 @@
           "tier": "farflung"
         },
         {
+          "code": "LTU",
+          "name": "Lithuania",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
           "code": "ROU",
           "name": "Romania",
           "share": 0.004,
@@ -548,11 +554,11 @@
         "traveller": 2,
         "wayfarer": 6,
         "uncharted": 7,
-        "farflung": 10
+        "farflung": 11
       },
       "hints": {
-        "answerCount": 26,
-        "farflungCount": 10,
+        "answerCount": 27,
+        "farflungCount": 11,
         "initials": [
           "A",
           "B",
@@ -560,6 +566,7 @@
           "F",
           "G",
           "I",
+          "L",
           "M",
           "P",
           "R",
@@ -692,7 +699,7 @@
       "id": "wild-coconut-crabs",
       "text": "Pin a country where coconut crabs live in the wild",
       "accepts": "country",
-      "note": "Australia counts for Christmas Island; its mainland has lost them, as Madagascar has.",
+      "note": "Australia counts for Christmas Island; its mainland has lost them, as Madagascar has. The Maldives is a close call.",
       "gems": [
         "MOZ"
       ],
@@ -701,7 +708,7 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.268,
+          "share": 0.267,
           "tier": "tourist"
         },
         {
@@ -725,7 +732,7 @@
         {
           "code": "PNG",
           "name": "Papua New Guinea",
-          "share": 0.052,
+          "share": 0.051,
           "tier": "wayfarer"
         },
         {
@@ -779,13 +786,13 @@
         {
           "code": "IND",
           "name": "India",
-          "share": 0.019,
+          "share": 0.018,
           "tier": "uncharted"
         },
         {
           "code": "KIR",
           "name": "Kiribati",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
@@ -861,6 +868,12 @@
           "tier": "farflung"
         },
         {
+          "code": "MDV",
+          "name": "Maldives",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
           "code": "MOZ",
           "name": "Mozambique",
           "share": 0.003,
@@ -884,11 +897,11 @@
         "traveller": 2,
         "wayfarer": 10,
         "uncharted": 8,
-        "farflung": 9
+        "farflung": 10
       },
       "hints": {
-        "answerCount": 30,
-        "farflungCount": 9,
+        "answerCount": 31,
+        "farflungCount": 10,
         "initials": [
           "A",
           "C",

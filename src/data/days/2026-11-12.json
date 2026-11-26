@@ -232,7 +232,7 @@
       "id": "marvel-filmed-or-set",
       "text": "Pin a country where a Marvel film was shot or set",
       "accepts": "country",
-      "note": "Films of Marvel's characters count, X-Men, Venom and Blade too; TV series do not. Made-up Wakanda and Sokovia stand for nowhere.",
+      "note": "Marvel films count, X-Men, Venom and Blade too; TV does not. Wakanda and Sokovia stand for nowhere. Belgium is a close call, for Xandar.",
       "gems": [
         "PHL",
         "BGD"
@@ -498,6 +498,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "CRI",
           "name": "Costa Rica",
           "share": 0.002,
@@ -580,11 +586,11 @@
         "tourist": 1,
         "traveller": 3,
         "wayfarer": 19,
-        "uncharted": 29,
+        "uncharted": 30,
         "farflung": 4
       },
       "hints": {
-        "answerCount": 56,
+        "answerCount": 57,
         "farflungCount": 4,
         "initials": [
           "A",
@@ -617,7 +623,7 @@
       "id": "wild-turkeys",
       "text": "Pin a country where turkeys live in the wild",
       "accepts": "country",
-      "note": "Flocks brought in that now live wild count, as in New Zealand. Turkey has none: the bird was named after guineafowl traded through it.",
+      "note": "Flocks brought in that now live wild count, as in New Zealand, and game flocks, as in Slovakia. Fiji is a close call. Turkey has none.",
       "gems": [
         "FRA"
       ],
@@ -626,25 +632,25 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.526,
+          "share": 0.52,
           "tier": "tourist"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.187,
+          "share": 0.185,
           "tier": "traveller"
         },
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.14,
+          "share": 0.139,
           "tier": "traveller"
         },
         {
           "code": "GTM",
           "name": "Guatemala",
-          "share": 0.047,
+          "share": 0.046,
           "tier": "wayfarer"
         },
         {
@@ -656,7 +662,7 @@
         {
           "code": "NZL",
           "name": "New Zealand",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
@@ -682,17 +688,29 @@
           "name": "France",
           "share": 0.009,
           "tier": "farflung"
+        },
+        {
+          "code": "FJI",
+          "name": "Fiji",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.006,
+          "tier": "uncharted"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 2,
-        "uncharted": 4,
+        "uncharted": 6,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 10,
+        "answerCount": 12,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -702,6 +720,7 @@
           "G",
           "M",
           "N",
+          "S",
           "U"
         ],
         "topHint": {

@@ -6,7 +6,7 @@
       "id": "triumphal-arch-capital",
       "text": "Pin a country with a triumphal arch in its capital",
       "accepts": "country",
-      "note": "Ancient or modern, and memorial arches built in the style count. Tehran's Azadi Tower and Kyiv's rainbow arch are not triumphal arches. Tashkent's, Montevideo's and Prague's Matthias Gate are close calls.",
+      "note": "Ancient or modern, and memorial arches built in the style count. Tehran's Azadi Tower and Kyiv's rainbow arch are not triumphal arches. Tashkent's, Montevideo's, Phnom Penh's replica and Prague's Matthias Gate are close calls.",
       "gems": [
         "LAO",
         "CAF",
@@ -17,7 +17,7 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.357,
+          "share": 0.356,
           "tier": "tourist"
         },
         {
@@ -243,6 +243,12 @@
           "tier": "farflung"
         },
         {
+          "code": "KHM",
+          "name": "Cambodia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "PER",
           "name": "Peru",
           "share": 0.002,
@@ -259,11 +265,11 @@
         "tourist": 1,
         "traveller": 4,
         "wayfarer": 6,
-        "uncharted": 26,
+        "uncharted": 27,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 40,
+        "answerCount": 41,
         "farflungCount": 3,
         "initials": [
           "A",

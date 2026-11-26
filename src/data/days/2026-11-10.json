@@ -6,7 +6,7 @@
       "id": "urban-passenger-waterbuses",
       "text": "Pin a country that has had multi-stop city waterbuses",
       "accepts": "country",
-      "note": "City and city-region routes count, including former ferries with intermediate stops, Lake Victoria's Waterbus and Lake Atitlán's public lanchas. Charters and sightseeing-only cruises do not.",
+      "note": "City routes and former ferries with stops count, Lake Victoria's and Atitlán's boats too, and a two-stop line on city fares, as Monaco's.",
       "gems": [
         "ROU"
       ],
@@ -355,6 +355,12 @@
           "tier": "farflung"
         },
         {
+          "code": "MCO",
+          "name": "Monaco",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
           "code": "MNE",
           "name": "Montenegro",
           "share": 0.001,
@@ -384,11 +390,11 @@
         "traveller": 3,
         "wayfarer": 14,
         "uncharted": 36,
-        "farflung": 7
+        "farflung": 8
       },
       "hints": {
-        "answerCount": 61,
-        "farflungCount": 7,
+        "answerCount": 62,
+        "farflungCount": 8,
         "initials": [
           "A",
           "B",
@@ -1218,7 +1224,7 @@
       "id": "unique-national-script",
       "text": "Pin a country whose official language uses an alphabet or script that no other country uses for a nationwide official language",
       "accepts": "country",
-      "note": "A language's own distinct Latin or Cyrillic alphabet counts when no other country uses it officially nationwide, and so do distinct Arabic-script alphabets, as Pashto's. The language must be official nationwide. Greek, Hangul, Ge'ez and Tifinagh are shared. Tibetan in China and Bengali in India are regional. Mongolia's traditional script has been co-official since 2025.",
+      "note": "A language's own alphabet counts if no other country uses it officially nationwide: Latin, Cyrillic or Arabic-based, as Urdu's. Greek, Hangul and Tifinagh are shared; Ge'ez counts, as Eritrea has no official language. Regional use, as Bengali's in India, does not. Mongolia's old script is co-official.",
       "gems": [
         "MDV"
       ],
@@ -1227,25 +1233,25 @@
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.248,
+          "share": 0.243,
           "tier": "tourist"
         },
         {
           "code": "THA",
           "name": "Thailand",
-          "share": 0.127,
+          "share": 0.125,
           "tier": "traveller"
         },
         {
           "code": "ISR",
           "name": "Israel",
-          "share": 0.099,
+          "share": 0.097,
           "tier": "traveller"
         },
         {
           "code": "GEO",
           "name": "Georgia",
-          "share": 0.05,
+          "share": 0.049,
           "tier": "wayfarer"
         },
         {
@@ -1269,7 +1275,7 @@
         {
           "code": "BGD",
           "name": "Bangladesh",
-          "share": 0.025,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
@@ -1279,9 +1285,15 @@
           "tier": "wayfarer"
         },
         {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.014,
+          "tier": "uncharted"
+        },
+        {
           "code": "NZL",
           "name": "New Zealand",
-          "share": 0.013,
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
@@ -1299,25 +1311,25 @@
         {
           "code": "POL",
           "name": "Poland",
-          "share": 0.011,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
           "code": "TWN",
           "name": "Taiwan",
-          "share": 0.011,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
           "code": "UKR",
           "name": "Ukraine",
-          "share": 0.011,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
           "code": "VNM",
           "name": "Vietnam",
-          "share": 0.011,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
@@ -1465,6 +1477,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "PAK",
+          "name": "Pakistan",
+          "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
           "code": "PHL",
           "name": "Philippines",
           "share": 0.007,
@@ -1523,11 +1541,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 6,
-        "uncharted": 39,
+        "uncharted": 41,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 49,
+        "answerCount": 51,
         "farflungCount": 1,
         "initials": [
           "A",

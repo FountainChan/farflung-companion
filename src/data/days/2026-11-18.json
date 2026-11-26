@@ -646,7 +646,7 @@
       "id": "emergency-number-911",
       "text": "Pin a country where 911 is an official emergency phone number",
       "accepts": "country",
-      "note": "Overseas territories count for their country. 911 counts where an authority named it, not where phones just pass it on, as in Chile.",
+      "note": "Territories count. 911 counts where an authority named it, not where phones pass it on, as in Chile. Botswana is a close call.",
       "gems": [
         "GBR",
         "NLD"
@@ -656,7 +656,7 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.242,
+          "share": 0.241,
           "tier": "tourist"
         },
         {
@@ -686,7 +686,7 @@
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.033,
+          "share": 0.032,
           "tier": "wayfarer"
         },
         {
@@ -758,19 +758,19 @@
         {
           "code": "BHS",
           "name": "Bahamas",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "BLZ",
           "name": "Belize",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
           "code": "JOR",
           "name": "Jordan",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
@@ -818,7 +818,7 @@
         {
           "code": "NIC",
           "name": "Nicaragua",
-          "share": 0.007,
+          "share": 0.006,
           "tier": "uncharted"
         },
         {
@@ -948,6 +948,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "BWA",
+          "name": "Botswana",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
           "code": "GBR",
           "name": "United Kingdom",
           "share": 0.001,
@@ -964,11 +970,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 13,
-        "uncharted": 33,
+        "uncharted": 34,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 51,
+        "answerCount": 52,
         "farflungCount": 2,
         "initials": [
           "A",

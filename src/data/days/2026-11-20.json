@@ -343,7 +343,7 @@
       "id": "hotter-than-50c",
       "text": "Pin a country whose highest recorded temperature is over 50°C",
       "accepts": "country",
-      "note": "A record is a weather station's air reading. Israel's 54°C of 1942, Afghanistan's 51°C and Senegal's 51.3°C are close calls, though doubted.",
+      "note": "A record is a weather station's air reading. Doubted readings are close calls: Israel, Afghanistan, Senegal, Mauritania, Niger and Mali.",
       "gems": [
         "TKM",
         "PSE"
@@ -353,19 +353,19 @@
         {
           "code": "SAU",
           "name": "Saudi Arabia",
-          "share": 0.214,
+          "share": 0.212,
           "tier": "tourist"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.1,
+          "share": 0.099,
           "tier": "traveller"
         },
         {
           "code": "ARE",
           "name": "United Arab Emirates",
-          "share": 0.093,
+          "share": 0.092,
           "tier": "traveller"
         },
         {
@@ -389,25 +389,25 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.043,
+          "share": 0.042,
           "tier": "wayfarer"
         },
         {
           "code": "IRQ",
           "name": "Iraq",
-          "share": 0.043,
+          "share": 0.042,
           "tier": "wayfarer"
         },
         {
           "code": "IRN",
           "name": "Iran",
-          "share": 0.036,
+          "share": 0.035,
           "tier": "wayfarer"
         },
         {
           "code": "PAK",
           "name": "Pakistan",
-          "share": 0.036,
+          "share": 0.035,
           "tier": "wayfarer"
         },
         {
@@ -467,13 +467,13 @@
         {
           "code": "AFG",
           "name": "Afghanistan",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.009,
+          "share": 0.008,
           "tier": "uncharted"
         },
         {
@@ -487,6 +487,24 @@
           "name": "Palestine",
           "share": 0.004,
           "tier": "farflung"
+        },
+        {
+          "code": "MLI",
+          "name": "Mali",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MRT",
+          "name": "Mauritania",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NER",
+          "name": "Niger",
+          "share": 0.002,
+          "tier": "uncharted"
         },
         {
           "code": "SEN",
@@ -505,11 +523,11 @@
         "tourist": 1,
         "traveller": 4,
         "wayfarer": 10,
-        "uncharted": 8,
+        "uncharted": 11,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 25,
+        "answerCount": 28,
         "farflungCount": 2,
         "initials": [
           "A",
@@ -520,6 +538,7 @@
           "K",
           "L",
           "M",
+          "N",
           "O",
           "P",
           "Q",

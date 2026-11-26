@@ -621,7 +621,7 @@
       "id": "leaning-towers",
       "text": "Pin a country with a tower that leans more steeply than the Leaning Tower of Pisa, by accident or by design",
       "accepts": "country",
-      "note": "Pisa leans 3.97 degrees; any tower past that counts, ruins and skyscrapers too. Italy counts for Bologna's Garisenda, which leans about 4.",
+      "note": "Pisa leans 3.97 degrees; any tower past it counts, ruins and skyscrapers too, as Bologna's Garisenda. Lisbon's VTS tower is a close call.",
       "gems": [
         "CZE"
       ],
@@ -630,7 +630,7 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.276,
+          "share": 0.275,
           "tier": "tourist"
         },
         {
@@ -678,7 +678,7 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.028,
+          "share": 0.027,
           "tier": "wayfarer"
         },
         {
@@ -820,6 +820,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "PRT",
+          "name": "Portugal",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "RUS",
           "name": "Russia",
           "share": 0.003,
@@ -830,11 +836,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 11,
-        "uncharted": 18,
+        "uncharted": 19,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 33,
+        "answerCount": 34,
         "farflungCount": 1,
         "initials": [
           "A",

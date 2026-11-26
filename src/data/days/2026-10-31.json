@@ -6,7 +6,7 @@
       "id": "witchcraft-executions",
       "text": "Pin a country where someone was executed for witchcraft",
       "accepts": "country",
-      "note": "An execution after a sentence counts where it happened, from ancient Athens to village councils. Killings by mobs do not. Nigeria counts as a close call, for a fatal ordeal after a clan council's trial in 2017. Jamaica counts for colonial executions for obeah.",
+      "note": "An execution after a sentence counts where it happened, from ancient Athens to village councils. Killings by mobs do not. Nigeria counts as a close call, for a fatal ordeal after a clan council's trial in 2017. Jamaica counts for colonial executions for obeah. Brazil is a close call, for Ursulina de Jesus in 1754.",
       "gems": [
         "SAU",
         "LIE"
@@ -16,7 +16,7 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.232,
+          "share": 0.231,
           "tier": "tourist"
         },
         {
@@ -368,6 +368,12 @@
           "tier": "farflung"
         },
         {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "EGY",
           "name": "Egypt",
           "share": 0.002,
@@ -463,11 +469,11 @@
         "traveller": 1,
         "wayfarer": 7,
         "uncharted": 39,
-        "farflung": 26
+        "farflung": 27
       },
       "hints": {
-        "answerCount": 74,
-        "farflungCount": 26,
+        "answerCount": 75,
+        "farflungCount": 27,
         "initials": [
           "A",
           "B",
@@ -755,7 +761,7 @@
       "id": "ancient-mummies",
       "text": "Pin a country where mummies over 500 years old have been found",
       "accepts": "country",
-      "note": "Bog, ice and desert mummies count as well as embalmed ones, and so do burials shown to have been dried first and naturally mummified animals. Bones alone don't, and Ho Chi Minh is too young. Ötzi lay 92 metres inside Italy; Austria counts for a salt miner at Hallstatt.",
+      "note": "Bog, ice and desert mummies count as well as embalmed ones, and so do burials shown to have been dried first and naturally mummified animals. Bones alone don't, and Ho Chi Minh is too young. Ötzi lay 92 metres inside Italy; Austria counts for a salt miner at Hallstatt. Ethiopia counts for the emperors at Daga Estifanos.",
       "gems": [
         "KGZ",
         "ZAF"
@@ -783,13 +789,13 @@
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.07,
+          "share": 0.069,
           "tier": "wayfarer"
         },
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.07,
+          "share": 0.069,
           "tier": "wayfarer"
         },
         {
@@ -921,37 +927,37 @@
         {
           "code": "IDN",
           "name": "Indonesia",
-          "share": 0.016,
+          "share": 0.015,
           "tier": "uncharted"
         },
         {
           "code": "NOR",
           "name": "Norway",
-          "share": 0.016,
+          "share": 0.015,
           "tier": "uncharted"
         },
         {
           "code": "NZL",
           "name": "New Zealand",
-          "share": 0.016,
+          "share": 0.015,
           "tier": "uncharted"
         },
         {
           "code": "PRT",
           "name": "Portugal",
-          "share": 0.016,
+          "share": 0.015,
           "tier": "uncharted"
         },
         {
           "code": "SAU",
           "name": "Saudi Arabia",
-          "share": 0.016,
+          "share": 0.015,
           "tier": "uncharted"
         },
         {
           "code": "VNM",
           "name": "Vietnam",
-          "share": 0.016,
+          "share": 0.015,
           "tier": "uncharted"
         },
         {
@@ -1033,6 +1039,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "ETH",
+          "name": "Ethiopia",
+          "share": 0.002,
+          "tier": "uncharted"
+        },
+        {
           "code": "NPL",
           "name": "Nepal",
           "share": 0.002,
@@ -1079,11 +1091,11 @@
         "tourist": 1,
         "traveller": 0,
         "wayfarer": 9,
-        "uncharted": 40,
+        "uncharted": 41,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 52,
+        "answerCount": 53,
         "farflungCount": 2,
         "initials": [
           "A",

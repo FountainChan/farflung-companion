@@ -527,7 +527,7 @@
       "id": "nuclear-electricity",
       "text": "Pin a country where a nuclear power plant has generated electricity",
       "accepts": "country",
-      "note": "Past plants count, including Greenland's former military plant. Imports and plants that never generated electricity do not.",
+      "note": "Past plants count, Greenland's military one too, and power used on site, as Rooppur's. Imports and plants that never generated do not.",
       "gems": [
         "PAN"
       ],
@@ -762,6 +762,12 @@
           "tier": "farflung"
         },
         {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "PAN",
           "name": "Panama",
           "share": 0.002,
@@ -773,11 +779,11 @@
         "traveller": 3,
         "wayfarer": 20,
         "uncharted": 12,
-        "farflung": 2
+        "farflung": 3
       },
       "hints": {
-        "answerCount": 39,
-        "farflungCount": 2,
+        "answerCount": 40,
+        "farflungCount": 3,
         "initials": [
           "A",
           "B",

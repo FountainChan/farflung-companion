@@ -400,7 +400,7 @@
       "id": "ice-age-cave-art",
       "text": "Pin a country with cave paintings from the last Ice Age",
       "accepts": "country",
-      "note": "Pigment drawings and painted stones in caves or shelters count, disputed dates included. The last Ice Age ended about 11,700 years ago. Algeria, Slovenia, Turkey, Peru and Myanmar count as close calls, on dates near that line or not yet confirmed.",
+      "note": "Pigment drawings and painted stones in caves or shelters count, disputed dates included. The last Ice Age ended about 11,700 years ago. Algeria, Slovenia, Turkey, Peru, Myanmar, Ireland and Mexico count as close calls, on dates near that line or not yet confirmed.",
       "gems": [
         "IDN"
       ],
@@ -427,19 +427,19 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.083,
+          "share": 0.082,
           "tier": "wayfarer"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.081,
+          "share": 0.08,
           "tier": "wayfarer"
         },
         {
           "code": "ARG",
           "name": "Argentina",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
@@ -487,7 +487,7 @@
         {
           "code": "EGY",
           "name": "Egypt",
-          "share": 0.028,
+          "share": 0.027,
           "tier": "wayfarer"
         },
         {
@@ -517,7 +517,7 @@
         {
           "code": "ROU",
           "name": "Romania",
-          "share": 0.015,
+          "share": 0.014,
           "tier": "uncharted"
         },
         {
@@ -581,6 +581,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "IRL",
+          "name": "Ireland",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "IDN",
           "name": "Indonesia",
           "share": 0.002,
@@ -610,11 +622,11 @@
         "traveller": 2,
         "wayfarer": 13,
         "uncharted": 13,
-        "farflung": 4
+        "farflung": 6
       },
       "hints": {
-        "answerCount": 33,
-        "farflungCount": 4,
+        "answerCount": 35,
+        "farflungCount": 6,
         "initials": [
           "A",
           "B",

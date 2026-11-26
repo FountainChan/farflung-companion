@@ -1,11 +1,11 @@
 {
   "source": "https://farflung.game/days/1/index.json",
   "origin": "https://farflung.game",
-  "fetchedAt": "2026-11-25T05:32:37.129Z",
-  "dataThrough": "2026-11-25",
-  "daysTotal": 52,
+  "fetchedAt": "2026-11-26T05:15:45.128Z",
+  "dataThrough": "2026-11-26",
+  "daysTotal": 53,
   "daysSkippedFutureOrRecent": 0,
-  "daysWritten": 52,
+  "daysWritten": 53,
   "firstDay": "2026-10-05",
   "errors": []
 }

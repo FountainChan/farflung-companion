@@ -6,7 +6,7 @@
       "id": "place-sausages",
       "text": "Pin a country with a sausage named after one of its towns or cities",
       "accepts": "country",
-      "note": "The namesake town counts, wherever the sausage is made. Salami, blood sausage, skinless ćevapi and Solo's meat-filled crêpes count too. Tampere black sausage counts for Finland.",
+      "note": "A town, city or village name counts, as Njeguši does, wherever the sausage is made. Salami, blood sausage, ćevapi and Tampere's count too.",
       "gems": [
         "PER",
         "LTU",
@@ -17,13 +17,13 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.246,
+          "share": 0.245,
           "tier": "tourist"
         },
         {
           "code": "AUT",
           "name": "Austria",
-          "share": 0.092,
+          "share": 0.091,
           "tier": "traveller"
         },
         {
@@ -357,6 +357,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "MNE",
+          "name": "Montenegro",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
           "code": "PRY",
           "name": "Paraguay",
           "share": 0.001,
@@ -397,11 +403,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 21,
-        "uncharted": 36,
+        "uncharted": 37,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 63,
+        "answerCount": 64,
         "farflungCount": 3,
         "initials": [
           "A",
@@ -911,7 +917,7 @@
       "id": "handheld-console-origins",
       "text": "Pin a country that developed a commercially released handheld games console",
       "accepts": "country",
-      "note": "Shared designs, kits and hybrids such as the N-Gage count. Developers' home countries count; assembly or sales alone do not.",
+      "note": "Shared designs, kits and hybrids like the N-Gage count, by the developer's home, not assembly or sales. Brazil is a close call.",
       "gems": [
         "HRV"
       ],
@@ -920,13 +926,13 @@
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.422,
+          "share": 0.42,
           "tier": "tourist"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.161,
+          "share": 0.16,
           "tier": "traveller"
         },
         {
@@ -1032,6 +1038,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "BRA",
+          "name": "Brazil",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "HRV",
           "name": "Croatia",
           "share": 0.003,
@@ -1054,14 +1066,15 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 6,
-        "uncharted": 12,
+        "uncharted": 13,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 22,
+        "answerCount": 23,
         "farflungCount": 1,
         "initials": [
           "A",
+          "B",
           "C",
           "F",
           "G",

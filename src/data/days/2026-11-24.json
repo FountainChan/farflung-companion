@@ -481,7 +481,7 @@
       "id": "capitals-relocated-since-1900",
       "text": "Pin a country that moved its capital or seat of government to another city since 1900 (colonial moves excluded)",
       "accepts": "country",
-      "note": "Lasting moves count, including moves by predecessor republics. A wartime evacuation followed by a return to the old capital does not. Moves of a parliament, a leadership in exile or an autonomous region count too.",
+      "note": "Lasting moves count, including moves by predecessor republics. A wartime evacuation followed by a return to the old capital does not. Moves of a parliament, a leadership in exile or an autonomous region count too. A self-governing colony's own move counts, as Belize's in 1970.",
       "gems": [
         "PLW"
       ],
@@ -490,7 +490,7 @@
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.246,
+          "share": 0.245,
           "tier": "tourist"
         },
         {
@@ -514,7 +514,7 @@
         {
           "code": "KAZ",
           "name": "Kazakhstan",
-          "share": 0.045,
+          "share": 0.044,
           "tier": "wayfarer"
         },
         {
@@ -569,7 +569,7 @@
           "code": "VNM",
           "name": "Vietnam",
           "share": 0.02,
-          "tier": "wayfarer"
+          "tier": "uncharted"
         },
         {
           "code": "TZA",
@@ -710,6 +710,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "BLZ",
+          "name": "Belize",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
           "code": "CHL",
           "name": "Chile",
           "share": 0.003,
@@ -761,12 +767,12 @@
       "tiers": {
         "tourist": 1,
         "traveller": 1,
-        "wayfarer": 12,
-        "uncharted": 30,
+        "wayfarer": 11,
+        "uncharted": 32,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 45,
+        "answerCount": 46,
         "farflungCount": 1,
         "initials": [
           "A",
