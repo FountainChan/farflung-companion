@@ -496,7 +496,7 @@
     },
     {
       "id": "land-both-hemispheres",
-      "text": "Pin a country with land both north and south of the equator (territories included)",
+      "text": "Pin a country with land both north and south of the equator (Territories included)",
       "accepts": "country",
       "note": "Islands and territories count, so France, the UK, the US and Norway do. Peru stops about 4 km short of the line.",
       "gems": [

@@ -415,7 +415,7 @@
     },
     {
       "id": "polar-bears",
-      "text": "Pin a country where polar bears live in the wild (territories included)",
+      "text": "Pin a country where polar bears live in the wild (Territories included)",
       "accepts": "country",
       "note": "Five countries share the polar bear's Arctic range. The occasional bear reaches Iceland on drifting ice.",
       "gems": [
@@ -479,7 +479,7 @@
     },
     {
       "id": "capitals-relocated-since-1900",
-      "text": "Pin a country that moved its capital or seat of government to another city since 1900 (colonial moves excluded)",
+      "text": "Pin a country that moved its capital or seat of government to another city since 1900 (Colonial moves excluded)",
       "accepts": "country",
       "note": "Lasting moves count, including moves by predecessor republics. A wartime evacuation followed by a return to the old capital does not. Moves of a parliament, a leadership in exile or an autonomous region count too. A self-governing colony's own move counts, as Belize's in 1970.",
       "gems": [
@@ -801,7 +801,7 @@
     },
     {
       "id": "indiana-jones-filming",
-      "text": "Pin a country where an Indiana Jones feature film was shot or set (territories included)",
+      "text": "Pin a country where an Indiana Jones feature film was shot or set (Territories included)",
       "accepts": "country",
       "note": "The five feature films count. Tunisia doubled for Egypt in Raiders, so both countries count.",
       "gems": [

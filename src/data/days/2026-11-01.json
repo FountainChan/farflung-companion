@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "flags-five-or-more-stars",
-      "text": "Pin a country with at least four stars on its national flag (variants of national flags count)",
+      "text": "Pin a country with at least four stars on its national flag (Variants of national flags count)",
       "accepts": "country",
       "note": "Stars in coats of arms and on state versions count, including Bolivia and Costa Rica. New Zealand's four red stars have white borders.",
       "gems": [

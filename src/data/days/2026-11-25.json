@@ -945,7 +945,7 @@
     },
     {
       "id": "flags-single-star",
-      "text": "Pin a country whose national flag has exactly one star (variants of national flags count)",
+      "text": "Pin a country whose national flag has exactly one star (Variants of national flags count)",
       "accepts": "country",
       "note": "Stars in an emblem count, Paraguay's one-sided star included. A single sun counts as a star, whatever its rays, as does a plain sun disc.",
       "gems": [

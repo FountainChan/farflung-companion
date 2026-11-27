@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "national-flags-blue-white",
-      "text": "Pin a country with an official national flag using only blue and white (variants of national flags count)",
+      "text": "Pin a country with an official national flag using only blue and white (Variants of national flags count)",
       "accepts": "country",
       "note": "Official plain variants and national naval ensigns count; separate naval jacks do not. Nicaragua permits its plain flag for national celebrations. Argentina and Uruguay still add a gold sun.",
       "gems": [

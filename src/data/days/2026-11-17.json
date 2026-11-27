@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "two-oceans",
-      "text": "Pin a country with coasts on more than one ocean (territories included)",
+      "text": "Pin a country with coasts on more than one ocean (Territories included)",
       "accepts": "country",
       "note": "Seas count for their ocean: the Mediterranean is Atlantic, the Red Sea Indian. Argentina, New Zealand and Singapore are close calls.",
       "gems": [

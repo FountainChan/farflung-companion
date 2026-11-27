@@ -128,7 +128,7 @@
     },
     {
       "id": "sun-flag",
-      "text": "Pin a country whose national flag has a sun (variants of national flags count)",
+      "text": "Pin a country whose national flag has a sun (Variants of national flags count)",
       "accepts": "country",
       "note": "Discs that stand for the sun count, and so do suns in the coat of arms on a national flag, state flags and a parliament's flags included. Australia counts for the Aboriginal flag, an official flag of Australia.",
       "gems": [

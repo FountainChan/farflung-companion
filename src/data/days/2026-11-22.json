@@ -152,7 +152,7 @@
     },
     {
       "id": "us-dollar",
-      "text": "Pin a country where the US dollar is legal tender, not just widely used",
+      "text": "Pin a country where the US dollar is legal tender (Not just widely used)",
       "accepts": "country",
       "note": "Liberia counts beside its own dollar, and Zimbabwe and Cambodia as close calls beside the ZiG and the riel. So is Cuba, whose central bank may now make foreign notes legal tender.",
       "gems": [

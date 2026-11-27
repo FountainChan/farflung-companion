@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "more-sheep-than-people",
-      "text": "Pin a country with more sheep than people (territories included)",
+      "text": "Pin a country with more sheep than people (Territories included)",
       "accepts": "country",
       "note": "A country counts all its land, so the Falklands' half a million sheep leave the United Kingdom far short. Iceland counts for its summer flock.",
       "gems": [

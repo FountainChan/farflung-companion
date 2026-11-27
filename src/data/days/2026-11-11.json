@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "island-nations",
-      "text": "Pin an island country (territories not counted)",
+      "text": "Pin an island country (Territories not counted)",
       "accepts": "country",
       "note": "Australia is a continent here, not an island. The UK counts even with Gibraltar.",
       "gems": [
@@ -333,7 +333,7 @@
     },
     {
       "id": "time-zones",
-      "text": "Pin a country with more than one official time zone (territories included)",
+      "text": "Pin a country with more than one official time zone (Territories included)",
       "accepts": "country",
       "note": "Overseas territories count, so the UK and Denmark do. China keeps one official zone, and Kazakhstan unified to one in 2024.",
       "gems": [
@@ -508,7 +508,7 @@
     },
     {
       "id": "borders-two",
-      "text": "Pin a country that borders exactly two others (territories included)",
+      "text": "Pin a country that borders exactly two others (Territories included)",
       "accepts": "country",
       "note": "Canada and Denmark count for their border on Hans Island, drawn in 2022, and Morocco counts without Western Sahara. The UK borders three with its Cyprus bases, and the Netherlands three with Sint Maarten.",
       "gems": [

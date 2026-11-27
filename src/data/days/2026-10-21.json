@@ -266,7 +266,7 @@
     },
     {
       "id": "jesus-statue-20m",
-      "text": "Pin a country with a statue of Jesus at least 20 metres tall, not counting its pedestal",
+      "text": "Pin a country with a statue of Jesus at least 20 metres tall (Not counting its pedestal)",
       "accepts": "country",
       "note": "The figure alone counts. Timor-Leste (17 m on a 10 m globe), Cuba (sources disagree whether its 20 m includes the base) and Lebanon (16 m on a 10 m base) count as close calls. Nicaragua's and Ecuador's figures are about 15 m.",
       "gems": [

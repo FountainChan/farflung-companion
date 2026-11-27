@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "national-flags-crosses",
-      "text": "Pin a country with a cross on its national flag (variants of national flags count)",
+      "text": "Pin a country with a cross on its national flag (Variants of national flags count)",
       "accepts": "country",
       "note": "Diagonal, heraldic and constellation crosses count, including on state flags and co-official variants. Portugal's five shields form a cross, and the Southern Cross counts. Naval ensigns count, as Italy's and Russia's do.",
       "gems": [

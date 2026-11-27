@@ -830,7 +830,7 @@
     },
     {
       "id": "plant-on-flag",
-      "text": "Pin a country whose national flag shows a plant (variants of national flags count)",
+      "text": "Pin a country whose national flag shows a plant (Variants of national flags count)",
       "accepts": "country",
       "note": "Flowers, leaves, branches, fruit and wreaths count, in a coat of arms too, on government flags, ensigns and a parliament's flags as well; a leader's own flag does not. Belarus's hoist pattern, Dominica's twig, Nicaragua's volcanoes, Nigeria's state flag and New Zealand's Māori flag count as close calls.",
       "gems": [

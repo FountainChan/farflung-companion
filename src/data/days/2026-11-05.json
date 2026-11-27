@@ -4,7 +4,7 @@
   "prompts": [
     {
       "id": "bird-flag",
-      "text": "Pin a country with a bird on its national flag (variants of national flags count)",
+      "text": "Pin a country with a bird on its national flag (Variants of national flags count)",
       "accepts": "country",
       "note": "Government flags and naval ensigns count, including birds in their arms. Other cases include parliamentary flags in Liechtenstein and the Bahamas, Colombia's and Romania's war flags, Australia's Defence Force Ensign, Armenia's arms, US state flags, and heads of state's standards, as in Chile, Czechia, Iceland, Russia, Thailand, Tonga, the UAE and Seychelles.",
       "gems": [
