@@ -259,6 +259,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "ATG",
+          "name": "Antigua and Barbuda",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "GBR",
           "name": "United Kingdom",
           "share": 0.002,
@@ -288,11 +294,11 @@
         "traveller": 4,
         "wayfarer": 18,
         "uncharted": 18,
-        "farflung": 4
+        "farflung": 5
       },
       "hints": {
-        "answerCount": 45,
-        "farflungCount": 4,
+        "answerCount": 46,
+        "farflungCount": 5,
         "initials": [
           "A",
           "B",
@@ -322,9 +328,9 @@
     },
     {
       "id": "bandung-conference",
-      "text": "Pin one of the 29 countries at the 1955 Bandung Conference",
+      "text": "Pin one of the 29 countries at the 1955 Bandung Conference (Plus three places named in the communiqué)",
       "accepts": "country",
-      "note": "29 delegations, two of them now Vietnam; Ghana came as the Gold Coast. Observers, such as Cyprus, do not count.",
+      "note": "Two delegations now pin as Vietnam. The earlier question also admits Algeria, the Netherlands and Palestine, named in the communiqué.",
       "gems": [
         "LBR"
       ],
@@ -333,67 +339,67 @@
         {
           "code": "IDN",
           "name": "Indonesia",
-          "share": 0.279,
+          "share": 0.272,
           "tier": "tourist"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.112,
+          "share": 0.109,
           "tier": "traveller"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.096,
+          "share": 0.093,
           "tier": "traveller"
         },
         {
           "code": "EGY",
           "name": "Egypt",
-          "share": 0.064,
+          "share": 0.062,
           "tier": "wayfarer"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.048,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
           "code": "PAK",
           "name": "Pakistan",
-          "share": 0.04,
+          "share": 0.039,
           "tier": "wayfarer"
         },
         {
           "code": "VNM",
           "name": "Vietnam",
-          "share": 0.036,
+          "share": 0.035,
           "tier": "wayfarer"
         },
         {
           "code": "MMR",
           "name": "Myanmar",
-          "share": 0.032,
+          "share": 0.031,
           "tier": "wayfarer"
         },
         {
           "code": "LKA",
           "name": "Sri Lanka",
-          "share": 0.03,
+          "share": 0.029,
           "tier": "wayfarer"
         },
         {
           "code": "GHA",
           "name": "Ghana",
-          "share": 0.027,
+          "share": 0.026,
           "tier": "wayfarer"
         },
         {
           "code": "ETH",
           "name": "Ethiopia",
-          "share": 0.024,
+          "share": 0.023,
           "tier": "wayfarer"
         },
         {
@@ -405,13 +411,13 @@
         {
           "code": "TUR",
           "name": "Türkiye",
-          "share": 0.022,
+          "share": 0.021,
           "tier": "wayfarer"
         },
         {
           "code": "SAU",
           "name": "Saudi Arabia",
-          "share": 0.02,
+          "share": 0.019,
           "tier": "uncharted"
         },
         {
@@ -429,7 +435,7 @@
         {
           "code": "IRQ",
           "name": "Iraq",
-          "share": 0.018,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
@@ -441,7 +447,7 @@
         {
           "code": "AFG",
           "name": "Afghanistan",
-          "share": 0.014,
+          "share": 0.013,
           "tier": "uncharted"
         },
         {
@@ -454,6 +460,24 @@
           "code": "SYR",
           "name": "Syria",
           "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "PSE",
+          "name": "Palestine",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "DZA",
+          "name": "Algeria",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
@@ -483,7 +507,7 @@
         {
           "code": "YEM",
           "name": "Yemen",
-          "share": 0.006,
+          "share": 0.005,
           "tier": "uncharted"
         },
         {
@@ -503,11 +527,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 10,
-        "uncharted": 14,
+        "uncharted": 17,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 28,
+        "answerCount": 31,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -533,9 +557,9 @@
     },
     {
       "id": "olympic-gymnastics-gold",
-      "text": "Pin a country whose gymnasts have won gold at the Summer Olympics",
+      "text": "Pin a country whose gymnasts have won gold at the Summer Olympics (Youth Olympic golds included)",
       "accepts": "country",
-      "note": "Soviet, Unified Team, Czechoslovak and Yugoslav champions count where they were born or came up. Youth Olympic golds do not.",
+      "note": "Multinational youth teams count for each gymnast. Former-state champions count where they were born or came up.",
       "gems": [
         "AZE"
       ],
@@ -544,110 +568,134 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.222,
+          "share": 0.211,
           "tier": "tourist"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.111,
+          "share": 0.105,
           "tier": "traveller"
         },
         {
           "code": "ROU",
           "name": "Romania",
-          "share": 0.101,
+          "share": 0.096,
           "tier": "traveller"
         },
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.096,
+          "share": 0.091,
           "tier": "traveller"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.088,
+          "share": 0.083,
           "tier": "traveller"
         },
         {
           "code": "UKR",
           "name": "Ukraine",
-          "share": 0.034,
+          "share": 0.033,
           "tier": "wayfarer"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.028,
+          "share": 0.027,
           "tier": "wayfarer"
         },
         {
           "code": "BRA",
           "name": "Brazil",
-          "share": 0.027,
+          "share": 0.026,
           "tier": "wayfarer"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.025,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.025,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.023,
+          "share": 0.022,
           "tier": "wayfarer"
         },
         {
           "code": "HUN",
           "name": "Hungary",
-          "share": 0.022,
+          "share": 0.021,
+          "tier": "wayfarer"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "BGR",
           "name": "Bulgaria",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "BLR",
           "name": "Belarus",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "KOR",
           "name": "South Korea",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
           "code": "PHL",
           "name": "Philippines",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "CUB",
+          "name": "Cuba",
+          "share": 0.008,
+          "tier": "uncharted"
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "share": 0.006,
+          "tier": "uncharted"
         },
         {
           "code": "PRK",
@@ -692,15 +740,21 @@
           "tier": "uncharted"
         },
         {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
           "code": "IRL",
           "name": "Ireland",
-          "share": 0.004,
+          "share": 0.003,
           "tier": "uncharted"
         },
         {
           "code": "UZB",
           "name": "Uzbekistan",
-          "share": 0.004,
+          "share": 0.003,
           "tier": "uncharted"
         },
         {
@@ -712,25 +766,25 @@
         {
           "code": "BEL",
           "name": "Belgium",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "FIN",
           "name": "Finland",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "POL",
           "name": "Poland",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
           "code": "SWE",
           "name": "Sweden",
-          "share": 0.003,
+          "share": 0.002,
           "tier": "uncharted"
         },
         {
@@ -776,6 +830,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "SGP",
+          "name": "Singapore",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "MNG",
+          "name": "Mongolia",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
           "code": "TJK",
           "name": "Tajikistan",
           "share": 0.001,
@@ -803,13 +869,13 @@
       "tiers": {
         "tourist": 1,
         "traveller": 4,
-        "wayfarer": 13,
-        "uncharted": 21,
-        "farflung": 4
+        "wayfarer": 14,
+        "uncharted": 25,
+        "farflung": 6
       },
       "hints": {
-        "answerCount": 43,
-        "farflungCount": 4,
+        "answerCount": 50,
+        "farflungCount": 6,
         "initials": [
           "A",
           "B",
@@ -822,12 +888,14 @@
           "J",
           "K",
           "L",
+          "M",
           "N",
           "P",
           "R",
           "S",
           "T",
-          "U"
+          "U",
+          "V"
         ],
         "topHint": {
           "initials": "U S",
@@ -975,9 +1043,9 @@
     },
     {
       "id": "panda-express-restaurants",
-      "text": "Pin a country that has had a Panda Express restaurant",
+      "text": "Pin a country that has had a Panda Express restaurant (Namesakes included, counterfeits excluded)",
       "accepts": "country",
-      "note": "Former restaurants count, so Russia’s do. China has none: one in Kunming in 2020 was a fake.",
+      "note": "Former branches count, as do independent namesakes in the UK and Romania. The Kunming copycat imitated the chain.",
       "gems": [
         "NLD",
         "RUS"
@@ -987,92 +1055,104 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.487,
+          "share": 0.423,
           "tier": "tourist"
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom",
+          "share": 0.132,
+          "tier": "traveller"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.132,
+          "share": 0.114,
           "tier": "traveller"
         },
         {
           "code": "MEX",
           "name": "Mexico",
-          "share": 0.102,
+          "share": 0.088,
           "tier": "traveller"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.056,
+          "share": 0.048,
           "tier": "wayfarer"
         },
         {
           "code": "PHL",
           "name": "Philippines",
-          "share": 0.051,
+          "share": 0.044,
           "tier": "wayfarer"
         },
         {
           "code": "KOR",
           "name": "South Korea",
-          "share": 0.046,
+          "share": 0.04,
           "tier": "wayfarer"
         },
         {
           "code": "ARE",
           "name": "United Arab Emirates",
-          "share": 0.036,
+          "share": 0.031,
           "tier": "wayfarer"
         },
         {
           "code": "SAU",
           "name": "Saudi Arabia",
-          "share": 0.027,
+          "share": 0.024,
           "tier": "wayfarer"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.019,
+          "share": 0.017,
           "tier": "uncharted"
         },
         {
           "code": "GTM",
           "name": "Guatemala",
-          "share": 0.016,
+          "share": 0.014,
           "tier": "uncharted"
         },
         {
           "code": "SLV",
           "name": "El Salvador",
-          "share": 0.012,
+          "share": 0.011,
           "tier": "uncharted"
         },
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "farflung"
         },
         {
           "code": "NLD",
           "name": "Netherlands",
-          "share": 0.006,
+          "share": 0.005,
+          "tier": "farflung"
+        },
+        {
+          "code": "ROU",
+          "name": "Romania",
+          "share": 0.001,
           "tier": "farflung"
         }
       ],
       "tiers": {
         "tourist": 1,
-        "traveller": 2,
+        "traveller": 3,
         "wayfarer": 5,
         "uncharted": 3,
-        "farflung": 2
+        "farflung": 3
       },
       "hints": {
-        "answerCount": 13,
-        "farflungCount": 2,
+        "answerCount": 15,
+        "farflungCount": 3,
         "initials": [
           "C",
           "E",

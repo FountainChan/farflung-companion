@@ -389,19 +389,19 @@
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.302,
+          "share": 0.3,
           "tier": "tourist"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.131,
+          "share": 0.13,
           "tier": "traveller"
         },
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.101,
+          "share": 0.1,
           "tier": "traveller"
         },
         {
@@ -525,6 +525,12 @@
           "tier": "farflung"
         },
         {
+          "code": "MDA",
+          "name": "Moldova",
+          "share": 0.004,
+          "tier": "farflung"
+        },
+        {
           "code": "ROU",
           "name": "Romania",
           "share": 0.004,
@@ -554,11 +560,11 @@
         "traveller": 2,
         "wayfarer": 6,
         "uncharted": 7,
-        "farflung": 11
+        "farflung": 12
       },
       "hints": {
-        "answerCount": 27,
-        "farflungCount": 11,
+        "answerCount": 28,
+        "farflungCount": 12,
         "initials": [
           "A",
           "B",
@@ -937,19 +943,19 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.294,
+          "share": 0.291,
           "tier": "tourist"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.168,
+          "share": 0.166,
           "tier": "traveller"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.126,
+          "share": 0.125,
           "tier": "traveller"
         },
         {
@@ -973,13 +979,13 @@
         {
           "code": "ESP",
           "name": "Spain",
-          "share": 0.034,
+          "share": 0.033,
           "tier": "wayfarer"
         },
         {
           "code": "IND",
           "name": "India",
-          "share": 0.034,
+          "share": 0.033,
           "tier": "wayfarer"
         },
         {
@@ -1027,13 +1033,13 @@
         {
           "code": "ARG",
           "name": "Argentina",
-          "share": 0.013,
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.013,
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
@@ -1073,6 +1079,12 @@
           "tier": "farflung"
         },
         {
+          "code": "CHN",
+          "name": "China",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
           "code": "NOR",
           "name": "Norway",
           "share": 0.003,
@@ -1087,6 +1099,30 @@
         {
           "code": "IRL",
           "name": "Ireland",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "KWT",
+          "name": "Kuwait",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LKA",
+          "name": "Sri Lanka",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "LUX",
+          "name": "Luxembourg",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
           "share": 0.002,
           "tier": "farflung"
         },
@@ -1108,11 +1144,11 @@
         "traveller": 2,
         "wayfarer": 5,
         "uncharted": 14,
-        "farflung": 6
+        "farflung": 11
       },
       "hints": {
-        "answerCount": 28,
-        "farflungCount": 6,
+        "answerCount": 33,
+        "farflungCount": 11,
         "initials": [
           "A",
           "B",
@@ -1122,6 +1158,8 @@
           "H",
           "I",
           "J",
+          "K",
+          "L",
           "N",
           "P",
           "R",

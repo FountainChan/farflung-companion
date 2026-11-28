@@ -837,37 +837,37 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.502,
+          "share": 0.497,
           "tier": "tourist"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.146,
+          "share": 0.145,
           "tier": "traveller"
         },
         {
           "code": "RUS",
           "name": "Russia",
-          "share": 0.126,
+          "share": 0.124,
           "tier": "traveller"
         },
         {
           "code": "CAN",
           "name": "Canada",
-          "share": 0.073,
+          "share": 0.072,
           "tier": "wayfarer"
         },
         {
           "code": "QAT",
           "name": "Qatar",
-          "share": 0.073,
+          "share": 0.072,
           "tier": "wayfarer"
         },
         {
           "code": "DZA",
           "name": "Algeria",
-          "share": 0.042,
+          "share": 0.041,
           "tier": "wayfarer"
         },
         {
@@ -879,7 +879,13 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.014,
+          "share": 0.013,
+          "tier": "uncharted"
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
@@ -893,16 +899,17 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 3,
-        "uncharted": 2,
+        "uncharted": 3,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 9,
+        "answerCount": 10,
         "farflungCount": 1,
         "initials": [
           "A",
           "C",
           "F",
+          "I",
           "P",
           "Q",
           "R",

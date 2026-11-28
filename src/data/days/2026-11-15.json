@@ -35,7 +35,7 @@
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.039,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
@@ -381,6 +381,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "XKX",
+          "name": "Kosovo",
+          "share": 0.001,
+          "tier": "uncharted"
+        },
+        {
           "code": "PER",
           "name": "Peru",
           "share": 0.001,
@@ -403,11 +409,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 21,
-        "uncharted": 37,
+        "uncharted": 38,
         "farflung": 3
       },
       "hints": {
-        "answerCount": 64,
+        "answerCount": 65,
         "farflungCount": 3,
         "initials": [
           "A",
@@ -419,6 +425,7 @@
           "G",
           "H",
           "I",
+          "K",
           "L",
           "M",
           "N",
@@ -448,7 +455,7 @@
         {
           "code": "SAU",
           "name": "Saudi Arabia",
-          "share": 0.215,
+          "share": 0.214,
           "tier": "tourist"
         },
         {
@@ -526,7 +533,7 @@
         {
           "code": "SYR",
           "name": "Syria",
-          "share": 0.021,
+          "share": 0.02,
           "tier": "wayfarer"
         },
         {
@@ -574,6 +581,12 @@
         {
           "code": "KWT",
           "name": "Kuwait",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "BRN",
+          "name": "Brunei",
           "share": 0.003,
           "tier": "uncharted"
         },
@@ -630,11 +643,11 @@
         "tourist": 1,
         "traveller": 5,
         "wayfarer": 8,
-        "uncharted": 14,
+        "uncharted": 15,
         "farflung": 2
       },
       "hints": {
-        "answerCount": 30,
+        "answerCount": 31,
         "farflungCount": 2,
         "initials": [
           "A",

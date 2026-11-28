@@ -364,7 +364,7 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.377,
+          "share": 0.376,
           "tier": "tourist"
         },
         {
@@ -388,7 +388,7 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.034,
+          "share": 0.033,
           "tier": "wayfarer"
         },
         {
@@ -562,6 +562,12 @@
         {
           "code": "ESP",
           "name": "Spain",
+          "share": 0.003,
+          "tier": "uncharted"
+        },
+        {
+          "code": "KAZ",
+          "name": "Kazakhstan",
           "share": 0.003,
           "tier": "uncharted"
         },
@@ -762,11 +768,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 6,
-        "uncharted": 37,
+        "uncharted": 38,
         "farflung": 20
       },
       "hints": {
-        "answerCount": 66,
+        "answerCount": 67,
         "farflungCount": 20,
         "initials": [
           "A",
@@ -810,19 +816,19 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.374,
+          "share": 0.373,
           "tier": "tourist"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.15,
+          "share": 0.149,
           "tier": "traveller"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.094,
+          "share": 0.093,
           "tier": "traveller"
         },
         {
@@ -1012,6 +1018,12 @@
           "tier": "farflung"
         },
         {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
           "code": "GTM",
           "name": "Guatemala",
           "share": 0.002,
@@ -1032,6 +1044,12 @@
         {
           "code": "BLR",
           "name": "Belarus",
+          "share": 0.001,
+          "tier": "farflung"
+        },
+        {
+          "code": "TJK",
+          "name": "Tajikistan",
           "share": 0.001,
           "tier": "farflung"
         },
@@ -1071,11 +1089,11 @@
         "traveller": 2,
         "wayfarer": 7,
         "uncharted": 20,
-        "farflung": 13
+        "farflung": 15
       },
       "hints": {
-        "answerCount": 43,
-        "farflungCount": 13,
+        "answerCount": 45,
+        "farflungCount": 15,
         "initials": [
           "A",
           "B",

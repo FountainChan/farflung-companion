@@ -100,13 +100,13 @@
         {
           "code": "IND",
           "name": "India",
-          "share": 0.46,
+          "share": 0.456,
           "tier": "tourist"
         },
         {
           "code": "BGD",
           "name": "Bangladesh",
-          "share": 0.115,
+          "share": 0.114,
           "tier": "traveller"
         },
         {
@@ -124,7 +124,7 @@
         {
           "code": "IDN",
           "name": "Indonesia",
-          "share": 0.069,
+          "share": 0.068,
           "tier": "wayfarer"
         },
         {
@@ -158,6 +158,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "PRK",
+          "name": "North Korea",
+          "share": 0.009,
+          "tier": "uncharted"
+        },
+        {
           "code": "KAZ",
           "name": "Kazakhstan",
           "share": 0.006,
@@ -174,11 +180,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 5,
-        "uncharted": 3,
+        "uncharted": 4,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 12,
+        "answerCount": 13,
         "farflungCount": 1,
         "initials": [
           "B",

@@ -867,25 +867,25 @@
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.539,
+          "share": 0.536,
           "tier": "tourist"
         },
         {
           "code": "KAZ",
           "name": "Kazakhstan",
-          "share": 0.225,
+          "share": 0.224,
           "tier": "traveller"
         },
         {
           "code": "KGZ",
           "name": "Kyrgyzstan",
-          "share": 0.098,
+          "share": 0.097,
           "tier": "traveller"
         },
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.059,
+          "share": 0.058,
           "tier": "wayfarer"
         },
         {
@@ -919,6 +919,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "BLR",
+          "name": "Belarus",
+          "share": 0.005,
+          "tier": "uncharted"
+        },
+        {
           "code": "AFG",
           "name": "Afghanistan",
           "share": 0.004,
@@ -941,14 +947,15 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 2,
-        "uncharted": 6,
+        "uncharted": 7,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 12,
+        "answerCount": 13,
         "farflungCount": 1,
         "initials": [
           "A",
+          "B",
           "C",
           "G",
           "H",

@@ -98,13 +98,13 @@
         {
           "code": "MNG",
           "name": "Mongolia",
-          "share": 0.404,
+          "share": 0.403,
           "tier": "tourist"
         },
         {
           "code": "JPN",
           "name": "Japan",
-          "share": 0.18,
+          "share": 0.179,
           "tier": "traveller"
         },
         {
@@ -216,6 +216,12 @@
           "tier": "farflung"
         },
         {
+          "code": "SYR",
+          "name": "Syria",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "TJK",
           "name": "Tajikistan",
           "share": 0.002,
@@ -263,11 +269,11 @@
         "traveller": 1,
         "wayfarer": 7,
         "uncharted": 8,
-        "farflung": 10
+        "farflung": 11
       },
       "hints": {
-        "answerCount": 27,
-        "farflungCount": 10,
+        "answerCount": 28,
+        "farflungCount": 11,
         "initials": [
           "A",
           "C",
@@ -376,13 +382,13 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.509,
+          "share": 0.507,
           "tier": "tourist"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.186,
+          "share": 0.185,
           "tier": "traveller"
         },
         {
@@ -458,6 +464,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "BEL",
+          "name": "Belgium",
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
           "code": "CHL",
           "name": "Chile",
           "share": 0.003,
@@ -498,11 +510,11 @@
         "tourist": 1,
         "traveller": 1,
         "wayfarer": 6,
-        "uncharted": 6,
+        "uncharted": 7,
         "farflung": 6
       },
       "hints": {
-        "answerCount": 20,
+        "answerCount": 21,
         "farflungCount": 6,
         "initials": [
           "A",

@@ -1326,25 +1326,25 @@
         {
           "code": "ITA",
           "name": "Italy",
-          "share": 0.408,
+          "share": 0.405,
           "tier": "tourist"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.151,
+          "share": 0.15,
           "tier": "traveller"
         },
         {
           "code": "DEU",
           "name": "Germany",
-          "share": 0.091,
+          "share": 0.09,
           "tier": "traveller"
         },
         {
           "code": "FRA",
           "name": "France",
-          "share": 0.053,
+          "share": 0.052,
           "tier": "wayfarer"
         },
         {
@@ -1416,13 +1416,13 @@
         {
           "code": "BGR",
           "name": "Bulgaria",
-          "share": 0.014,
+          "share": 0.013,
           "tier": "uncharted"
         },
         {
           "code": "TUR",
           "name": "Türkiye",
-          "share": 0.014,
+          "share": 0.013,
           "tier": "uncharted"
         },
         {
@@ -1440,7 +1440,7 @@
         {
           "code": "IND",
           "name": "India",
-          "share": 0.008,
+          "share": 0.007,
           "tier": "uncharted"
         },
         {
@@ -1456,6 +1456,12 @@
           "tier": "uncharted"
         },
         {
+          "code": "VNM",
+          "name": "Vietnam",
+          "share": 0.006,
+          "tier": "uncharted"
+        },
+        {
           "code": "RUS",
           "name": "Russia",
           "share": 0.005,
@@ -1464,19 +1470,25 @@
         {
           "code": "MYS",
           "name": "Malaysia",
-          "share": 0.005,
+          "share": 0.004,
+          "tier": "uncharted"
+        },
+        {
+          "code": "SVK",
+          "name": "Slovakia",
+          "share": 0.003,
           "tier": "uncharted"
         },
         {
           "code": "COL",
           "name": "Colombia",
-          "share": 0.002,
+          "share": 0.001,
           "tier": "uncharted"
         },
         {
           "code": "IRN",
           "name": "Iran",
-          "share": 0.002,
+          "share": 0.001,
           "tier": "farflung"
         }
       ],
@@ -1484,11 +1496,11 @@
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 5,
-        "uncharted": 17,
+        "uncharted": 19,
         "farflung": 1
       },
       "hints": {
-        "answerCount": 26,
+        "answerCount": 28,
         "farflungCount": 1,
         "initials": [
           "A",
@@ -1502,7 +1514,8 @@
           "R",
           "S",
           "T",
-          "U"
+          "U",
+          "V"
         ],
         "topHint": {
           "initials": "I",

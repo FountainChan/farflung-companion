@@ -6,7 +6,7 @@
       "id": "main-national-flags-triangles",
       "text": "Pin a country with a triangular panel on its main national flag (Not government, military or ship flags)",
       "accepts": "country",
-      "note": "Triangles formed by diagonal stripes, crosses and serrated edges count too, as do those in a Union Jack corner and the triangular arms of Nicaragua and El Salvador.",
+      "note": "Striped, serrated and emblem triangles count, including the Union Jack corner and the tiny triangles in Croatia’s stars.",
       "gems": [
         "GRD"
       ],
@@ -15,49 +15,49 @@
         {
           "code": "CUB",
           "name": "Cuba",
-          "share": 0.29,
+          "share": 0.285,
           "tier": "tourist"
         },
         {
           "code": "CZE",
           "name": "Czechia",
-          "share": 0.116,
+          "share": 0.114,
           "tier": "traveller"
         },
         {
           "code": "PHL",
           "name": "Philippines",
-          "share": 0.097,
+          "share": 0.095,
           "tier": "traveller"
         },
         {
           "code": "ZAF",
           "name": "South Africa",
-          "share": 0.058,
+          "share": 0.057,
           "tier": "wayfarer"
         },
         {
           "code": "GBR",
           "name": "United Kingdom",
-          "share": 0.048,
+          "share": 0.047,
           "tier": "wayfarer"
         },
         {
           "code": "JAM",
           "name": "Jamaica",
-          "share": 0.039,
+          "share": 0.038,
           "tier": "wayfarer"
         },
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
           "code": "JOR",
           "name": "Jordan",
-          "share": 0.029,
+          "share": 0.028,
           "tier": "wayfarer"
         },
         {
@@ -93,49 +93,55 @@
         {
           "code": "BHS",
           "name": "Bahamas",
-          "share": 0.013,
+          "share": 0.012,
           "tier": "uncharted"
         },
         {
           "code": "TLS",
           "name": "Timor-Leste",
-          "share": 0.012,
+          "share": 0.011,
           "tier": "uncharted"
         },
         {
           "code": "GUY",
           "name": "Guyana",
-          "share": 0.011,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
           "code": "LCA",
           "name": "Saint Lucia",
-          "share": 0.011,
+          "share": 0.01,
           "tier": "uncharted"
         },
         {
           "code": "PSE",
           "name": "Palestine",
-          "share": 0.011,
+          "share": 0.01,
+          "tier": "uncharted"
+        },
+        {
+          "code": "ISR",
+          "name": "Israel",
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "MOZ",
           "name": "Mozambique",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "NZL",
           "name": "New Zealand",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
           "code": "PNG",
           "name": "Papua New Guinea",
-          "share": 0.01,
+          "share": 0.009,
           "tier": "uncharted"
         },
         {
@@ -190,6 +196,12 @@
           "code": "SSD",
           "name": "South Sudan",
           "share": 0.007,
+          "tier": "uncharted"
+        },
+        {
+          "code": "MAR",
+          "name": "Morocco",
+          "share": 0.006,
           "tier": "uncharted"
         },
         {
@@ -293,18 +305,24 @@
           "name": "Vanuatu",
           "share": 0.001,
           "tier": "farflung"
+        },
+        {
+          "code": "HRV",
+          "name": "Croatia",
+          "share": 0.001,
+          "tier": "farflung"
         }
       ],
       "tiers": {
         "tourist": 1,
         "traveller": 2,
         "wayfarer": 10,
-        "uncharted": 19,
-        "farflung": 15
+        "uncharted": 21,
+        "farflung": 16
       },
       "hints": {
-        "answerCount": 47,
-        "farflungCount": 15,
+        "answerCount": 50,
+        "farflungCount": 16,
         "initials": [
           "A",
           "B",
@@ -313,6 +331,7 @@
           "E",
           "F",
           "G",
+          "I",
           "J",
           "M",
           "N",
@@ -896,9 +915,9 @@
     },
     {
       "id": "familymart-stores",
-      "text": "Pin a country that has had a FamilyMart store",
+      "text": "Pin a country that has had a FamilyMart store (Independent namesakes included)",
       "accepts": "country",
-      "note": "Former stores count: South Korea's FamilyMarts became CU in 2012, and FamilyMart's Famima stores around Los Angeles closed in 2015.",
+      "note": "South Korea’s FamilyMarts became CU, and the Famima stores in Los Angeles closed. Melbourne’s St Kilda Family Mart shares the chain’s name.",
       "gems": [
         "PRK"
       ],
@@ -931,7 +950,7 @@
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.07,
+          "share": 0.069,
           "tier": "wayfarer"
         },
         {
@@ -969,6 +988,12 @@
           "name": "North Korea",
           "share": 0.006,
           "tier": "farflung"
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "share": 0.001,
+          "tier": "farflung"
         }
       ],
       "tiers": {
@@ -976,12 +1001,13 @@
         "traveller": 2,
         "wayfarer": 4,
         "uncharted": 3,
-        "farflung": 1
+        "farflung": 2
       },
       "hints": {
-        "answerCount": 11,
-        "farflungCount": 1,
+        "answerCount": 12,
+        "farflungCount": 2,
         "initials": [
+          "A",
           "C",
           "I",
           "J",

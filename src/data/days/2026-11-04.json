@@ -831,13 +831,13 @@
         {
           "code": "MYS",
           "name": "Malaysia",
-          "share": 0.145,
+          "share": 0.144,
           "tier": "tourist"
         },
         {
           "code": "USA",
           "name": "United States",
-          "share": 0.094,
+          "share": 0.093,
           "tier": "traveller"
         },
         {
@@ -849,7 +849,7 @@
         {
           "code": "AUS",
           "name": "Australia",
-          "share": 0.089,
+          "share": 0.088,
           "tier": "traveller"
         },
         {
@@ -909,7 +909,7 @@
         {
           "code": "CHN",
           "name": "China",
-          "share": 0.022,
+          "share": 0.021,
           "tier": "wayfarer"
         },
         {
@@ -1011,7 +1011,7 @@
         {
           "code": "GTM",
           "name": "Guatemala",
-          "share": 0.007,
+          "share": 0.006,
           "tier": "uncharted"
         },
         {
@@ -1063,6 +1063,18 @@
           "tier": "uncharted"
         },
         {
+          "code": "PER",
+          "name": "Peru",
+          "share": 0.003,
+          "tier": "farflung"
+        },
+        {
+          "code": "BOL",
+          "name": "Bolivia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "FSM",
           "name": "Micronesia",
           "share": 0.001,
@@ -1092,11 +1104,11 @@
         "traveller": 4,
         "wayfarer": 18,
         "uncharted": 16,
-        "farflung": 4
+        "farflung": 6
       },
       "hints": {
-        "answerCount": 43,
-        "farflungCount": 4,
+        "answerCount": 45,
+        "farflungCount": 6,
         "initials": [
           "A",
           "B",

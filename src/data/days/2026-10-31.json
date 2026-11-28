@@ -386,6 +386,12 @@
           "tier": "farflung"
         },
         {
+          "code": "GMB",
+          "name": "Gambia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
           "code": "IRQ",
           "name": "Iraq",
           "share": 0.002,
@@ -400,6 +406,12 @@
         {
           "code": "LVA",
           "name": "Latvia",
+          "share": 0.002,
+          "tier": "farflung"
+        },
+        {
+          "code": "NPL",
+          "name": "Nepal",
           "share": 0.002,
           "tier": "farflung"
         },
@@ -469,11 +481,11 @@
         "traveller": 1,
         "wayfarer": 7,
         "uncharted": 39,
-        "farflung": 27
+        "farflung": 29
       },
       "hints": {
-        "answerCount": 75,
-        "farflungCount": 27,
+        "answerCount": 77,
+        "farflungCount": 29,
         "initials": [
           "A",
           "B",
